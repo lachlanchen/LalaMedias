@@ -1,0 +1,51 @@
+{
+  "slug": "mars-cleanroom-riceball-alarm-6fd4152d",
+  "source_subtitle": "media/subtitles/mars-cleanroom-riceball-alarm-6fd4152d/subtitle-2.srt",
+  "subtitle_files": [
+    "media/subtitles/mars-cleanroom-riceball-alarm-6fd4152d/subtitle-1.md",
+    "media/subtitles/mars-cleanroom-riceball-alarm-6fd4152d/subtitle-2.srt",
+    "media/subtitles/mars-cleanroom-riceball-alarm-6fd4152d/subtitle-3.md"
+  ],
+  "entries": [
+    {
+      "start": "00:00:01.896",
+      "end": "00:00:03.036",
+      "text": "这里不能吃东西"
+    },
+    {
+      "start": "00:00:03.036",
+      "end": "00:00:03.876",
+      "text": "这不是东西"
+    },
+    {
+      "start": "00:00:03.876",
+      "end": "00:00:04.856",
+      "text": "是半个饭团"
+    },
+    {
+      "start": "00:00:04.856",
+      "end": "00:00:05.916",
+      "text": "半个也算"
+    },
+    {
+      "start": "00:00:05.916",
+      "end": "00:00:07.876",
+      "text": "我去抓"
+    },
+    {
+      "start": "00:00:07.876",
+      "end": "00:00:09.936",
+      "text": "不要用竹子清洁晶圆工厂"
+    },
+    {
+      "start": "00:00:09.936",
+      "end": "00:00:13.636",
+      "text": "它连隐藏关卡都找到了？"
+    },
+    {
+      "start": "00:00:13.636",
+      "end": "00:00:15.076",
+      "text": "这里可以吃"
+    }
+  ]
+}
