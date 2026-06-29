@@ -10,27 +10,127 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:01.340",
-      "text": "我是啦啦侠！"
+      "start_seconds": 0.0,
+      "end_seconds": 1.34,
+      "text": "我是啦啦侠！",
+      "html": "<span class=\"tok tok-kanji\">我是啦啦侠</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我是啦啦侠！",
+          "html": "<span class=\"tok tok-zh\">我是啦啦侠</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "私[わたし]はララ侠[きょう]だ！",
+          "html": "<ruby>私<rt>わたし</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>ララ<rt>らら</rt></ruby><ruby>侠<rt>きょう</rt></ruby><ruby>だ<rt>だ</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I am Lala Xia!",
+          "html": "<span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">am</span> <span class=\"tok tok-en\">Lala</span> <span class=\"tok tok-en\">Xia</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:01.340",
       "end": "00:00:03.040",
-      "text": "我是阿芽酱！"
+      "start_seconds": 1.34,
+      "end_seconds": 3.04,
+      "text": "我是阿芽酱！",
+      "html": "<span class=\"tok tok-kanji\">我是阿芽酱</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我是阿芽酱！",
+          "html": "<span class=\"tok tok-zh\">我是阿芽酱</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "私[わたし]はアメ[あめ]ちゃん！",
+          "html": "<ruby>私<rt>わたし</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>アメ<rt>あめ</rt></ruby><ruby>ちゃん<rt>ちゃん</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I am Aya-chan!",
+          "html": "<span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">am</span> <span class=\"tok tok-en\">Aya</span><span class=\"tok tok-punc\">-</span><span class=\"tok tok-en\">chan</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:03.040",
       "end": "00:00:04.580",
-      "text": "我是飒飒君！"
+      "start_seconds": 3.04,
+      "end_seconds": 4.58,
+      "text": "我是飒飒君！",
+      "html": "<span class=\"tok tok-kanji\">我是飒飒君</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我是飒飒君！",
+          "html": "<span class=\"tok tok-zh\">我是飒飒君</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "私[わたし]は颯颯[ささ]君[くん]です！",
+          "html": "<ruby>私<rt>わたし</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>颯颯<rt>ささ</rt></ruby><ruby>君<rt>くん</rt></ruby><ruby>です<rt>です</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I'm Sasa-kun!",
+          "html": "<span class=\"tok tok-en\">I&#x27;m</span> <span class=\"tok tok-en\">Sasa</span><span class=\"tok tok-punc\">-</span><span class=\"tok tok-en\">kun</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:04.580",
       "end": "00:00:13.440",
-      "text": "我们都是小狮子"
+      "start_seconds": 4.58,
+      "end_seconds": 13.44,
+      "text": "我们都是小狮子",
+      "html": "<span class=\"tok tok-kanji\">我们都是小狮子</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我们都是小狮子",
+          "html": "<span class=\"tok tok-zh\">我们都是小狮子</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ぼくたちはみんな小[ちい]さなライオンだ",
+          "html": "<ruby>ぼくたち<rt>ぼくたち</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>みんな<rt>みんな</rt></ruby><ruby>小さな<rt>ちいさな</rt></ruby><ruby>ライオン<rt>らいおん</rt></ruby><ruby>だ<rt>だ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "We are all little lions.",
+          "html": "<span class=\"tok tok-en\">We</span> <span class=\"tok tok-en\">are</span> <span class=\"tok tok-en\">all</span> <span class=\"tok tok-en\">little</span> <span class=\"tok tok-en\">lions</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:13.440",
       "end": "00:00:14.900",
-      "text": "嗷呜嗷呜嗷呜"
+      "start_seconds": 13.44,
+      "end_seconds": 14.9,
+      "text": "嗷呜嗷呜嗷呜",
+      "html": "<span class=\"tok tok-kanji\">嗷呜嗷呜嗷呜</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "嗷呜嗷呜嗷呜",
+          "html": "<span class=\"tok tok-zh\">嗷呜嗷呜嗷呜</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ガオー[がおー]ガオー[がおー]ガオー[がおー]",
+          "html": "<ruby><ruby><ruby>ガオー<rt>がおー</rt></ruby><rt>がおー</rt></ruby><rt>がおー</rt></ruby>ガオーガオー"
+        },
+        "en": {
+          "label": "English",
+          "text": "Roar roar roar",
+          "html": "<span class=\"tok tok-en\">Roar</span> <span class=\"tok tok-en\">roar</span> <span class=\"tok tok-en\">roar</span>"
+        }
+      }
     }
   ]
 }

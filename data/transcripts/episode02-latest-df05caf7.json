@@ -10,37 +10,177 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:06.200",
-      "text": "为什么宇宙里也有账单啊"
+      "start_seconds": 0.0,
+      "end_seconds": 6.2,
+      "text": "为什么宇宙里也有账单啊",
+      "html": "<span class=\"tok tok-kanji\">为什么宇宙里也有账单啊</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "为什么宇宙里也有账单啊",
+          "html": "<span class=\"tok tok-zh\">为什么宇宙里也有账单啊</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "どうして宇宙[うちゅう]にも請求書[せいきゅうしょ]があるの？",
+          "html": "<ruby>どうして<rt>どうして</rt></ruby><ruby>宇宙<rt>うちゅう</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>も<rt>も</rt></ruby><ruby>請求書<rt>せいきゅうしょ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>ある<rt>ある</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Why are there bills in the universe too?",
+          "html": "<span class=\"tok tok-en\">Why</span> <span class=\"tok tok-en\">are</span> <span class=\"tok tok-en\">there</span> <span class=\"tok tok-en\">bills</span> <span class=\"tok tok-en\">in</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">universe</span> <span class=\"tok tok-en\">too</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:06.200",
       "end": "00:00:06.740",
-      "text": "先别说"
+      "start_seconds": 6.2,
+      "end_seconds": 6.74,
+      "text": "先别说",
+      "html": "<span class=\"tok tok-kanji\">先别说</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "先别说",
+          "html": "<span class=\"tok tok-zh\">先别说</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "まだ言う[いう]な",
+          "html": "<ruby>まだ<rt>まだ</rt></ruby><ruby>言う<rt>いう</rt></ruby><ruby>な<rt>な</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Don't say it yet",
+          "html": "<span class=\"tok tok-en\">Don&#x27;t</span> <span class=\"tok tok-en\">say</span> <span class=\"tok tok-en\">it</span> <span class=\"tok tok-en\">yet</span>"
+        }
+      }
     },
     {
       "start": "00:00:06.740",
       "end": "00:00:08.500",
-      "text": "星图更亮了"
+      "start_seconds": 6.74,
+      "end_seconds": 8.5,
+      "text": "星图更亮了",
+      "html": "<span class=\"tok tok-kanji\">星图更亮了</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "星图更亮了",
+          "html": "<span class=\"tok tok-zh\">星图更亮了</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "星図[せいず]がさらに明るく[あかるく]なった",
+          "html": "<ruby>星図<rt>せいず</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>さらに<rt>さらに</rt></ruby><ruby>明るく<rt>あかるく</rt></ruby><ruby>なった<rt>なった</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "The star map is brighter.",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">star</span> <span class=\"tok tok-en\">map</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">brighter</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:08.500",
       "end": "00:00:11.020",
-      "text": "我按错按钮了"
+      "start_seconds": 8.5,
+      "end_seconds": 11.02,
+      "text": "我按错按钮了",
+      "html": "<span class=\"tok tok-kanji\">我按错按钮了</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我按错按钮了",
+          "html": "<span class=\"tok tok-zh\">我按错按钮了</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "間違った[まちがった]ボタン[ぼたん]を押しました[おしました]",
+          "html": "<ruby>間違った<rt>まちがった</rt></ruby><ruby>ボタン<rt>ぼたん</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>押しました<rt>おしました</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I pressed the wrong button.",
+          "html": "<span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">pressed</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">wrong</span> <span class=\"tok tok-en\">button</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:11.020",
       "end": "00:00:12.220",
-      "text": "但它居然有用"
+      "start_seconds": 11.02,
+      "end_seconds": 12.22,
+      "text": "但它居然有用",
+      "html": "<span class=\"tok tok-kanji\">但它居然有用</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "但它居然有用",
+          "html": "<span class=\"tok tok-zh\">但它居然有用</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "しかしそれは実際[じっさい]に役[やく]に立[た]った",
+          "html": "<ruby>しかし<rt>しかし</rt></ruby><ruby>それ<rt>それ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>実際<ruby>に<rt>に</rt></ruby><rt>じっさいに</rt></ruby><ruby>役<rt>やく</rt></ruby>に<ruby>立った<rt>たった</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "But it actually worked",
+          "html": "<span class=\"tok tok-en\">But</span> <span class=\"tok tok-en\">it</span> <span class=\"tok tok-en\">actually</span> <span class=\"tok tok-en\">worked</span>"
+        }
+      }
     },
     {
       "start": "00:00:12.220",
       "end": "00:00:13.560",
-      "text": "我刚行两级"
+      "start_seconds": 12.22,
+      "end_seconds": 13.56,
+      "text": "我刚行两级",
+      "html": "<span class=\"tok tok-kanji\">我刚行两级</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我刚行两级",
+          "html": "<span class=\"tok tok-zh\">我刚行两级</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ちょうど二[ふた]つレベルが上[あ]がった",
+          "html": "<ruby>ちょうど<rt>ちょうど</rt></ruby><ruby>二つ<rt>ふたつ</rt></ruby><ruby>レベル<rt>れべる</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>上がった<rt>あがった</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I just leveled up twice",
+          "html": "<span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">just</span> <span class=\"tok tok-en\">leveled</span> <span class=\"tok tok-en\">up</span> <span class=\"tok tok-en\">twice</span>"
+        }
+      }
     },
     {
       "start": "00:00:13.560",
       "end": "00:00:14.880",
-      "text": "怎么就被通缉了"
+      "start_seconds": 13.56,
+      "end_seconds": 14.88,
+      "text": "怎么就被通缉了",
+      "html": "<span class=\"tok tok-kanji\">怎么就被通缉了</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "怎么就被通缉了",
+          "html": "<span class=\"tok tok-zh\">怎么就被通缉了</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "どうして指名手配[しめいてはい]されたんだ。",
+          "html": "<ruby>どうして<rt>どうして</rt></ruby><ruby>指名手配<rt>しめいてはい</rt></ruby><ruby>された<rt>された</rt></ruby><ruby>んだ<rt>んだ</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "How am I wanted?",
+          "html": "<span class=\"tok tok-en\">How</span> <span class=\"tok tok-en\">am</span> <span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">wanted</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     }
   ]
 }

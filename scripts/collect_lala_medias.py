@@ -28,7 +28,7 @@ import subprocess
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Iterable
+from typing import Any, Iterable
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -597,7 +597,27 @@ def parse_srt(text: str) -> list[dict[str, str]]:
     return entries
 
 
-ALLOWED_TAG_RE = re.compile(r"</?(?:ruby|rt|rp|br|b|i|em|strong)(?:\s*/?)>|<span(?:\s+class=\"[a-zA-Z0-9_-]+\")?>|</span>")
+ALLOWED_TAG_RE = re.compile(r"</?(?:ruby|rt|rp|br|b|i|em|strong)(?:\s*/?)>|<span(?:\s+class=\"[a-zA-Z0-9_ -]+\")?>|</span>")
+
+
+def normalize_timestamp(value: str | None) -> str | None:
+    if not value:
+        return None
+    text = str(value).strip().replace(",", ".")
+    match = re.search(r"(\d{2}:\d{2}:\d{2}\.\d{1,3})", text)
+    if not match:
+        return None
+    head, frac = match.group(1).split(".")
+    return f"{head}.{frac[:3].ljust(3, '0')}"
+
+
+def timestamp_to_seconds(value: str | None) -> float | None:
+    timestamp = normalize_timestamp(value)
+    if not timestamp:
+        return None
+    hh, mm, rest = timestamp.split(":")
+    ss, ms = rest.split(".")
+    return int(hh) * 3600 + int(mm) * 60 + int(ss) + int(ms) / 1000
 
 
 def safe_subtitle_html(text: str) -> str:
@@ -612,6 +632,225 @@ def safe_subtitle_html(text: str) -> str:
     for idx, tag in enumerate(placeholders):
         escaped = escaped.replace(f"@@TAG{idx}@@", tag)
     return escaped.replace("\n", "<br>")
+
+
+def token_class(part: str, lang: str | None = None) -> str:
+    if re.fullmatch(r"[A-Za-z]+(?:'[A-Za-z]+)?", part):
+        return "tok-en"
+    if re.fullmatch(r"\d+(?:[.:]\d+)?", part):
+        return "tok-num"
+    if re.fullmatch(r"[\u3040-\u30ffー]+", part):
+        return "tok-kana"
+    if re.fullmatch(r"[\u4e00-\u9fff]+", part):
+        return "tok-zh" if (lang or "").startswith("zh") else "tok-kanji"
+    return "tok-punc"
+
+
+def colorize_text(text: str, lang: str | None = None) -> str:
+    parts = re.findall(r"\s+|[A-Za-z]+(?:'[A-Za-z]+)?|\d+(?:[.:]\d+)?|[\u3040-\u30ffー]+|[\u4e00-\u9fff]+|.", text)
+    html_parts: list[str] = []
+    for part in parts:
+        escaped = html.escape(part)
+        if part.isspace():
+            html_parts.append(escaped)
+        else:
+            html_parts.append(f'<span class="tok {token_class(part, lang)}">{escaped}</span>')
+    return "".join(html_parts)
+
+
+def pair_values(pair: Any) -> tuple[str | None, str | None]:
+    if isinstance(pair, dict):
+        base = pair.get("base") or pair.get("text") or pair.get("word") or pair.get("kanji") or pair.get("surface")
+        reading = pair.get("reading") or pair.get("furigana") or pair.get("kana") or pair.get("rt")
+        return (str(base), str(reading)) if base and reading else (None, None)
+    if isinstance(pair, (list, tuple)) and len(pair) >= 2 and pair[0] and pair[1]:
+        return str(pair[0]), str(pair[1])
+    return None, None
+
+
+def ruby_html_from_pairs(text: str, pairs: Any) -> str | None:
+    if not isinstance(pairs, list) or not pairs:
+        return None
+    rendered = html.escape(text)
+    used = False
+    for pair in pairs:
+        base, reading = pair_values(pair)
+        if not base or not reading:
+            continue
+        escaped_base = html.escape(base)
+        ruby = f"<ruby>{escaped_base}<rt>{html.escape(reading)}</rt></ruby>"
+        if escaped_base in rendered:
+            rendered = rendered.replace(escaped_base, ruby, 1)
+            used = True
+    return rendered if used else None
+
+
+def track_text_from_row(row: dict[str, Any], lang: str) -> str:
+    if lang == "ja":
+        return str(row.get("ruby") or row.get("ja") or row.get("text") or "").strip()
+    if lang == "en":
+        return str(row.get("en") or row.get("text") or "").strip()
+    if lang == "zh":
+        return str(row.get("zh") or row.get("zh_hant") or row.get("zh-Hant") or row.get("text") or "").strip()
+    return str(row.get("text") or "").strip()
+
+
+def track_html_from_row(row: dict[str, Any], lang: str) -> str:
+    text = track_text_from_row(row, lang)
+    if not text:
+        return ""
+    ruby = ruby_html_from_pairs(str(row.get("ja") or text), row.get("furigana_pairs"))
+    if lang == "ja" and ruby:
+        return ruby
+    if "<" in text and ">" in text:
+        return safe_subtitle_html(text)
+    return colorize_text(text, lang)
+
+
+def infer_rich_text_lang(path: Path, rows: list[dict[str, Any]]) -> str | None:
+    lower = str(path).lower()
+    sample = rows[0] if rows else {}
+    if "/translations/en/" in lower or "_en." in lower or "en" in sample:
+        return "en"
+    if "/translations/zh" in lower or "_zh" in lower or "zh" in sample or "zh_hant" in sample:
+        return "zh"
+    if "/translations/ja/" in lower or "furigana" in lower or "ja" in sample or "ruby" in sample:
+        return "ja"
+    return None
+
+
+_RICH_TEXT_JSON_FILES: list[Path] | None = None
+
+
+def rich_text_json_files() -> list[Path]:
+    global _RICH_TEXT_JSON_FILES
+    if _RICH_TEXT_JSON_FILES is not None:
+        return _RICH_TEXT_JSON_FILES
+    files: list[Path] = []
+    if LAZYEDIT_DATA_ROOT.exists():
+        for path in walk_files(LAZYEDIT_DATA_ROOT):
+            lower = str(path).lower()
+            if path.suffix.lower() != ".json":
+                continue
+            if "/translations/" not in lower and "/burn/" not in lower:
+                continue
+            if any(token in lower for token in ("_en", "_zh", "_ja", "furigana", "translations")):
+                files.append(path)
+    _RICH_TEXT_JSON_FILES = files
+    return files
+
+
+def load_rich_rows(path: Path) -> list[dict[str, Any]]:
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    if isinstance(data, list):
+        rows = data
+    elif isinstance(data, dict):
+        rows = data.get("lines") or data.get("entries") or data.get("segments") or []
+    else:
+        return []
+    return [row for row in rows if isinstance(row, dict) and normalize_timestamp(row.get("start")) and normalize_timestamp(row.get("end"))]
+
+
+def rich_timing_ratio(base_entries: list[dict[str, str]], rows: list[dict[str, Any]]) -> float:
+    if not base_entries or not rows:
+        return 0.0
+    base_starts = [timestamp_to_seconds(entry.get("start")) for entry in base_entries]
+    matched = 0
+    for row in rows:
+        start = timestamp_to_seconds(row.get("start"))
+        if start is None:
+            continue
+        if any(base is not None and abs(base - start) <= 0.35 for base in base_starts):
+            matched += 1
+    return matched / max(1, min(len(base_entries), len(rows)))
+
+
+def rich_text_score(item: MediaItem, path: Path) -> int:
+    tokens = stem_tokens(item.canonical.path)
+    path_tokens = stem_tokens(path)
+    shared = tokens & path_tokens
+    return len(shared) + sum(2 for token in shared if len(token) >= 7)
+
+
+def load_rich_text_tracks(item: MediaItem, base_entries: list[dict[str, str]]) -> dict[str, list[dict[str, Any]]]:
+    selected: dict[str, tuple[float, int, Path, list[dict[str, Any]]]] = {}
+    for path in rich_text_json_files():
+        score = rich_text_score(item, path)
+        if score < 3:
+            continue
+        rows = load_rich_rows(path)
+        if not rows:
+            continue
+        ratio = rich_timing_ratio(base_entries, rows)
+        if ratio < 0.6:
+            continue
+        lang = infer_rich_text_lang(path, rows)
+        if not lang:
+            continue
+        has_furigana = any(row.get("furigana_pairs") for row in rows)
+        rank = ratio * 100 + score * 10 + (8 if has_furigana else 0)
+        current = selected.get(lang)
+        if current is None or rank > current[0]:
+            selected[lang] = (rank, score, path, rows)
+    return {lang: rows for lang, (_, _, _, rows) in selected.items()}
+
+
+def match_rich_row(entry: dict[str, str], rows: list[dict[str, Any]], fallback_index: int) -> dict[str, Any] | None:
+    start = timestamp_to_seconds(entry.get("start"))
+    if start is not None:
+        best: tuple[float, dict[str, Any]] | None = None
+        for row in rows:
+            row_start = timestamp_to_seconds(row.get("start"))
+            if row_start is None:
+                continue
+            diff = abs(row_start - start)
+            if diff <= 0.35 and (best is None or diff < best[0]):
+                best = (diff, row)
+        if best:
+            return best[1]
+    if fallback_index < len(rows):
+        row = rows[fallback_index]
+        row_start = timestamp_to_seconds(row.get("start"))
+        if start is None or row_start is None or abs(row_start - start) <= 0.5:
+            return row
+    return None
+
+
+def enrich_transcript_entries(item: MediaItem, entries: list[dict[str, str]]) -> list[dict[str, Any]]:
+    tracks = load_rich_text_tracks(item, entries)
+    enriched: list[dict[str, Any]] = []
+    for idx, entry in enumerate(entries):
+        line_tracks: dict[str, dict[str, str]] = {}
+        for lang, rows in tracks.items():
+            row = match_rich_row(entry, rows, idx)
+            if not row:
+                continue
+            text = track_text_from_row(row, lang)
+            if not text:
+                continue
+            label = {"ja": "日本語", "en": "English", "zh": "中文"}.get(lang, lang.upper())
+            line_tracks[lang] = {
+                "label": label,
+                "text": text,
+                "html": track_html_from_row(row, lang),
+            }
+        start = normalize_timestamp(entry.get("start")) or entry.get("start", "")
+        end = normalize_timestamp(entry.get("end")) or entry.get("end", "")
+        enriched.append(
+            {
+                "start": start,
+                "end": end,
+                "start_seconds": timestamp_to_seconds(start),
+                "end_seconds": timestamp_to_seconds(end),
+                "text": entry.get("text", ""),
+                "html": colorize_text(entry.get("text", "")),
+                "tracks": line_tracks,
+            }
+        )
+    return enriched
 
 
 def copy_subtitles_and_transcript(item: MediaItem) -> None:
@@ -631,11 +870,12 @@ def copy_subtitles_and_transcript(item: MediaItem) -> None:
     item.subtitle_rel_files = copied
     if selected_srt:
         entries = parse_srt(selected_srt.read_text(encoding="utf-8", errors="replace"))
+        enriched_entries = enrich_transcript_entries(item, entries)
         transcript = {
             "slug": item.slug,
             "source_subtitle": str(selected_srt.relative_to(REPO_ROOT)),
             "subtitle_files": copied,
-            "entries": entries,
+            "entries": enriched_entries,
         }
         out = REPO_ROOT / "data" / "transcripts" / f"{item.slug}.json"
         out.parent.mkdir(parents=True, exist_ok=True)
@@ -669,26 +909,32 @@ def human_size(num: int) -> str:
     return f"{num} B"
 
 
-def read_transcript(item: MediaItem) -> list[dict[str, str]]:
+def read_transcript_data(item: MediaItem) -> dict[str, Any]:
     if not item.transcript_rel:
-        return []
+        return {}
     path = REPO_ROOT / item.transcript_rel
     if not path.exists():
-        return []
+        return {}
     try:
-        return json.loads(path.read_text(encoding="utf-8")).get("entries", [])
+        data = json.loads(path.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
     except Exception:
-        return []
+        return {}
+
+
+def json_for_script(data: dict[str, Any]) -> str:
+    return json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
 
 
 def render_page(item: MediaItem) -> str:
-    transcript = read_transcript(item)
-    transcript_html = "\n".join(
-        f"""<article class="line"><time>{html.escape(entry['start'])} - {html.escape(entry['end'])}</time><div>{safe_subtitle_html(entry['text'])}</div></article>"""
-        for entry in transcript
+    transcript = read_transcript_data(item)
+    entries = transcript.get("entries") or []
+    transcript_json = json_for_script(transcript if entries else {"slug": item.slug, "entries": []})
+    caption_hint = (
+        "Play the video to see the current timed line. Japanese, English, and Chinese tracks are shown when LazyEdit provides them."
+        if entries
+        else "No LazyEdit timed subtitle sidecar was matched for this video yet."
     )
-    if not transcript_html:
-        transcript_html = '<p class="empty">No LazyEdit subtitle sidecar was matched for this video yet.</p>'
 
     if VIDEO_BASE_URL:
         video_src = f"{VIDEO_BASE_URL}/{Path(item.video_rel).name}"
@@ -720,16 +966,16 @@ def render_page(item: MediaItem) -> str:
   <main class="video-page">
     <section class="hero">
       <video controls preload="metadata" poster="../{html.escape(item.thumb_rel)}" src="{html.escape(video_src)}"></video>
+      <section class="caption-stage" aria-label="Timed multilingual subtitles">
+        <div class="current-caption" id="current-caption" aria-live="polite">
+          <p class="caption-empty">{html.escape(caption_hint)}</p>
+        </div>
+      </section>
       <div class="meta">
         <h1>{html.escape(item.title)}</h1>
         <p>{html.escape(item.description)}</p>
         <p>{html.escape(duration)} · {html.escape(dims)} · {human_size(item.canonical.size)} · category <code>{html.escape(item.publish_category)}</code> · SHA-256 <code>{item.sha256[:12]}</code></p>
       </div>
-    </section>
-    <section>
-      <h2>Transcript</h2>
-      <p class="hint">Rendered below the video from matched LazyEdit subtitle sidecars. Ruby, furigana, and pinyin markup is preserved when present in the subtitle file.</p>
-      <div class="transcript">{transcript_html}</div>
     </section>
     <details>
       <summary>Source Files</summary>
@@ -740,6 +986,70 @@ def render_page(item: MediaItem) -> str:
       <ul>{subtitle_html}</ul>
     </details>
   </main>
+  <script id="timed-text-data" type="application/json">{transcript_json}</script>
+  <script>
+    (() => {{
+      const video = document.querySelector("video");
+      const panel = document.getElementById("current-caption");
+      const dataEl = document.getElementById("timed-text-data");
+      if (!video || !panel || !dataEl) return;
+      let data = {{}};
+      try {{ data = JSON.parse(dataEl.textContent || "{{}}"); }} catch (_) {{ data = {{ entries: [] }}; }}
+      const entries = Array.isArray(data.entries) ? data.entries : [];
+      const order = [
+        ["ja", "JP"],
+        ["en", "EN"],
+        ["zh", "ZH"],
+      ];
+      let currentIndex = -2;
+
+      function lineForTime(time) {{
+        for (let i = 0; i < entries.length; i++) {{
+          const entry = entries[i];
+          const start = Number(entry.start_seconds);
+          const end = Number(entry.end_seconds);
+          if (Number.isFinite(start) && Number.isFinite(end) && time >= start && time < end) return i;
+        }}
+        return -1;
+      }}
+
+      function renderEmpty(message) {{
+        panel.innerHTML = `<p class="caption-empty">${{message}}</p>`;
+      }}
+
+      function renderEntry(entry) {{
+        const rows = [];
+        const tracks = entry.tracks || {{}};
+        for (const [lang, shortLabel] of order) {{
+          if (!tracks[lang]) continue;
+          rows.push(`<div class="caption-row caption-${{lang}}"><span class="caption-label">${{shortLabel}}</span><div class="caption-text">${{tracks[lang].html || tracks[lang].text || ""}}</div></div>`);
+        }}
+        if (!rows.length && (entry.html || entry.text)) {{
+          rows.push(`<div class="caption-row caption-source"><span class="caption-label">LINE</span><div class="caption-text">${{entry.html || entry.text}}</div></div>`);
+        }}
+        if (!rows.length) {{
+          renderEmpty("No timed text for this moment.");
+          return;
+        }}
+        const time = `${{entry.start || ""}} - ${{entry.end || ""}}`;
+        panel.innerHTML = `<div class="caption-time">${{time}}</div>${{rows.join("")}}`;
+      }}
+
+      function updateCaption() {{
+        if (!entries.length) return;
+        const idx = lineForTime(video.currentTime || 0);
+        if (idx === currentIndex) return;
+        currentIndex = idx;
+        if (idx < 0) renderEmpty(" ");
+        else renderEntry(entries[idx]);
+      }}
+
+      video.addEventListener("timeupdate", updateCaption);
+      video.addEventListener("seeked", updateCaption);
+      video.addEventListener("play", updateCaption);
+      video.addEventListener("loadedmetadata", updateCaption);
+    }})();
+  </script>
 </body>
 </html>
 """
@@ -770,7 +1080,7 @@ def render_index(items: list[MediaItem]) -> str:
   <header class="site-hero">
     <p>LALACHAN Media Archive</p>
     <h1>Generated videos, stories, and subtitles</h1>
-    <p class="lede">A deduplicated archive of generated LALACHAN videos. Each page uses a clean source video from LALACHAN/Videos and renders matched text subtitles below the player.</p>
+    <p class="lede">A deduplicated archive of generated LALACHAN videos. Each page uses a clean source video from LALACHAN/Videos and renders only the current timed subtitle line below the player when matched text tracks are available.</p>
   </header>
   <main>
     <section class="stats">
@@ -913,26 +1223,79 @@ video {
 .meta p {
   color: var(--muted);
 }
-.transcript {
-  display: grid;
-  gap: 10px;
+.caption-stage {
+  margin-top: 14px;
 }
-.line {
-  display: grid;
-  grid-template-columns: 160px minmax(0, 1fr);
-  gap: 16px;
+.current-caption {
   border: 1px solid var(--line);
   background: var(--panel);
   border-radius: 8px;
-  padding: 12px;
-  line-height: 1.7;
+  padding: clamp(14px, 3vw, 22px);
+  min-height: 142px;
+  box-shadow: 0 18px 48px rgba(24, 37, 68, 0.08);
 }
-.line time {
+.caption-empty {
+  color: var(--muted);
+  margin: 0;
+}
+.caption-time {
   color: var(--muted);
   font-variant-numeric: tabular-nums;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+.caption-row {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 12px;
+  align-items: baseline;
+  margin: 9px 0;
+}
+.caption-label {
+  color: #fff;
+  background: #15151a;
+  border-radius: 999px;
+  padding: 3px 8px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-align: center;
+}
+.caption-ja .caption-label { background: #6f5cff; }
+.caption-en .caption-label { background: #117c67; }
+.caption-zh .caption-label { background: #d14f2f; }
+.caption-source .caption-label { background: #434350; }
+.caption-text {
+  font-size: clamp(1.15rem, 2.2vw, 1.72rem);
+  line-height: 1.72;
+  font-weight: 680;
+  letter-spacing: 0;
+}
+.tok {
+  display: inline-block;
+  margin: 0 0.01em;
+}
+.tok-kanji {
+  color: #3757d6;
+}
+.tok-kana {
+  color: #6f5cff;
+}
+.tok-zh {
+  color: #d14f2f;
+}
+.tok-en {
+  color: #117c67;
+}
+.tok-num {
+  color: #986400;
+}
+.tok-punc {
+  color: var(--muted);
 }
 ruby rt {
-  font-size: 0.58em;
+  font-size: 0.52em;
+  font-weight: 700;
   color: #6f5cff;
 }
 details {
@@ -946,9 +1309,9 @@ details li {
   margin: 8px 0;
 }
 @media (max-width: 700px) {
-  .line {
+  .caption-row {
     grid-template-columns: 1fr;
-    gap: 4px;
+    gap: 6px;
   }
   .topbar {
     display: block;
@@ -1012,7 +1375,7 @@ def write_readme(items: list[MediaItem]) -> None:
         "",
         "A Git LFS media archive and static website for generated LALACHAN videos.",
         "",
-        "The archive collects only clean generated videos from the top-level `LALACHAN/Videos` folder. LazyEdit is used only as a source for text subtitle sidecars. Downloads, LazyEdit rendered MP4s, personal phone videos, and burned-subtitle/logo/portrait variants are intentionally excluded.",
+        "The archive collects only clean generated videos from the top-level `LALACHAN/Videos` folder. LazyEdit is used only as a source for timed text sidecars and multilingual translation tracks. Downloads, LazyEdit rendered MP4s, personal phone videos, and burned-subtitle/logo/portrait variants are intentionally excluded.",
         "",
         "## Browse Locally",
         "",
@@ -1035,7 +1398,7 @@ def write_readme(items: list[MediaItem]) -> None:
         "",
         "Override local scan roots with `LALACHAN_ROOT` and `LAZYEDIT_DATA_ROOT`.",
         "",
-        "LazyEdit subtitle matching prefers `*_mixed_polished.srt`, then polished, mixed, and caption files.",
+        "LazyEdit subtitle matching prefers `*_mixed_polished.srt`, then polished, mixed, and caption files. When timed `ja`, `en`, or `zh` translation JSON exists, pages render only the current active line below the video with ruby-preserving markup and word coloring.",
         "",
         "Titles, descriptions, and publish categories are viewer-facing metadata, following the same concise style used for LazyEdit submission. Full scripts are not copied into metadata.",
         "",

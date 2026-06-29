@@ -10,22 +10,102 @@
     {
       "start": "00:00:00.720",
       "end": "00:00:01.920",
-      "text": "我来助攻！"
+      "start_seconds": 0.72,
+      "end_seconds": 1.92,
+      "text": "我来助攻！",
+      "html": "<span class=\"tok tok-kanji\">我来助攻</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我来助攻！",
+          "html": "<span class=\"tok tok-zh\">我来助攻</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "援護[えんご]する！",
+          "html": "<ruby>援護<rt>えんご</rt></ruby><ruby>する<rt>する</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I'll assist!",
+          "html": "<span class=\"tok tok-en\">I&#x27;ll</span> <span class=\"tok tok-en\">assist</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:01.920",
       "end": "00:00:04.280",
-      "text": "飒飒君，球在你后面！"
+      "start_seconds": 1.92,
+      "end_seconds": 4.28,
+      "text": "飒飒君，球在你后面！",
+      "html": "<span class=\"tok tok-kanji\">飒飒君</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">球在你后面</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "飒飒君，球在你后面！",
+          "html": "<span class=\"tok tok-zh\">飒飒君</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">球在你后面</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ササ君[ささくん]、ボール[ぼーる]は君[きみ]の後ろ[うしろ]だ！",
+          "html": "<ruby>ササ<ruby>君<rt>きみ</rt></ruby><rt>ささくん</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>ボール<rt>ぼーる</rt></ruby><ruby>は<rt>わ</rt></ruby>君<ruby>の<rt>の</rt></ruby><ruby>後ろ<rt>うしろ</rt></ruby><ruby>だ<rt>だ</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Sasa, the ball is behind you!",
+          "html": "<span class=\"tok tok-en\">Sasa</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">ball</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">behind</span> <span class=\"tok tok-en\">you</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:04.280",
       "end": "00:00:07.500",
-      "text": "计算好了，快乐弧线。"
+      "start_seconds": 4.28,
+      "end_seconds": 7.5,
+      "text": "计算好了，快乐弧线。",
+      "html": "<span class=\"tok tok-kanji\">计算好了</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">快乐弧线</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "计算好了，快乐弧线。",
+          "html": "<span class=\"tok tok-zh\">计算好了</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">快乐弧线</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "計算[けいさん]したよ、ハッピーカーブ[はっぴーかーぶ]。",
+          "html": "<ruby>計算<rt>けいさん</rt></ruby><ruby>した<rt>した</rt></ruby><ruby>よ<rt>よ</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>ハッピーカーブ<rt>はっぴーかーぶ</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Calculated, a happy curve.",
+          "html": "<span class=\"tok tok-en\">Calculated</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">happy</span> <span class=\"tok tok-en\">curve</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:07.500",
       "end": "00:00:14.380",
-      "text": "今天赢的不是比分，是我们终于没把球踢丢！"
+      "start_seconds": 7.5,
+      "end_seconds": 14.38,
+      "text": "今天赢的不是比分，是我们终于没把球踢丢！",
+      "html": "<span class=\"tok tok-kanji\">今天赢的不是比分</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">是我们终于没把球踢丢</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "今天赢的不是比分，是我们终于没把球踢丢！",
+          "html": "<span class=\"tok tok-zh\">今天赢的不是比分</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">是我们终于没把球踢丢</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "今日[きょう]勝った[かった]の[の]は[は]スコア[すこあ]で[で]は[は]なく[なく]、ついに[ついに]ボール[ぼーる]を[を]蹴り損ねなかった[けりそこねなかった]こと[こと]だ[だ]！",
+          "html": "<ruby>今日<rt>きょう</rt></ruby><ruby>勝った<rt>かった</rt></ruby><ruby>の<rt>の</rt></ruby><ruby><ruby>は<rt>は</rt></ruby><rt>は</rt></ruby><ruby>スコア<rt>すこあ</rt></ruby><ruby>で<rt>で</rt></ruby>は<ruby>なく<rt>なく</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>ついに<rt>ついに</rt></ruby><ruby>ボール<rt>ぼーる</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>蹴り損ねなかった<rt>けりそこねなかった</rt></ruby><ruby>こと<rt>こと</rt></ruby><ruby>だ<rt>だ</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "What we won today wasn't the score, but that we finally didn't kick the ball away!",
+          "html": "<span class=\"tok tok-en\">What</span> <span class=\"tok tok-en\">we</span> <span class=\"tok tok-en\">won</span> <span class=\"tok tok-en\">today</span> <span class=\"tok tok-en\">wasn&#x27;t</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">score</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">but</span> <span class=\"tok tok-en\">that</span> <span class=\"tok tok-en\">we</span> <span class=\"tok tok-en\">finally</span> <span class=\"tok tok-en\">didn&#x27;t</span> <span class=\"tok tok-en\">kick</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">ball</span> <span class=\"tok tok-en\">away</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     }
   ]
 }

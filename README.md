@@ -2,7 +2,7 @@
 
 A Git LFS media archive and static website for generated LALACHAN videos.
 
-The archive collects only clean generated videos from the top-level `LALACHAN/Videos` folder. LazyEdit is used only as a source for text subtitle sidecars. Downloads, LazyEdit rendered MP4s, personal phone videos, and burned-subtitle/logo/portrait variants are intentionally excluded.
+The archive collects only clean generated videos from the top-level `LALACHAN/Videos` folder. LazyEdit is used only as a source for timed text sidecars and multilingual translation tracks. Downloads, LazyEdit rendered MP4s, personal phone videos, and burned-subtitle/logo/portrait variants are intentionally excluded.
 
 ## Browse Locally
 
@@ -25,7 +25,7 @@ The generator uses these source classes:
 
 Override local scan roots with `LALACHAN_ROOT` and `LAZYEDIT_DATA_ROOT`.
 
-LazyEdit subtitle matching prefers `*_mixed_polished.srt`, then polished, mixed, and caption files.
+LazyEdit subtitle matching prefers `*_mixed_polished.srt`, then polished, mixed, and caption files. When timed `ja`, `en`, or `zh` translation JSON exists, pages render only the current active line below the video with ruby-preserving markup and word coloring.
 
 Titles, descriptions, and publish categories are viewer-facing metadata, following the same concise style used for LazyEdit submission. Full scripts are not copied into metadata.
 

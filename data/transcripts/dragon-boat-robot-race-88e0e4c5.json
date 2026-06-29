@@ -10,97 +10,477 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:01.700",
-      "text": "端午龙舟赛现在开始！"
+      "start_seconds": 0.0,
+      "end_seconds": 1.7,
+      "text": "端午龙舟赛现在开始！",
+      "html": "<span class=\"tok tok-kanji\">端午龙舟赛现在开始</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "端午龙舟赛现在开始！",
+          "html": "<span class=\"tok tok-zh\">端午龙舟赛现在开始</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "端午[たんご]の龍舟[りゅうしゅう]レースを今[いま]から始め[はじめ]ます！",
+          "html": "<ruby>端午<rt>たんご</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>龍舟<rt>りゅうしゅう</rt></ruby><ruby>レース<rt>レース</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>今<rt>いま</rt></ruby><ruby>から<rt>から</rt></ruby><ruby>始め<rt>はじめ</rt></ruby><ruby>ます<rt>ます</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "The Dragon Boat Race begins now!",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">Dragon</span> <span class=\"tok tok-en\">Boat</span> <span class=\"tok tok-en\">Race</span> <span class=\"tok tok-en\">begins</span> <span class=\"tok tok-en\">now</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:01.700",
       "end": "00:00:04.420",
-      "text": "冠军奖品是一杯超大菠萝西瓜汁！"
+      "start_seconds": 1.7,
+      "end_seconds": 4.42,
+      "text": "冠军奖品是一杯超大菠萝西瓜汁！",
+      "html": "<span class=\"tok tok-kanji\">冠军奖品是一杯超大菠萝西瓜汁</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "冠军奖品是一杯超大菠萝西瓜汁！",
+          "html": "<span class=\"tok tok-zh\">冠军奖品是一杯超大菠萝西瓜汁</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "優勝賞品[ゆうしょうしょうひん]は超大[ちょうだい]パイナップルスイカジュース一杯[いっぱい]！",
+          "html": "<ruby>優勝賞品<rt>ゆうしょうしょうひん</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>超大<rt>ちょうだい</rt></ruby><ruby>パイナップルスイカジュース<rt>ぱいなっぷるすいかじゅうす</rt></ruby><ruby>一杯<rt>いっぱい</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "The champion prize is a super large pineapple watermelon juice!",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">champion</span> <span class=\"tok tok-en\">prize</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">super</span> <span class=\"tok tok-en\">large</span> <span class=\"tok tok-en\">pineapple</span> <span class=\"tok tok-en\">watermelon</span> <span class=\"tok tok-en\">juice</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:04.420",
       "end": "00:00:06.520",
-      "text": "这个规则我完全听懂了！"
+      "start_seconds": 4.42,
+      "end_seconds": 6.52,
+      "text": "这个规则我完全听懂了！",
+      "html": "<span class=\"tok tok-kanji\">这个规则我完全听懂了</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "这个规则我完全听懂了！",
+          "html": "<span class=\"tok tok-zh\">这个规则我完全听懂了</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "このルールは[わ]完全[かんぜん]に分かり[わかり]ました！",
+          "html": "<ruby>この<rt>この</rt></ruby><ruby>ルール<rt>るーる</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>完全<rt>かんぜん</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>分かり<rt>わかり</rt></ruby><ruby>ました<rt>ました</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I completely understand this rule!",
+          "html": "<span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">completely</span> <span class=\"tok tok-en\">understand</span> <span class=\"tok tok-en\">this</span> <span class=\"tok tok-en\">rule</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:06.520",
       "end": "00:00:08.000",
-      "text": "你是来划船的，不是来提前喝果汁的。"
+      "start_seconds": 6.52,
+      "end_seconds": 8.0,
+      "text": "你是来划船的，不是来提前喝果汁的。",
+      "html": "<span class=\"tok tok-kanji\">你是来划船的</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">不是来提前喝果汁的</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "你是来划船的，不是来提前喝果汁的。",
+          "html": "<span class=\"tok tok-zh\">你是来划船的</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">不是来提前喝果汁的</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "あなたはボートを漕ぎ[こぎ]に来た[きた]のであって、先[さき]にジュースを飲み[のみ]に来た[きた]のではない。",
+          "html": "<ruby>あなた<rt>あなた</rt></ruby><ruby><ruby>は<rt>は</rt></ruby><rt>は</rt></ruby><ruby>ボート<rt>ボート</rt></ruby><ruby><ruby>を<rt>を</rt></ruby><rt>を</rt></ruby><ruby>漕ぎ<rt>こぎ</rt></ruby><ruby><ruby><ruby>に<rt>に</rt></ruby><rt>に</rt></ruby><rt>に</rt></ruby><ruby><ruby>来た<rt>きた</rt></ruby><rt>きた</rt></ruby><ruby><ruby>の<rt>の</rt></ruby><rt>の</rt></ruby><ruby><ruby>で<rt>で</rt></ruby><rt>で</rt></ruby><ruby>あって<rt>あって</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>先<rt>さき</rt></ruby>に<ruby>ジュース<rt>ジュース</rt></ruby>を<ruby>飲み<rt>のみ</rt></ruby>に来たのでは<ruby>ない<rt>ない</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "You're here to row, not to drink juice early.",
+          "html": "<span class=\"tok tok-en\">You&#x27;re</span> <span class=\"tok tok-en\">here</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">row</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">not</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">drink</span> <span class=\"tok tok-en\">juice</span> <span class=\"tok tok-en\">early</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:11.120",
       "end": "00:00:12.320",
-      "text": "转得很好看，"
+      "start_seconds": 11.12,
+      "end_seconds": 12.32,
+      "text": "转得很好看，",
+      "html": "<span class=\"tok tok-kanji\">转得很好看</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "转得很好看，",
+          "html": "<span class=\"tok tok-zh\">转得很好看</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "回転[かいてん]がとても美しい[うつくしい]、",
+          "html": "<ruby>回転<rt>かいてん</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>とても<rt>とても</rt></ruby><ruby>美しい<rt>うつくしい</rt></ruby><ruby>、<rt>、</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Nice spin,",
+          "html": "<span class=\"tok tok-en\">Nice</span> <span class=\"tok tok-en\">spin</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:12.320",
       "end": "00:00:13.180",
-      "text": "但不算前进！"
+      "start_seconds": 12.32,
+      "end_seconds": 13.18,
+      "text": "但不算前进！",
+      "html": "<span class=\"tok tok-kanji\">但不算前进</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "但不算前进！",
+          "html": "<span class=\"tok tok-zh\">但不算前进</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "だが、前進[ぜんしん]ではない！",
+          "html": "<ruby>だが<rt>だが</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>前進<rt>ぜんしん</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>ない<rt>ない</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "But it's not progress!",
+          "html": "<span class=\"tok tok-en\">But</span> <span class=\"tok tok-en\">it&#x27;s</span> <span class=\"tok tok-en\">not</span> <span class=\"tok tok-en\">progress</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:13.180",
       "end": "00:00:13.920",
-      "text": "比赛暂停，"
+      "start_seconds": 13.18,
+      "end_seconds": 13.92,
+      "text": "比赛暂停，",
+      "html": "<span class=\"tok tok-kanji\">比赛暂停</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "比赛暂停，",
+          "html": "<span class=\"tok tok-zh\">比赛暂停</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "試合[しあい]中断[ちゅうだん]、",
+          "html": "<ruby>試合<rt>しあい</rt></ruby><ruby>中断<rt>ちゅうだん</rt></ruby><ruby>、<rt>、</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Game paused,",
+          "html": "<span class=\"tok tok-en\">Game</span> <span class=\"tok tok-en\">paused</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:13.920",
       "end": "00:00:14.800",
-      "text": "先救粽子！"
+      "start_seconds": 13.92,
+      "end_seconds": 14.8,
+      "text": "先救粽子！",
+      "html": "<span class=\"tok tok-kanji\">先救粽子</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "先救粽子！",
+          "html": "<span class=\"tok tok-zh\">先救粽子</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "先[さき]に粽[ちまき]を救[すく]え！",
+          "html": "<ruby>先<rt>さき</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>粽<rt>ちまき</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>救え<rt>すくえ</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Save the zongzi first!",
+          "html": "<span class=\"tok tok-en\">Save</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">zongzi</span> <span class=\"tok tok-en\">first</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:14.800",
       "end": "00:00:16.100",
-      "text": "救粽子就是救节日！"
+      "start_seconds": 14.8,
+      "end_seconds": 16.1,
+      "text": "救粽子就是救节日！",
+      "html": "<span class=\"tok tok-kanji\">救粽子就是救节日</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "救粽子就是救节日！",
+          "html": "<span class=\"tok tok-zh\">救粽子就是救节日</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "粽[ちまき]を救う[すくう]ことが祭[まつり]を救う[すくう]ことです！",
+          "html": "<ruby>粽<rt>ちまき</rt></ruby><ruby><ruby>を<rt>を</rt></ruby><rt>を</rt></ruby><ruby><ruby>救う<rt>すくう</rt></ruby><rt>すくう</rt></ruby><ruby><ruby>こと<rt>こと</rt></ruby><rt>こと</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>祭<rt>まつり</rt></ruby>を救うこと<ruby>です<rt>です</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Saving zongzi is saving the festival!",
+          "html": "<span class=\"tok tok-en\">Saving</span> <span class=\"tok tok-en\">zongzi</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">saving</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">festival</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:16.100",
       "end": "00:00:21.900",
-      "text": "并列第一！"
+      "start_seconds": 16.1,
+      "end_seconds": 21.9,
+      "text": "并列第一！",
+      "html": "<span class=\"tok tok-kanji\">并列第一</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "并列第一！",
+          "html": "<span class=\"tok tok-zh\">并列第一</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "同率[どうりつ]一位[いちい]！",
+          "html": "<ruby>同率<rt>どうりつ</rt></ruby><ruby>一位<rt>いちい</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Tied for first!",
+          "html": "<span class=\"tok tok-en\">Tied</span> <span class=\"tok tok-en\">for</span> <span class=\"tok tok-en\">first</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:21.900",
       "end": "00:00:23.820",
-      "text": "特别奖：最会救粽子队！"
+      "start_seconds": 21.9,
+      "end_seconds": 23.82,
+      "text": "特别奖：最会救粽子队！",
+      "html": "<span class=\"tok tok-kanji\">特别奖</span><span class=\"tok tok-punc\">：</span><span class=\"tok tok-kanji\">最会救粽子队</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "特别奖：最会救粽子队！",
+          "html": "<span class=\"tok tok-zh\">特别奖</span><span class=\"tok tok-punc\">：</span><span class=\"tok tok-zh\">最会救粽子队</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "特別[とくべつ]賞[しょう]：最も[もっとも]ちまきを救[すく]う隊[たい]！",
+          "html": "<ruby>特別<rt>とくべつ</rt></ruby><ruby>賞<rt>しょう</rt></ruby><ruby>：<rt>：</rt></ruby><ruby>最も<rt>もっとも</rt></ruby><ruby>ちまき<rt>ちまき</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>救う<rt>すくう</rt></ruby><ruby>隊<rt>たい</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Special Award: The Best Zongzi Rescue Team!",
+          "html": "<span class=\"tok tok-en\">Special</span> <span class=\"tok tok-en\">Award</span><span class=\"tok tok-punc\">:</span> <span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">Best</span> <span class=\"tok tok-en\">Zongzi</span> <span class=\"tok tok-en\">Rescue</span> <span class=\"tok tok-en\">Team</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:23.820",
       "end": "00:00:25.120",
-      "text": "那奖品可以现在喝吗？"
+      "start_seconds": 23.82,
+      "end_seconds": 25.12,
+      "text": "那奖品可以现在喝吗？",
+      "html": "<span class=\"tok tok-kanji\">那奖品可以现在喝吗</span><span class=\"tok tok-punc\">？</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "那奖品可以现在喝吗？",
+          "html": "<span class=\"tok tok-zh\">那奖品可以现在喝吗</span><span class=\"tok tok-punc\">？</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "その[その]賞品[しょうひん]は[わ]今[いま]飲んで[のんで]も[も]いい[いい]です[です]か[か]？",
+          "html": "<ruby>その<rt>その</rt></ruby><ruby>賞品<rt>しょうひん</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>今<rt>いま</rt></ruby><ruby>飲んで<rt>のんで</rt></ruby><ruby>も<rt>も</rt></ruby><ruby>いい<rt>いい</rt></ruby><ruby>です<rt>です</rt></ruby><ruby>か<rt>か</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Can I drink the prize now?",
+          "html": "<span class=\"tok tok-en\">Can</span> <span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">drink</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">prize</span> <span class=\"tok tok-en\">now</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:25.120",
       "end": "00:00:25.300",
-      "text": "可以，"
+      "start_seconds": 25.12,
+      "end_seconds": 25.3,
+      "text": "可以，",
+      "html": "<span class=\"tok tok-kanji\">可以</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "可以，",
+          "html": "<span class=\"tok tok-zh\">可以</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "はい、",
+          "html": "<ruby>はい<rt>はい</rt></ruby><ruby>、<rt>、</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Sure,",
+          "html": "<span class=\"tok tok-en\">Sure</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:25.300",
       "end": "00:00:26.540",
-      "text": "但冠军要大家一起分。"
+      "start_seconds": 25.3,
+      "end_seconds": 26.54,
+      "text": "但冠军要大家一起分。",
+      "html": "<span class=\"tok tok-kanji\">但冠军要大家一起分</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "但冠军要大家一起分。",
+          "html": "<span class=\"tok tok-zh\">但冠军要大家一起分</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "でも、優勝[ゆうしょう]は皆[みんな]で分ける[わける]んだ。",
+          "html": "<ruby><ruby>で<rt>で</rt></ruby>も<rt>でも</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>優勝<rt>ゆうしょう</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>皆<rt>み<ruby>ん<rt>ん</rt></ruby>な</rt></ruby>で<ruby>分ける<rt>わける</rt></ruby>ん<ruby>だ<rt>だ</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "But the championship must be shared by all.",
+          "html": "<span class=\"tok tok-en\">But</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">championship</span> <span class=\"tok tok-en\">must</span> <span class=\"tok tok-en\">be</span> <span class=\"tok tok-en\">shared</span> <span class=\"tok tok-en\">by</span> <span class=\"tok tok-en\">all</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:26.540",
       "end": "00:00:27.420",
-      "text": "龙舟不是只比速度，"
+      "start_seconds": 26.54,
+      "end_seconds": 27.42,
+      "text": "龙舟不是只比速度，",
+      "html": "<span class=\"tok tok-kanji\">龙舟不是只比速度</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "龙舟不是只比速度，",
+          "html": "<span class=\"tok tok-zh\">龙舟不是只比速度</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ドラゴンボートは速[はや]さだけではない、",
+          "html": "<ruby>ドラゴンボート<rt>どらごんぼーと</rt></ruby><ruby><ruby>は<rt>は</rt></ruby><rt>は</rt></ruby><ruby>速さ<rt>はやさ</rt></ruby><ruby>だけ<rt>だけ</rt></ruby><ruby>で<rt>で</rt></ruby>は<ruby>ない<rt>ない</rt></ruby><ruby>、<rt>、</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Dragon boat is not just about speed,",
+          "html": "<span class=\"tok tok-en\">Dragon</span> <span class=\"tok tok-en\">boat</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">not</span> <span class=\"tok tok-en\">just</span> <span class=\"tok tok-en\">about</span> <span class=\"tok tok-en\">speed</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:27.420",
       "end": "00:00:28.420",
-      "text": "也比大家能不能一起喊——"
+      "start_seconds": 27.42,
+      "end_seconds": 28.42,
+      "text": "也比大家能不能一起喊——",
+      "html": "<span class=\"tok tok-kanji\">也比大家能不能一起喊</span><span class=\"tok tok-punc\">—</span><span class=\"tok tok-punc\">—</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "也比大家能不能一起喊——",
+          "html": "<span class=\"tok tok-zh\">也比大家能不能一起喊</span><span class=\"tok tok-punc\">—</span><span class=\"tok tok-punc\">—</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "皆[みんな]が一緒[いっしょ]に声[こえ]を合[あ]わせられるかどうかも——",
+          "html": "<ruby>皆<rt>みんな</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>一緒に<rt>いっしょに</rt></ruby><ruby>声<rt>こえ</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>合わせられる<rt>あわせられる</rt></ruby><ruby><ruby>か<rt>か</rt></ruby><rt>か</rt></ruby><ruby>どう<rt>どう</rt></ruby>か<ruby>も<rt>も</rt></ruby><ruby>——<rt>——</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "but also whether everyone can shout together—",
+          "html": "<span class=\"tok tok-en\">but</span> <span class=\"tok tok-en\">also</span> <span class=\"tok tok-en\">whether</span> <span class=\"tok tok-en\">everyone</span> <span class=\"tok tok-en\">can</span> <span class=\"tok tok-en\">shout</span> <span class=\"tok tok-en\">together</span><span class=\"tok tok-punc\">—</span>"
+        }
+      }
     },
     {
       "start": "00:00:28.420",
       "end": "00:00:28.620",
-      "text": "嘿！"
+      "start_seconds": 28.42,
+      "end_seconds": 28.62,
+      "text": "嘿！",
+      "html": "<span class=\"tok tok-kanji\">嘿</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "嘿！",
+          "html": "<span class=\"tok tok-zh\">嘿</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ヘイ[へい]！",
+          "html": "<ruby>ヘイ<rt>へい</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Hey!",
+          "html": "<span class=\"tok tok-en\">Hey</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:28.620",
       "end": "00:00:29.300",
-      "text": "端午快乐！"
+      "start_seconds": 28.62,
+      "end_seconds": 29.3,
+      "text": "端午快乐！",
+      "html": "<span class=\"tok tok-kanji\">端午快乐</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "端午快乐！",
+          "html": "<span class=\"tok tok-zh\">端午快乐</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "端午[たんご]おめでとう！",
+          "html": "<ruby>端午<rt>たんご</rt></ruby><ruby>おめでとう<rt>おめでとう</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Happy Dragon Boat Festival!",
+          "html": "<span class=\"tok tok-en\">Happy</span> <span class=\"tok tok-en\">Dragon</span> <span class=\"tok tok-en\">Boat</span> <span class=\"tok tok-en\">Festival</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:30.000",
       "end": "00:00:33.420",
-      "text": "端午快乐！"
+      "start_seconds": 30.0,
+      "end_seconds": 33.42,
+      "text": "端午快乐！",
+      "html": "<span class=\"tok tok-kanji\">端午快乐</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "端午快乐！",
+          "html": "<span class=\"tok tok-zh\">端午快乐</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "端午[たんご]の節句[せっく]おめでとう！",
+          "html": "<ruby>端午<rt>たんご</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>節句<rt>せっく</rt></ruby><ruby>おめでとう<rt>おめでとう</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Happy Dragon Boat Festival!",
+          "html": "<span class=\"tok tok-en\">Happy</span> <span class=\"tok tok-en\">Dragon</span> <span class=\"tok tok-en\">Boat</span> <span class=\"tok tok-en\">Festival</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     }
   ]
 }

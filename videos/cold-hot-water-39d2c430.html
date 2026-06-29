@@ -15,21 +15,16 @@
   <main class="video-page">
     <section class="hero">
       <video controls preload="metadata" poster="../media/thumbs/cold-hot-water-39d2c430.jpg" src="https://github.com/lachlanchen/LalaMedias/releases/download/media-v1/cold-hot-water-39d2c430.mp4"></video>
+      <section class="caption-stage" aria-label="Timed multilingual subtitles">
+        <div class="current-caption" id="current-caption" aria-live="polite">
+          <p class="caption-empty">Play the video to see the current timed line. Japanese, English, and Chinese tracks are shown when LazyEdit provides them.</p>
+        </div>
+      </section>
       <div class="meta">
         <h1>Cold Hot Water</h1>
         <p>Cold Hot Water is a generated LALACHAN story video. The page keeps the video clean and renders matched text subtitles below the player when available.</p>
         <p>19.3s · 1080x1920 · 17.9 MB · category <code>lalachan</code> · SHA-256 <code>39d2c430de22</code></p>
       </div>
-    </section>
-    <section>
-      <h2>Transcript</h2>
-      <p class="hint">Rendered below the video from matched LazyEdit subtitle sidecars. Ruby, furigana, and pinyin markup is preserved when present in the subtitle file.</p>
-      <div class="transcript"><article class="line"><time>00:00:00.000 - 00:00:03.720</time><div>魔法森林的小屋里,三个小伙伴都感冒了。</div></article>
-<article class="line"><time>00:00:04.000 - 00:00:07.220</time><div>我没事,我只是鼻子在练习打鼓。</div></article>
-<article class="line"><time>00:00:07.660 - 00:00:10.560</time><div>感冒的时候要互相照顾,先喝热水。</div></article>
-<article class="line"><time>00:00:10.940 - 00:00:12.040</time><div>这要能量体温吗?</div></article>
-<article class="line"><time>00:00:12.480 - 00:00:14.520</time><div>你娘出来可能是聪明温度。</div></article>
-<article class="line"><time>00:00:16.420 - 00:00:18.820</time><div>明天再一起打败喷嚏大王吧。</div></article></div>
     </section>
     <details>
       <summary>Source Files</summary>
@@ -42,5 +37,69 @@
 <li><code>subtitle-3.md</code> <span>text subtitle sidecar</span></li></ul>
     </details>
   </main>
+  <script id="timed-text-data" type="application/json">{"slug": "cold-hot-water-39d2c430", "source_subtitle": "media/subtitles/cold-hot-water-39d2c430/subtitle-2.srt", "subtitle_files": ["media/subtitles/cold-hot-water-39d2c430/subtitle-1.md", "media/subtitles/cold-hot-water-39d2c430/subtitle-2.srt", "media/subtitles/cold-hot-water-39d2c430/subtitle-3.md"], "entries": [{"start": "00:00:00.000", "end": "00:00:03.720", "start_seconds": 0.0, "end_seconds": 3.7199999999999998, "text": "魔法森林的小屋里,三个小伙伴都感冒了。", "html": "<span class=\"tok tok-kanji\">魔法森林的小屋里<\/span><span class=\"tok tok-punc\">,<\/span><span class=\"tok tok-kanji\">三个小伙伴都感冒了<\/span><span class=\"tok tok-punc\">。<\/span>", "tracks": {}}, {"start": "00:00:04.000", "end": "00:00:07.220", "start_seconds": 4.0, "end_seconds": 7.22, "text": "我没事,我只是鼻子在练习打鼓。", "html": "<span class=\"tok tok-kanji\">我没事<\/span><span class=\"tok tok-punc\">,<\/span><span class=\"tok tok-kanji\">我只是鼻子在练习打鼓<\/span><span class=\"tok tok-punc\">。<\/span>", "tracks": {}}, {"start": "00:00:07.660", "end": "00:00:10.560", "start_seconds": 7.66, "end_seconds": 10.56, "text": "感冒的时候要互相照顾,先喝热水。", "html": "<span class=\"tok tok-kanji\">感冒的时候要互相照顾<\/span><span class=\"tok tok-punc\">,<\/span><span class=\"tok tok-kanji\">先喝热水<\/span><span class=\"tok tok-punc\">。<\/span>", "tracks": {}}, {"start": "00:00:10.940", "end": "00:00:12.040", "start_seconds": 10.94, "end_seconds": 12.04, "text": "这要能量体温吗?", "html": "<span class=\"tok tok-kanji\">这要能量体温吗<\/span><span class=\"tok tok-punc\">?<\/span>", "tracks": {}}, {"start": "00:00:12.480", "end": "00:00:14.520", "start_seconds": 12.48, "end_seconds": 14.52, "text": "你娘出来可能是聪明温度。", "html": "<span class=\"tok tok-kanji\">你娘出来可能是聪明温度<\/span><span class=\"tok tok-punc\">。<\/span>", "tracks": {}}, {"start": "00:00:16.420", "end": "00:00:18.820", "start_seconds": 16.42, "end_seconds": 18.82, "text": "明天再一起打败喷嚏大王吧。", "html": "<span class=\"tok tok-kanji\">明天再一起打败喷嚏大王吧<\/span><span class=\"tok tok-punc\">。<\/span>", "tracks": {}}]}</script>
+  <script>
+    (() => {
+      const video = document.querySelector("video");
+      const panel = document.getElementById("current-caption");
+      const dataEl = document.getElementById("timed-text-data");
+      if (!video || !panel || !dataEl) return;
+      let data = {};
+      try { data = JSON.parse(dataEl.textContent || "{}"); } catch (_) { data = { entries: [] }; }
+      const entries = Array.isArray(data.entries) ? data.entries : [];
+      const order = [
+        ["ja", "JP"],
+        ["en", "EN"],
+        ["zh", "ZH"],
+      ];
+      let currentIndex = -2;
+
+      function lineForTime(time) {
+        for (let i = 0; i < entries.length; i++) {
+          const entry = entries[i];
+          const start = Number(entry.start_seconds);
+          const end = Number(entry.end_seconds);
+          if (Number.isFinite(start) && Number.isFinite(end) && time >= start && time < end) return i;
+        }
+        return -1;
+      }
+
+      function renderEmpty(message) {
+        panel.innerHTML = `<p class="caption-empty">${message}</p>`;
+      }
+
+      function renderEntry(entry) {
+        const rows = [];
+        const tracks = entry.tracks || {};
+        for (const [lang, shortLabel] of order) {
+          if (!tracks[lang]) continue;
+          rows.push(`<div class="caption-row caption-${lang}"><span class="caption-label">${shortLabel}</span><div class="caption-text">${tracks[lang].html || tracks[lang].text || ""}</div></div>`);
+        }
+        if (!rows.length && (entry.html || entry.text)) {
+          rows.push(`<div class="caption-row caption-source"><span class="caption-label">LINE</span><div class="caption-text">${entry.html || entry.text}</div></div>`);
+        }
+        if (!rows.length) {
+          renderEmpty("No timed text for this moment.");
+          return;
+        }
+        const time = `${entry.start || ""} - ${entry.end || ""}`;
+        panel.innerHTML = `<div class="caption-time">${time}</div>${rows.join("")}`;
+      }
+
+      function updateCaption() {
+        if (!entries.length) return;
+        const idx = lineForTime(video.currentTime || 0);
+        if (idx === currentIndex) return;
+        currentIndex = idx;
+        if (idx < 0) renderEmpty(" ");
+        else renderEntry(entries[idx]);
+      }
+
+      video.addEventListener("timeupdate", updateCaption);
+      video.addEventListener("seeked", updateCaption);
+      video.addEventListener("play", updateCaption);
+      video.addEventListener("loadedmetadata", updateCaption);
+    })();
+  </script>
 </body>
 </html>

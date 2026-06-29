@@ -10,57 +10,277 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:02.640",
-      "text": "她把不死药抢走了"
+      "start_seconds": 0.0,
+      "end_seconds": 2.64,
+      "text": "她把不死药抢走了",
+      "html": "<span class=\"tok tok-kanji\">她把不死药抢走了</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "她把不死药抢走了",
+          "html": "<span class=\"tok tok-zh\">她把不死药抢走了</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "彼女[かのじょ]は不死[ふし]の薬[くすり]を奪い去った[うばいさった]",
+          "html": "<ruby>彼女<rt>か<ruby>の<rt>の</rt></ruby>じょ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>不死<rt>ふし</rt></ruby>の<ruby>薬<rt>くすり</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>奪い去った<rt>うばいさった</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "She took the immortality pill.",
+          "html": "<span class=\"tok tok-en\">She</span> <span class=\"tok tok-en\">took</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">immortality</span> <span class=\"tok tok-en\">pill</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:02.640",
       "end": "00:00:03.300",
-      "text": "别伤大象"
+      "start_seconds": 2.64,
+      "end_seconds": 3.3,
+      "text": "别伤大象",
+      "html": "<span class=\"tok tok-kanji\">别伤大象</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "别伤大象",
+          "html": "<span class=\"tok tok-zh\">别伤大象</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "象[ぞう]を傷[きず]つけるな",
+          "html": "<ruby>象<rt>ぞう</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>傷つける<rt>きずつける</rt></ruby><ruby>な<rt>な</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Don't hurt the elephant",
+          "html": "<span class=\"tok tok-en\">Don&#x27;t</span> <span class=\"tok tok-en\">hurt</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">elephant</span>"
+        }
+      }
     },
     {
       "start": "00:00:03.300",
       "end": "00:00:03.960",
-      "text": "追骑手"
+      "start_seconds": 3.3,
+      "end_seconds": 3.96,
+      "text": "追骑手",
+      "html": "<span class=\"tok tok-kanji\">追骑手</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "追骑手",
+          "html": "<span class=\"tok tok-zh\">追骑手</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "騎手[きしゅ]を追え[おえ]",
+          "html": "<ruby>騎手<rt>きしゅ</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>追え<rt>おえ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Chase the rider.",
+          "html": "<span class=\"tok tok-en\">Chase</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">rider</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:03.960",
       "end": "00:00:07.700",
-      "text": "我以为大象都会喜欢香蕉"
+      "start_seconds": 3.96,
+      "end_seconds": 7.7,
+      "text": "我以为大象都会喜欢香蕉",
+      "html": "<span class=\"tok tok-kanji\">我以为大象都会喜欢香蕉</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我以为大象都会喜欢香蕉",
+          "html": "<span class=\"tok tok-zh\">我以为大象都会喜欢香蕉</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "象[ぞう]はみんなバナナが好[す]きだと思[おも]っていた",
+          "html": "<ruby>象<rt>ぞう</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>みんな<rt>みんな</rt></ruby><ruby>バナナ<rt>バナナ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>好き<rt>すき</rt></ruby><ruby>だ<rt>だ</rt></ruby><ruby>と<rt>と</rt></ruby><ruby>思って<rt>おもって</rt></ruby><ruby>いた<rt>いた</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I thought all elephants like bananas.",
+          "html": "<span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">thought</span> <span class=\"tok tok-en\">all</span> <span class=\"tok tok-en\">elephants</span> <span class=\"tok tok-en\">like</span> <span class=\"tok tok-en\">bananas</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:07.700",
       "end": "00:00:08.360",
-      "text": "那是追踪器"
+      "start_seconds": 7.7,
+      "end_seconds": 8.36,
+      "text": "那是追踪器",
+      "html": "<span class=\"tok tok-kanji\">那是追踪器</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "那是追踪器",
+          "html": "<span class=\"tok tok-zh\">那是追踪器</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "それ は[わ] トラッカー です",
+          "html": "<ruby>それ<rt>それ</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>トラッカー<rt>とらっかー</rt></ruby><ruby>です<rt>です</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "That's a tracker.",
+          "html": "<span class=\"tok tok-en\">That&#x27;s</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">tracker</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:08.360",
       "end": "00:00:09.040",
-      "text": "不是零食"
+      "start_seconds": 8.36,
+      "end_seconds": 9.04,
+      "text": "不是零食",
+      "html": "<span class=\"tok tok-kanji\">不是零食</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "不是零食",
+          "html": "<span class=\"tok tok-zh\">不是零食</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "お菓子[おかし]じゃない",
+          "html": "<ruby>お菓子<rt>おかし</rt></ruby><ruby>じゃ<rt>じゃ</rt></ruby><ruby>ない<rt>ない</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Not a snack.",
+          "html": "<span class=\"tok tok-en\">Not</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">snack</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:09.040",
       "end": "00:00:10.040",
-      "text": "想拿回不死药"
+      "start_seconds": 9.04,
+      "end_seconds": 10.04,
+      "text": "想拿回不死药",
+      "html": "<span class=\"tok tok-kanji\">想拿回不死药</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "想拿回不死药",
+          "html": "<span class=\"tok tok-zh\">想拿回不死药</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "不死薬[ふしやく]を取り[とり]戻し[もどし]たい",
+          "html": "<ruby>不死薬<rt>ふしやく</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>取り<rt>とり</rt></ruby><ruby>戻し<rt>もどし</rt></ruby><ruby>たい<rt>たい</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Want to get back the immortality pill",
+          "html": "<span class=\"tok tok-en\">Want</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">get</span> <span class=\"tok tok-en\">back</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">immortality</span> <span class=\"tok tok-en\">pill</span>"
+        }
+      }
     },
     {
       "start": "00:00:10.040",
       "end": "00:00:10.880",
-      "text": "就来追我"
+      "start_seconds": 10.04,
+      "end_seconds": 10.88,
+      "text": "就来追我",
+      "html": "<span class=\"tok tok-kanji\">就来追我</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "就来追我",
+          "html": "<span class=\"tok tok-zh\">就来追我</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "追いかけて[おいかけて]こい",
+          "html": "<ruby>追いかけて<rt>おいかけて</rt></ruby><ruby>こい<rt>こい</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Then come chase me.",
+          "html": "<span class=\"tok tok-en\">Then</span> <span class=\"tok tok-en\">come</span> <span class=\"tok tok-en\">chase</span> <span class=\"tok tok-en\">me</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:10.880",
       "end": "00:00:12.400",
-      "text": "她拿走的是备用保温杯"
+      "start_seconds": 10.88,
+      "end_seconds": 12.4,
+      "text": "她拿走的是备用保温杯",
+      "html": "<span class=\"tok tok-kanji\">她拿走的是备用保温杯</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "她拿走的是备用保温杯",
+          "html": "<span class=\"tok tok-zh\">她拿走的是备用保温杯</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "彼女[かのじょ]が持っていった[もっていった]の[の]は[は]予備[よび]の[の]保温[ほおん]ボトル[ぼとる]です[です]。",
+          "html": "<ruby>彼女<rt>か<ruby><ruby>の<rt>の</rt></ruby><rt>の</rt></ruby>じょ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>持っていった<rt>もっていった</rt></ruby>の<ruby>は<rt>は</rt></ruby><ruby>予備<rt>よび</rt></ruby>の<ruby>保温<rt>ほおん</rt></ruby><ruby>ボトル<rt>ぼとる</rt></ruby><ruby>です<rt>です</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "She took the spare thermos.",
+          "html": "<span class=\"tok tok-en\">She</span> <span class=\"tok tok-en\">took</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">spare</span> <span class=\"tok tok-en\">thermos</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:12.400",
       "end": "00:00:12.820",
-      "text": "还好"
+      "start_seconds": 12.4,
+      "end_seconds": 12.82,
+      "text": "还好",
+      "html": "<span class=\"tok tok-kanji\">还好</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "还好",
+          "html": "<span class=\"tok tok-zh\">还好</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "よかった",
+          "html": "<ruby>よかった<rt>よかった</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Good thing",
+          "html": "<span class=\"tok tok-en\">Good</span> <span class=\"tok tok-en\">thing</span>"
+        }
+      }
     },
     {
       "start": "00:00:12.820",
       "end": "00:00:14.440",
-      "text": "我的热水比不死药安全一点"
+      "start_seconds": 12.82,
+      "end_seconds": 14.44,
+      "text": "我的热水比不死药安全一点",
+      "html": "<span class=\"tok tok-kanji\">我的热水比不死药安全一点</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我的热水比不死药安全一点",
+          "html": "<span class=\"tok tok-zh\">我的热水比不死药安全一点</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "私[わたし]のお湯[おゆ]は不死薬[ふしやく]より少し[すこし]安全[あんぜん]です",
+          "html": "<ruby>私<rt>わたし</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>お湯<rt>おゆ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>不死薬<rt>ふしやく</rt></ruby><ruby>より<rt>より</rt></ruby><ruby>少し<rt>すこし</rt></ruby><ruby>安全<rt>あんぜん</rt></ruby><ruby>です<rt>です</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "My hot water is a bit safer than the elixir of immortality.",
+          "html": "<span class=\"tok tok-en\">My</span> <span class=\"tok tok-en\">hot</span> <span class=\"tok tok-en\">water</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">bit</span> <span class=\"tok tok-en\">safer</span> <span class=\"tok tok-en\">than</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">elixir</span> <span class=\"tok tok-en\">of</span> <span class=\"tok tok-en\">immortality</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     }
   ]
 }

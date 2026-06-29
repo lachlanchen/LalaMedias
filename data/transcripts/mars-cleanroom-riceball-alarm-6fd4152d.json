@@ -10,42 +10,202 @@
     {
       "start": "00:00:01.896",
       "end": "00:00:03.036",
-      "text": "这里不能吃东西"
+      "start_seconds": 1.896,
+      "end_seconds": 3.036,
+      "text": "这里不能吃东西",
+      "html": "<span class=\"tok tok-kanji\">这里不能吃东西</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "这里不能吃东西",
+          "html": "<span class=\"tok tok-zh\">这里不能吃东西</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ここで食[た]べてはいけません",
+          "html": "<ruby>ここ<rt>ここ</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>食べて<rt>たべて</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>いけません<rt>いけません</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "You can't eat here.",
+          "html": "<span class=\"tok tok-en\">You</span> <span class=\"tok tok-en\">can&#x27;t</span> <span class=\"tok tok-en\">eat</span> <span class=\"tok tok-en\">here</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:03.036",
       "end": "00:00:03.876",
-      "text": "这不是东西"
+      "start_seconds": 3.036,
+      "end_seconds": 3.876,
+      "text": "这不是东西",
+      "html": "<span class=\"tok tok-kanji\">这不是东西</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "这不是东西",
+          "html": "<span class=\"tok tok-zh\">这不是东西</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "これは物[もの]ではありません",
+          "html": "<ruby>これ<rt>これ</rt></ruby><ruby><ruby>は<rt>は</rt></ruby><rt>は</rt></ruby><ruby>物<rt>もの</rt></ruby><ruby>で<rt>で</rt></ruby>は<ruby>ありません<rt>ありません</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "This isn't a thing.",
+          "html": "<span class=\"tok tok-en\">This</span> <span class=\"tok tok-en\">isn&#x27;t</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">thing</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:03.876",
       "end": "00:00:04.856",
-      "text": "是半个饭团"
+      "start_seconds": 3.876,
+      "end_seconds": 4.856,
+      "text": "是半个饭团",
+      "html": "<span class=\"tok tok-kanji\">是半个饭团</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "是半个饭团",
+          "html": "<span class=\"tok tok-zh\">是半个饭团</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "半分[はんぶん]のおにぎりだ",
+          "html": "<ruby>半分<rt>はんぶん</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>おにぎり<rt>おにぎり</rt></ruby><ruby>だ<rt>だ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "It's half a rice ball.",
+          "html": "<span class=\"tok tok-en\">It&#x27;s</span> <span class=\"tok tok-en\">half</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">rice</span> <span class=\"tok tok-en\">ball</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:04.856",
       "end": "00:00:05.916",
-      "text": "半个也算"
+      "start_seconds": 4.856,
+      "end_seconds": 5.916,
+      "text": "半个也算",
+      "html": "<span class=\"tok tok-kanji\">半个也算</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "半个也算",
+          "html": "<span class=\"tok tok-zh\">半个也算</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "半分[はんぶん]も数える[かぞえる]",
+          "html": "<ruby>半分<rt>はんぶん</rt></ruby><ruby>も<rt>も</rt></ruby><ruby>数える<rt>かぞえる</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Half counts too.",
+          "html": "<span class=\"tok tok-en\">Half</span> <span class=\"tok tok-en\">counts</span> <span class=\"tok tok-en\">too</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:05.916",
       "end": "00:00:07.876",
-      "text": "我去抓"
+      "start_seconds": 5.916,
+      "end_seconds": 7.876,
+      "text": "我去抓",
+      "html": "<span class=\"tok tok-kanji\">我去抓</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我去抓",
+          "html": "<span class=\"tok tok-zh\">我去抓</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "私[わたし]が捕[つか]まえる",
+          "html": "<ruby>私<rt>わたし</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>捕まえる<rt>つかまえる</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I'll go catch it.",
+          "html": "<span class=\"tok tok-en\">I&#x27;ll</span> <span class=\"tok tok-en\">go</span> <span class=\"tok tok-en\">catch</span> <span class=\"tok tok-en\">it</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:07.876",
       "end": "00:00:09.936",
-      "text": "不要用竹子清洁晶圆工厂"
+      "start_seconds": 7.876,
+      "end_seconds": 9.936,
+      "text": "不要用竹子清洁晶圆工厂",
+      "html": "<span class=\"tok tok-kanji\">不要用竹子清洁晶圆工厂</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "不要用竹子清洁晶圆工厂",
+          "html": "<span class=\"tok tok-zh\">不要用竹子清洁晶圆工厂</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "竹[たけ]でウェーハ工場[うぇーはこうじょう]を掃除[そうじ]するな",
+          "html": "<ruby>竹<rt>たけ</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>ウェーハ工場<rt>うぇーはこうじょう</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>掃除<rt>そうじ</rt></ruby><ruby>する<rt>する</rt></ruby><ruby>な<rt>な</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Do not clean the wafer fab with bamboo.",
+          "html": "<span class=\"tok tok-en\">Do</span> <span class=\"tok tok-en\">not</span> <span class=\"tok tok-en\">clean</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">wafer</span> <span class=\"tok tok-en\">fab</span> <span class=\"tok tok-en\">with</span> <span class=\"tok tok-en\">bamboo</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:09.936",
       "end": "00:00:13.636",
-      "text": "它连隐藏关卡都找到了？"
+      "start_seconds": 9.936,
+      "end_seconds": 13.636,
+      "text": "它连隐藏关卡都找到了？",
+      "html": "<span class=\"tok tok-kanji\">它连隐藏关卡都找到了</span><span class=\"tok tok-punc\">？</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "它连隐藏关卡都找到了？",
+          "html": "<span class=\"tok tok-zh\">它连隐藏关卡都找到了</span><span class=\"tok tok-punc\">？</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "隠し[かくし]ステージまで見つけた[みつけた]のか？",
+          "html": "<ruby>隠し<rt><ruby>か<rt>か</rt></ruby>くし</rt></ruby><ruby>ステージ<rt>すてーじ</rt></ruby><ruby>まで<rt>まで</rt></ruby><ruby>見つけた<rt>みつけた</rt></ruby><ruby>の<rt>の</rt></ruby>か<ruby>？<rt>？</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "It even found the hidden level?",
+          "html": "<span class=\"tok tok-en\">It</span> <span class=\"tok tok-en\">even</span> <span class=\"tok tok-en\">found</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">hidden</span> <span class=\"tok tok-en\">level</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:13.636",
       "end": "00:00:15.076",
-      "text": "这里可以吃"
+      "start_seconds": 13.636,
+      "end_seconds": 15.076,
+      "text": "这里可以吃",
+      "html": "<span class=\"tok tok-kanji\">这里可以吃</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "这里可以吃",
+          "html": "<span class=\"tok tok-zh\">这里可以吃</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ここで食べ[たべ]られます",
+          "html": "<ruby>ここ<rt>ここ</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>食べ<rt>たべ</rt></ruby><ruby>られます<rt>られます</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "You can eat here.",
+          "html": "<span class=\"tok tok-en\">You</span> <span class=\"tok tok-en\">can</span> <span class=\"tok tok-en\">eat</span> <span class=\"tok tok-en\">here</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     }
   ]
 }

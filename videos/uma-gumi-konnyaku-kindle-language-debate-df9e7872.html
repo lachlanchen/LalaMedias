@@ -15,16 +15,16 @@
   <main class="video-page">
     <section class="hero">
       <video controls preload="metadata" poster="../media/thumbs/uma-gumi-konnyaku-kindle-language-debate-df9e7872.jpg" src="https://github.com/lachlanchen/LalaMedias/releases/download/media-v1/uma-gumi-konnyaku-kindle-language-debate-df9e7872.mp4"></video>
+      <section class="caption-stage" aria-label="Timed multilingual subtitles">
+        <div class="current-caption" id="current-caption" aria-live="polite">
+          <p class="caption-empty">No LazyEdit timed subtitle sidecar was matched for this video yet.</p>
+        </div>
+      </section>
       <div class="meta">
         <h1>Uma Gumi Konnyaku Kindle Language Debate</h1>
         <p>Uma Gumi Konnyaku Kindle Language Debate is a generated LALACHAN story video. The page keeps the video clean and renders matched text subtitles below the player when available.</p>
         <p>31.4s · 960x720 · 23.6 MB · category <code>lalachan</code> · SHA-256 <code>df9e78722b24</code></p>
       </div>
-    </section>
-    <section>
-      <h2>Transcript</h2>
-      <p class="hint">Rendered below the video from matched LazyEdit subtitle sidecars. Ruby, furigana, and pinyin markup is preserved when present in the subtitle file.</p>
-      <div class="transcript"><p class="empty">No LazyEdit subtitle sidecar was matched for this video yet.</p></div>
     </section>
     <details>
       <summary>Source Files</summary>
@@ -35,5 +35,69 @@
       <ul><li>No subtitle sidecar found.</li></ul>
     </details>
   </main>
+  <script id="timed-text-data" type="application/json">{"slug": "uma-gumi-konnyaku-kindle-language-debate-df9e7872", "entries": []}</script>
+  <script>
+    (() => {
+      const video = document.querySelector("video");
+      const panel = document.getElementById("current-caption");
+      const dataEl = document.getElementById("timed-text-data");
+      if (!video || !panel || !dataEl) return;
+      let data = {};
+      try { data = JSON.parse(dataEl.textContent || "{}"); } catch (_) { data = { entries: [] }; }
+      const entries = Array.isArray(data.entries) ? data.entries : [];
+      const order = [
+        ["ja", "JP"],
+        ["en", "EN"],
+        ["zh", "ZH"],
+      ];
+      let currentIndex = -2;
+
+      function lineForTime(time) {
+        for (let i = 0; i < entries.length; i++) {
+          const entry = entries[i];
+          const start = Number(entry.start_seconds);
+          const end = Number(entry.end_seconds);
+          if (Number.isFinite(start) && Number.isFinite(end) && time >= start && time < end) return i;
+        }
+        return -1;
+      }
+
+      function renderEmpty(message) {
+        panel.innerHTML = `<p class="caption-empty">${message}</p>`;
+      }
+
+      function renderEntry(entry) {
+        const rows = [];
+        const tracks = entry.tracks || {};
+        for (const [lang, shortLabel] of order) {
+          if (!tracks[lang]) continue;
+          rows.push(`<div class="caption-row caption-${lang}"><span class="caption-label">${shortLabel}</span><div class="caption-text">${tracks[lang].html || tracks[lang].text || ""}</div></div>`);
+        }
+        if (!rows.length && (entry.html || entry.text)) {
+          rows.push(`<div class="caption-row caption-source"><span class="caption-label">LINE</span><div class="caption-text">${entry.html || entry.text}</div></div>`);
+        }
+        if (!rows.length) {
+          renderEmpty("No timed text for this moment.");
+          return;
+        }
+        const time = `${entry.start || ""} - ${entry.end || ""}`;
+        panel.innerHTML = `<div class="caption-time">${time}</div>${rows.join("")}`;
+      }
+
+      function updateCaption() {
+        if (!entries.length) return;
+        const idx = lineForTime(video.currentTime || 0);
+        if (idx === currentIndex) return;
+        currentIndex = idx;
+        if (idx < 0) renderEmpty(" ");
+        else renderEntry(entries[idx]);
+      }
+
+      video.addEventListener("timeupdate", updateCaption);
+      video.addEventListener("seeked", updateCaption);
+      video.addEventListener("play", updateCaption);
+      video.addEventListener("loadedmetadata", updateCaption);
+    })();
+  </script>
 </body>
 </html>

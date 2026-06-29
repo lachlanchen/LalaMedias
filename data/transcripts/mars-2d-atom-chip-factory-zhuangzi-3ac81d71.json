@@ -10,42 +10,122 @@
     {
       "start": "00:00:00.840",
       "end": "00:00:02.400",
-      "text": "不要把二维材料当海苔"
+      "start_seconds": 0.84,
+      "end_seconds": 2.4,
+      "text": "不要把二维材料当海苔",
+      "html": "<span class=\"tok tok-kanji\">不要把二维材料当海苔</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Don't treat two-dimensional materials as nori.",
+          "html": "<span class=\"tok tok-en\">Don&#x27;t</span> <span class=\"tok tok-en\">treat</span> <span class=\"tok tok-en\">two</span><span class=\"tok tok-punc\">-</span><span class=\"tok tok-en\">dimensional</span> <span class=\"tok tok-en\">materials</span> <span class=\"tok tok-en\">as</span> <span class=\"tok tok-en\">nori</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:02.400",
       "end": "00:00:03.880",
-      "text": "它真的不像海苔吗？"
+      "start_seconds": 2.4,
+      "end_seconds": 3.88,
+      "text": "它真的不像海苔吗？",
+      "html": "<span class=\"tok tok-kanji\">它真的不像海苔吗</span><span class=\"tok tok-punc\">？</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Does it really not look like seaweed?",
+          "html": "<span class=\"tok tok-en\">Does</span> <span class=\"tok tok-en\">it</span> <span class=\"tok tok-en\">really</span> <span class=\"tok tok-en\">not</span> <span class=\"tok tok-en\">look</span> <span class=\"tok tok-en\">like</span> <span class=\"tok tok-en\">seaweed</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:03.880",
       "end": "00:00:05.740",
-      "text": "火星酸性微尘让良率下降"
+      "start_seconds": 3.88,
+      "end_seconds": 5.74,
+      "text": "火星酸性微尘让良率下降",
+      "html": "<span class=\"tok tok-kanji\">火星酸性微尘让良率下降</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Mars acidic dust reduces yield.",
+          "html": "<span class=\"tok tok-en\">Mars</span> <span class=\"tok tok-en\">acidic</span> <span class=\"tok tok-en\">dust</span> <span class=\"tok tok-en\">reduces</span> <span class=\"tok tok-en\">yield</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:05.740",
       "end": "00:00:06.620",
-      "text": "杯子生气了！"
+      "start_seconds": 5.74,
+      "end_seconds": 6.62,
+      "text": "杯子生气了！",
+      "html": "<span class=\"tok tok-kanji\">杯子生气了</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "The cup is angry!",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">cup</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">angry</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:06.620",
       "end": "00:00:09.040",
-      "text": "保护边缘，不是只追求更薄。"
+      "start_seconds": 6.62,
+      "end_seconds": 9.04,
+      "text": "保护边缘，不是只追求更薄。",
+      "html": "<span class=\"tok tok-kanji\">保护边缘</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">不是只追求更薄</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Protect the edges, not just pursue thinness.",
+          "html": "<span class=\"tok tok-en\">Protect</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">edges</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">not</span> <span class=\"tok tok-en\">just</span> <span class=\"tok tok-en\">pursue</span> <span class=\"tok tok-en\">thinness</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:09.040",
       "end": "00:00:12.620",
-      "text": "这工厂以前醒过。"
+      "start_seconds": 9.04,
+      "end_seconds": 12.62,
+      "text": "这工厂以前醒过。",
+      "html": "<span class=\"tok tok-kanji\">这工厂以前醒过</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "This factory has been active before.",
+          "html": "<span class=\"tok tok-en\">This</span> <span class=\"tok tok-en\">factory</span> <span class=\"tok tok-en\">has</span> <span class=\"tok tok-en\">been</span> <span class=\"tok tok-en\">active</span> <span class=\"tok tok-en\">before</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:12.620",
       "end": "00:00:13.600",
-      "text": "良率升高了，"
+      "start_seconds": 12.62,
+      "end_seconds": 13.6,
+      "text": "良率升高了，",
+      "html": "<span class=\"tok tok-kanji\">良率升高了</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "The yield has increased,",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">yield</span> <span class=\"tok tok-en\">has</span> <span class=\"tok tok-en\">increased</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:13.600",
       "end": "00:00:15.000",
-      "text": "可以 yield 一点零食吗？"
+      "start_seconds": 13.6,
+      "end_seconds": 15.0,
+      "text": "可以 yield 一点零食吗？",
+      "html": "<span class=\"tok tok-kanji\">可以</span> <span class=\"tok tok-en\">yield</span> <span class=\"tok tok-kanji\">一点零食吗</span><span class=\"tok tok-punc\">？</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Can we have some snacks?",
+          "html": "<span class=\"tok tok-en\">Can</span> <span class=\"tok tok-en\">we</span> <span class=\"tok tok-en\">have</span> <span class=\"tok tok-en\">some</span> <span class=\"tok tok-en\">snacks</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     }
   ]
 }

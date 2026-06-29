@@ -10,47 +10,227 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:01.320",
-      "text": "走大的"
+      "start_seconds": 0.0,
+      "end_seconds": 1.32,
+      "text": "走大的",
+      "html": "<span class=\"tok tok-kanji\">走大的</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "走大的",
+          "html": "<span class=\"tok tok-zh\">走大的</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "大き[おおき]い道[みち]を行[い]く",
+          "html": "<ruby>大きい<rt>おおきい</rt></ruby><ruby>道<rt>みち</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>行く<rt>いく</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Take the big one",
+          "html": "<span class=\"tok tok-en\">Take</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">big</span> <span class=\"tok tok-en\">one</span>"
+        }
+      }
     },
     {
       "start": "00:00:01.320",
       "end": "00:00:02.640",
-      "text": "看起来比较像主角会走的路"
+      "start_seconds": 1.32,
+      "end_seconds": 2.64,
+      "text": "看起来比较像主角会走的路",
+      "html": "<span class=\"tok tok-kanji\">看起来比较像主角会走的路</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "看起来比较像主角会走的路",
+          "html": "<span class=\"tok tok-zh\">看起来比较像主角会走的路</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "主人公[しゅじんこう]が歩く[あるく]道[みち]のように見える[みえる]",
+          "html": "<ruby>主人公<rt>しゅじんこう</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>歩く<rt>あるく</rt></ruby><ruby>道<rt>みち</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>よう<rt>よう</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>見える<rt>みえる</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "It looks more like the path a main character would take.",
+          "html": "<span class=\"tok tok-en\">It</span> <span class=\"tok tok-en\">looks</span> <span class=\"tok tok-en\">more</span> <span class=\"tok tok-en\">like</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">path</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">main</span> <span class=\"tok tok-en\">character</span> <span class=\"tok tok-en\">would</span> <span class=\"tok tok-en\">take</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:02.640",
       "end": "00:00:03.610",
-      "text": "主角也会摔跤"
+      "start_seconds": 2.64,
+      "end_seconds": 3.61,
+      "text": "主角也会摔跤",
+      "html": "<span class=\"tok tok-kanji\">主角也会摔跤</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "主角也会摔跤",
+          "html": "<span class=\"tok tok-zh\">主角也会摔跤</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "主人公[しゅじんこう]も転ぶ[ころぶ]",
+          "html": "<ruby>主人公<rt>しゅじんこう</rt></ruby><ruby>も<rt>も</rt></ruby><ruby>転ぶ<rt>ころぶ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "The protagonist also stumbles.",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">protagonist</span> <span class=\"tok tok-en\">also</span> <span class=\"tok tok-en\">stumbles</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:03.610",
       "end": "00:00:04.580",
-      "text": "慢点"
+      "start_seconds": 3.61,
+      "end_seconds": 4.58,
+      "text": "慢点",
+      "html": "<span class=\"tok tok-kanji\">慢点</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "慢点",
+          "html": "<span class=\"tok tok-zh\">慢点</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ゆっくり",
+          "html": "<ruby>ゆっくり<rt>ゆっくり</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Slow down.",
+          "html": "<span class=\"tok tok-en\">Slow</span> <span class=\"tok tok-en\">down</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:04.580",
       "end": "00:00:06.080",
-      "text": "它喜欢我！"
+      "start_seconds": 4.58,
+      "end_seconds": 6.08,
+      "text": "它喜欢我！",
+      "html": "<span class=\"tok tok-kanji\">它喜欢我</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "它喜欢我！",
+          "html": "<span class=\"tok tok-zh\">它喜欢我</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "私[わたし]のことが好き[すき]！",
+          "html": "<ruby>私<rt>わたし</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>こと<rt>こと</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>好き<rt>すき</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "It likes me!",
+          "html": "<span class=\"tok tok-en\">It</span> <span class=\"tok tok-en\">likes</span> <span class=\"tok tok-en\">me</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:06.080",
       "end": "00:00:07.720",
-      "text": "它喜欢你手上的饼干屑。"
+      "start_seconds": 6.08,
+      "end_seconds": 7.72,
+      "text": "它喜欢你手上的饼干屑。",
+      "html": "<span class=\"tok tok-kanji\">它喜欢你手上的饼干屑</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "它喜欢你手上的饼干屑。",
+          "html": "<span class=\"tok tok-zh\">它喜欢你手上的饼干屑</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "それはあなたの手[て]の上[うえ]のクッキーの屑[くず]が好き[すき]です。",
+          "html": "<ruby>それ<rt>それ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>あなた<rt>あなた</rt></ruby><ruby><ruby><ruby><ruby>の<rt>の</rt></ruby><rt>の</rt></ruby><rt>の</rt></ruby><rt>の</rt></ruby><ruby>手<rt>て</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>の<ruby>クッキー<rt>くっきー</rt></ruby>の<ruby>屑<rt>くず</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>好き<rt>すき</rt></ruby><ruby>です<rt>です</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "It likes the cookie crumbs on your hand.",
+          "html": "<span class=\"tok tok-en\">It</span> <span class=\"tok tok-en\">likes</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">cookie</span> <span class=\"tok tok-en\">crumbs</span> <span class=\"tok tok-en\">on</span> <span class=\"tok tok-en\">your</span> <span class=\"tok tok-en\">hand</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:07.720",
       "end": "00:00:11.600",
-      "text": "我的橙汁锁在屋里了！"
+      "start_seconds": 7.72,
+      "end_seconds": 11.6,
+      "text": "我的橙汁锁在屋里了！",
+      "html": "<span class=\"tok tok-kanji\">我的橙汁锁在屋里了</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我的橙汁锁在屋里了！",
+          "html": "<span class=\"tok tok-zh\">我的橙汁锁在屋里了</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "オレンジジュースを<ruby>部屋<rt>へや</rt></ruby>に<ruby>閉じ込め<rt>とじこめ</rt></ruby>ちゃった！",
+          "html": "<ruby>オレンジジュース<rt>おれんじじゅうす</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>部屋<rt>へや</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>閉じ込め<rt>とじこめ</rt></ruby><ruby>ちゃった<rt>ちゃった</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "My orange juice is locked in the room!",
+          "html": "<span class=\"tok tok-en\">My</span> <span class=\"tok tok-en\">orange</span> <span class=\"tok tok-en\">juice</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">locked</span> <span class=\"tok tok-en\">in</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">room</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:11.600",
       "end": "00:00:13.200",
-      "text": "八分满刚刚好"
+      "start_seconds": 11.6,
+      "end_seconds": 13.2,
+      "text": "八分满刚刚好",
+      "html": "<span class=\"tok tok-kanji\">八分满刚刚好</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "八分满刚刚好",
+          "html": "<span class=\"tok tok-zh\">八分满刚刚好</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "八分目[はちぶんめ]でちょうどいい",
+          "html": "<ruby>八分目<rt>はちぶんめ</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>ちょうど<rt>ちょうど</rt></ruby><ruby>いい<rt>いい</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Eighty percent full is just right.",
+          "html": "<span class=\"tok tok-en\">Eighty</span> <span class=\"tok tok-en\">percent</span> <span class=\"tok tok-en\">full</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">just</span> <span class=\"tok tok-en\">right</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:13.200",
       "end": "00:00:14.800",
-      "text": "剩下两分留给惊喜"
+      "start_seconds": 13.2,
+      "end_seconds": 14.8,
+      "text": "剩下两分留给惊喜",
+      "html": "<span class=\"tok tok-kanji\">剩下两分留给惊喜</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "剩下两分留给惊喜",
+          "html": "<span class=\"tok tok-zh\">剩下两分留给惊喜</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "残り[のこり]二分[にぶん]は驚き[おどろき]に",
+          "html": "<ruby>残り<rt>のこり</rt></ruby><ruby>二分<rt><ruby>に<rt>に</rt></ruby>ぶん</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>驚き<rt>おどろき</rt></ruby>に"
+        },
+        "en": {
+          "label": "English",
+          "text": "The remaining two parts are for a surprise.",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">remaining</span> <span class=\"tok tok-en\">two</span> <span class=\"tok tok-en\">parts</span> <span class=\"tok tok-en\">are</span> <span class=\"tok tok-en\">for</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">surprise</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     }
   ]
 }

@@ -10,72 +10,352 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:01.380",
-      "text": "会不会是很多金币？"
+      "start_seconds": 0.0,
+      "end_seconds": 1.38,
+      "text": "会不会是很多金币？",
+      "html": "<span class=\"tok tok-kanji\">会不会是很多金币</span><span class=\"tok tok-punc\">？</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "会不会是很多金币？",
+          "html": "<span class=\"tok tok-zh\">会不会是很多金币</span><span class=\"tok tok-punc\">？</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "たくさんの金貨[きんか]でしょうか？",
+          "html": "<ruby>たくさん<rt>たくさん</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>金貨<rt>きんか</rt></ruby><ruby>でしょうか<rt>でしょうか</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Could it be a lot of gold coins?",
+          "html": "<span class=\"tok tok-en\">Could</span> <span class=\"tok tok-en\">it</span> <span class=\"tok tok-en\">be</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">lot</span> <span class=\"tok tok-en\">of</span> <span class=\"tok tok-en\">gold</span> <span class=\"tok tok-en\">coins</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:01.380",
       "end": "00:00:02.540",
-      "text": "先别撬地板，"
+      "start_seconds": 1.38,
+      "end_seconds": 2.54,
+      "text": "先别撬地板，",
+      "html": "<span class=\"tok tok-kanji\">先别撬地板</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "先别撬地板，",
+          "html": "<span class=\"tok tok-zh\">先别撬地板</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "先[さき]に床[ゆか]をこじ開[あ]けるな、",
+          "html": "<ruby>先に<rt>さきに</rt></ruby><ruby>床<rt>ゆか</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>こじ開ける<rt>こじあける</rt></ruby><ruby>な<rt>な</rt></ruby><ruby>、<rt>、</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Don't pry the floor yet.",
+          "html": "<span class=\"tok tok-en\">Don&#x27;t</span> <span class=\"tok tok-en\">pry</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">floor</span> <span class=\"tok tok-en\">yet</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:02.540",
       "end": "00:00:04.000",
-      "text": "我们要先确认安全。"
+      "start_seconds": 2.54,
+      "end_seconds": 4.0,
+      "text": "我们要先确认安全。",
+      "html": "<span class=\"tok tok-kanji\">我们要先确认安全</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我们要先确认安全。",
+          "html": "<span class=\"tok tok-zh\">我们要先确认安全</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "先[さき]に安全[あんぜん]を確認[かくにん]する必要[ひつよう]がある。",
+          "html": "<ruby>先<rt>さき</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>安全<rt>あんぜん</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>確認<rt>かくにん</rt></ruby><ruby>する<rt>する</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>ある<rt>ある</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "We need to confirm safety first.",
+          "html": "<span class=\"tok tok-en\">We</span> <span class=\"tok tok-en\">need</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">confirm</span> <span class=\"tok tok-en\">safety</span> <span class=\"tok tok-en\">first</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:04.000",
       "end": "00:00:05.960",
-      "text": "不是电线，也不是火。"
+      "start_seconds": 4.0,
+      "end_seconds": 5.96,
+      "text": "不是电线，也不是火。",
+      "html": "<span class=\"tok tok-kanji\">不是电线</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">也不是火</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "不是电线，也不是火。",
+          "html": "<span class=\"tok tok-zh\">不是电线</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">也不是火</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "電線[でんせん]でもなく、火[ひ]でもない。",
+          "html": "<ruby>電線<rt>でんせん</rt></ruby><ruby><ruby>でも<rt>でも</rt></ruby><rt>でも</rt></ruby><ruby>なく<rt>なく</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>火<rt>ひ</rt></ruby>でも<ruby>ない<rt>ない</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "It's not an electrical wire, and it's not fire.",
+          "html": "<span class=\"tok tok-en\">It&#x27;s</span> <span class=\"tok tok-en\">not</span> <span class=\"tok tok-en\">an</span> <span class=\"tok tok-en\">electrical</span> <span class=\"tok tok-en\">wire</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">and</span> <span class=\"tok tok-en\">it&#x27;s</span> <span class=\"tok tok-en\">not</span> <span class=\"tok tok-en\">fire</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:05.960",
       "end": "00:00:08.320",
-      "text": "下面有一个金属盒子。"
+      "start_seconds": 5.96,
+      "end_seconds": 8.32,
+      "text": "下面有一个金属盒子。",
+      "html": "<span class=\"tok tok-kanji\">下面有一个金属盒子</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "下面有一个金属盒子。",
+          "html": "<span class=\"tok tok-zh\">下面有一个金属盒子</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "下[した]に金属[きんぞく]の箱[はこ]があります。",
+          "html": "<ruby>下<rt>した</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>金属<rt>きんぞく</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>箱<rt>はこ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>あります<rt>あります</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "There is a metal box below.",
+          "html": "<span class=\"tok tok-en\">There</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">metal</span> <span class=\"tok tok-en\">box</span> <span class=\"tok tok-en\">below</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:08.320",
       "end": "00:00:13.960",
-      "text": "这是爷爷留下来修餐厅的钱。"
+      "start_seconds": 8.32,
+      "end_seconds": 13.96,
+      "text": "这是爷爷留下来修餐厅的钱。",
+      "html": "<span class=\"tok tok-kanji\">这是爷爷留下来修餐厅的钱</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "这是爷爷留下来修餐厅的钱。",
+          "html": "<span class=\"tok tok-zh\">这是爷爷留下来修餐厅的钱</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "これはおじいちゃんがレストランを直す[なおす]ために残した[のこした]お金[おかね]だ。",
+          "html": "<ruby>これ<rt>これ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>おじいちゃん<rt>おじいちゃん</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>レストラン<rt>れすとらん</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>直す<rt>なおす</rt></ruby><ruby>ため<rt>ため</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>残した<rt>のこした</rt></ruby><ruby>お金<rt>おかね</rt></ruby><ruby>だ<rt>だ</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "This is the money Grandpa left to repair the restaurant.",
+          "html": "<span class=\"tok tok-en\">This</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">money</span> <span class=\"tok tok-en\">Grandpa</span> <span class=\"tok tok-en\">left</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">repair</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">restaurant</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:13.960",
       "end": "00:00:16.100",
-      "text": "那这些金币应该用来修餐厅，"
+      "start_seconds": 13.96,
+      "end_seconds": 16.1,
+      "text": "那这些金币应该用来修餐厅，",
+      "html": "<span class=\"tok tok-kanji\">那这些金币应该用来修餐厅</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "那这些金币应该用来修餐厅，",
+          "html": "<span class=\"tok tok-zh\">那这些金币应该用来修餐厅</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "では、これらの金貨[きんか]はレストラン[れすとらん]を修理[しゅうり]するために使う[つかう]べきです、",
+          "html": "<ruby>で<ruby>は<rt>は</rt></ruby><rt>では</rt></ruby><ruby><ruby>、<rt>、</rt></ruby><rt>、</rt></ruby><ruby>これら<rt>これら</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>金貨<rt>きんか</rt></ruby>は<ruby>レストラン<rt>れすとらん</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>修理<rt>しゅうり</rt></ruby><ruby>する<rt>する</rt></ruby><ruby>ため<rt>ため</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>使う<rt>つかう</rt></ruby><ruby>べき<rt>べき</rt></ruby><ruby>です<rt>です</rt></ruby>、"
+        },
+        "en": {
+          "label": "English",
+          "text": "Then these gold coins should be used to repair the restaurant,",
+          "html": "<span class=\"tok tok-en\">Then</span> <span class=\"tok tok-en\">these</span> <span class=\"tok tok-en\">gold</span> <span class=\"tok tok-en\">coins</span> <span class=\"tok tok-en\">should</span> <span class=\"tok tok-en\">be</span> <span class=\"tok tok-en\">used</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">repair</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">restaurant</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:16.100",
       "end": "00:00:17.340",
-      "text": "不应该被我们拿走。"
+      "start_seconds": 16.1,
+      "end_seconds": 17.34,
+      "text": "不应该被我们拿走。",
+      "html": "<span class=\"tok tok-kanji\">不应该被我们拿走</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "不应该被我们拿走。",
+          "html": "<span class=\"tok tok-zh\">不应该被我们拿走</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "私たち[わたしたち]が取る[とる]べきではない。",
+          "html": "<ruby>私たち<rt>わたしたち</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>取る<rt>とる</rt></ruby><ruby>べき<rt>べき</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>ない<rt>ない</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "It shouldn't be taken by us.",
+          "html": "<span class=\"tok tok-en\">It</span> <span class=\"tok tok-en\">shouldn&#x27;t</span> <span class=\"tok tok-en\">be</span> <span class=\"tok tok-en\">taken</span> <span class=\"tok tok-en\">by</span> <span class=\"tok tok-en\">us</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:17.340",
       "end": "00:00:19.700",
-      "text": "修好以后，我们可以先吃一碗咖喱饭吗？"
+      "start_seconds": 17.34,
+      "end_seconds": 19.7,
+      "text": "修好以后，我们可以先吃一碗咖喱饭吗？",
+      "html": "<span class=\"tok tok-kanji\">修好以后</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">我们可以先吃一碗咖喱饭吗</span><span class=\"tok tok-punc\">？</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "修好以后，我们可以先吃一碗咖喱饭吗？",
+          "html": "<span class=\"tok tok-zh\">修好以后</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">我们可以先吃一碗咖喱饭吗</span><span class=\"tok tok-punc\">？</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "修理[しゅうり]が終わったら[おわったら]、先に[さきに]カレーライスを食[た]べてもいいですか？",
+          "html": "<ruby>修理<rt>しゅうり</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>終わったら<rt>おわったら</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>先に<rt>さきに</rt></ruby><ruby>カレーライス<rt>カレーライス</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>食べて<rt>たべて</rt></ruby><ruby>も<rt>も</rt></ruby><ruby>いい<rt>いい</rt></ruby><ruby>です<rt>です</rt></ruby><ruby>か<rt>か</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "After we fix it, can we eat a bowl of curry rice first?",
+          "html": "<span class=\"tok tok-en\">After</span> <span class=\"tok tok-en\">we</span> <span class=\"tok tok-en\">fix</span> <span class=\"tok tok-en\">it</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">can</span> <span class=\"tok tok-en\">we</span> <span class=\"tok tok-en\">eat</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">bowl</span> <span class=\"tok tok-en\">of</span> <span class=\"tok tok-en\">curry</span> <span class=\"tok tok-en\">rice</span> <span class=\"tok tok-en\">first</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:19.700",
       "end": "00:00:20.540",
-      "text": "当然可以，"
+      "start_seconds": 19.7,
+      "end_seconds": 20.54,
+      "text": "当然可以，",
+      "html": "<span class=\"tok tok-kanji\">当然可以</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "当然可以，",
+          "html": "<span class=\"tok tok-zh\">当然可以</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "もちろんです、",
+          "html": "<ruby>もちろん<rt>もちろん</rt></ruby><ruby>です<rt>です</rt></ruby><ruby>、<rt>、</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Of course,",
+          "html": "<span class=\"tok tok-en\">Of</span> <span class=\"tok tok-en\">course</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:20.540",
       "end": "00:00:22.240",
-      "text": "你已经盯着锅看很久了。"
+      "start_seconds": 20.54,
+      "end_seconds": 22.24,
+      "text": "你已经盯着锅看很久了。",
+      "html": "<span class=\"tok tok-kanji\">你已经盯着锅看很久了</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "你已经盯着锅看很久了。",
+          "html": "<span class=\"tok tok-zh\">你已经盯着锅看很久了</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "あなたはもうずっと鍋[なべ]を見つめて[みつめて]いるね。",
+          "html": "<ruby>あなた<rt>あなた</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>もう<rt>もう</rt></ruby><ruby>ずっと<rt>ずっと</rt></ruby><ruby>鍋<rt>なべ</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>見つめて<rt>みつめて</rt></ruby><ruby>いる<rt>いる</rt></ruby><ruby>ね<rt>ね</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "You've been staring at the pot for a long time.",
+          "html": "<span class=\"tok tok-en\">You&#x27;ve</span> <span class=\"tok tok-en\">been</span> <span class=\"tok tok-en\">staring</span> <span class=\"tok tok-en\">at</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">pot</span> <span class=\"tok tok-en\">for</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">long</span> <span class=\"tok tok-en\">time</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:22.240",
       "end": "00:00:25.360",
-      "text": "今天找到的金子在盒子里，"
+      "start_seconds": 22.24,
+      "end_seconds": 25.36,
+      "text": "今天找到的金子在盒子里，",
+      "html": "<span class=\"tok tok-kanji\">今天找到的金子在盒子里</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "今天找到的金子在盒子里，",
+          "html": "<span class=\"tok tok-zh\">今天找到的金子在盒子里</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "今日[きょう]見[み]つけた金[きん]は箱[はこ]の中[なか]に、",
+          "html": "<ruby>今日<rt>きょう</rt></ruby><ruby>見つけた<rt>みつけた</rt></ruby><ruby>金<rt>きん</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>箱<rt>はこ</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>中<rt>なか</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>、<rt>、</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Today's found gold is in the box,",
+          "html": "<span class=\"tok tok-en\">Today&#x27;s</span> <span class=\"tok tok-en\">found</span> <span class=\"tok tok-en\">gold</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">in</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">box</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:25.360",
       "end": "00:00:27.100",
-      "text": "最香的金色在碗里。"
+      "start_seconds": 25.36,
+      "end_seconds": 27.1,
+      "text": "最香的金色在碗里。",
+      "html": "<span class=\"tok tok-kanji\">最香的金色在碗里</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "最香的金色在碗里。",
+          "html": "<span class=\"tok tok-zh\">最香的金色在碗里</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "一番[いちばん]香[こう]ばしい金色[きんいろ]が碗[わん]の中[なか]にある。",
+          "html": "<ruby>一番<rt>いちばん</rt></ruby><ruby>香ばしい<rt>こうばしい</rt></ruby><ruby>金色<rt>きんいろ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>碗<rt>わん</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>中<rt>なか</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>ある<rt>ある</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "The most fragrant gold is in the bowl.",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">most</span> <span class=\"tok tok-en\">fragrant</span> <span class=\"tok tok-en\">gold</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">in</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">bowl</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:27.100",
       "end": "00:00:30.120",
-      "text": "那我先保护这碗金色咖喱！"
+      "start_seconds": 27.1,
+      "end_seconds": 30.12,
+      "text": "那我先保护这碗金色咖喱！",
+      "html": "<span class=\"tok tok-kanji\">那我先保护这碗金色咖喱</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "那我先保护这碗金色咖喱！",
+          "html": "<span class=\"tok tok-zh\">那我先保护这碗金色咖喱</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "じゃあ、僕[ぼく]が先に[さきに]この金色[きんいろ]のカレー[かれー]を守る[まもる]よ！",
+          "html": "<ruby>じゃあ<rt>じゃあ</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>僕<rt>ぼく</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>先に<rt>さきに</rt></ruby><ruby>こ<ruby>の<rt>の</rt></ruby><rt>この</rt></ruby><ruby>金色<rt>きんいろ</rt></ruby>の<ruby>カレー<rt>かれー</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>守る<rt>まもる</rt></ruby><ruby>よ<rt>よ</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Then I'll protect this bowl of golden curry first!",
+          "html": "<span class=\"tok tok-en\">Then</span> <span class=\"tok tok-en\">I&#x27;ll</span> <span class=\"tok tok-en\">protect</span> <span class=\"tok tok-en\">this</span> <span class=\"tok tok-en\">bowl</span> <span class=\"tok tok-en\">of</span> <span class=\"tok tok-en\">golden</span> <span class=\"tok tok-en\">curry</span> <span class=\"tok tok-en\">first</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     }
   ]
 }

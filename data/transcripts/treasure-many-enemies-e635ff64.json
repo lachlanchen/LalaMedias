@@ -10,27 +10,127 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:02.440",
-      "text": "云海钟楼的冒险开始"
+      "start_seconds": 0.0,
+      "end_seconds": 2.44,
+      "text": "云海钟楼的冒险开始",
+      "html": "<span class=\"tok tok-kanji\">云海钟楼的冒险开始</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "云海钟楼的冒险开始",
+          "html": "<span class=\"tok tok-zh\">云海钟楼的冒险开始</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "雲海[うんかい]鐘楼[しょうろう]の冒険[ぼうけん]開始[かいし]",
+          "html": "<ruby>雲海<rt>うんかい</rt></ruby><ruby>鐘楼<rt>しょうろう</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>冒険<rt>ぼうけん</rt></ruby><ruby>開始<rt>かいし</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "The adventure at the Cloud Sea Bell Tower begins.",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">adventure</span> <span class=\"tok tok-en\">at</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">Cloud</span> <span class=\"tok tok-en\">Sea</span> <span class=\"tok tok-en\">Bell</span> <span class=\"tok tok-en\">Tower</span> <span class=\"tok tok-en\">begins</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:02.440",
       "end": "00:00:07.800",
-      "text": "如果是金币，我要买一根不会丢的竹子！"
+      "start_seconds": 2.44,
+      "end_seconds": 7.8,
+      "text": "如果是金币，我要买一根不会丢的竹子！",
+      "html": "<span class=\"tok tok-kanji\">如果是金币</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">我要买一根不会丢的竹子</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "如果是金币，我要买一根不会丢的竹子！",
+          "html": "<span class=\"tok tok-zh\">如果是金币</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">我要买一根不会丢的竹子</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "金貨[きんか]、なくならない竹[たけ]を一本[いっぽん]買いたい[かいたい]！",
+          "html": "<ruby>金貨<rt>きんか</rt></ruby><ruby>なら<rt>なら</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>なくならない<rt>なくならない</rt></ruby><ruby>竹<rt>たけ</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>一本<rt>いっぽん</rt></ruby><ruby>買いたい<rt>かいたい</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "If it's gold coins, I want to buy a bamboo stick that won't get lost!",
+          "html": "<span class=\"tok tok-en\">If</span> <span class=\"tok tok-en\">it&#x27;s</span> <span class=\"tok tok-en\">gold</span> <span class=\"tok tok-en\">coins</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">want</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">buy</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">bamboo</span> <span class=\"tok tok-en\">stick</span> <span class=\"tok tok-en\">that</span> <span class=\"tok tok-en\">won&#x27;t</span> <span class=\"tok tok-en\">get</span> <span class=\"tok tok-en\">lost</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:13.096",
       "end": "00:00:15.876",
-      "text": "别踩左边！"
+      "start_seconds": 13.096,
+      "end_seconds": 15.876,
+      "text": "别踩左边！",
+      "html": "<span class=\"tok tok-kanji\">别踩左边</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "别踩左边！",
+          "html": "<span class=\"tok tok-zh\">别踩左边</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "左[ひだり]を踏む[ふむ]な！",
+          "html": "<ruby>左<rt>ひだり</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>踏む<rt>ふむ</rt></ruby><ruby>な<rt>な</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Don't step on the left!",
+          "html": "<span class=\"tok tok-en\">Don&#x27;t</span> <span class=\"tok tok-en\">step</span> <span class=\"tok tok-en\">on</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">left</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:23.752",
       "end": "00:00:32.052",
-      "text": "还好他们只喜欢闪闪的盒子。"
+      "start_seconds": 23.752,
+      "end_seconds": 32.052,
+      "text": "还好他们只喜欢闪闪的盒子。",
+      "html": "<span class=\"tok tok-kanji\">还好他们只喜欢闪闪的盒子</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "还好他们只喜欢闪闪的盒子。",
+          "html": "<span class=\"tok tok-zh\">还好他们只喜欢闪闪的盒子</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "幸い[さいわい]、彼ら[かれら]はピカピカ[ぴかぴか]の箱[はこ]だけが好き[すき]だ。",
+          "html": "<ruby>幸い<rt>さいわい</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>彼ら<rt>かれら</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>ピカピカ<rt>ぴかぴか</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>箱<rt>はこ</rt></ruby><ruby><ruby>だ<rt>だ</rt></ruby>け<rt>だけ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>好き<rt>すき</rt></ruby>だ<ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Fortunately, they only like shiny boxes.",
+          "html": "<span class=\"tok tok-en\">Fortunately</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">they</span> <span class=\"tok tok-en\">only</span> <span class=\"tok tok-en\">like</span> <span class=\"tok tok-en\">shiny</span> <span class=\"tok tok-en\">boxes</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:32.052",
       "end": "00:00:36.372",
-      "text": "真正的宝物，通常不爱显摆。"
+      "start_seconds": 32.052,
+      "end_seconds": 36.372,
+      "text": "真正的宝物，通常不爱显摆。",
+      "html": "<span class=\"tok tok-kanji\">真正的宝物</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">通常不爱显摆</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "真正的宝物，通常不爱显摆。",
+          "html": "<span class=\"tok tok-zh\">真正的宝物</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">通常不爱显摆</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "本当[ほんとう]の宝物[たからもの]は、たいてい見せびらかさない。",
+          "html": "<ruby>本当<rt>ほんとう</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>宝物<rt>たからもの</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>たいてい<rt>たいてい</rt></ruby><ruby>見せびらかさない<rt>みせびらかさない</rt></ruby>。"
+        },
+        "en": {
+          "label": "English",
+          "text": "Real treasures usually don't show off.",
+          "html": "<span class=\"tok tok-en\">Real</span> <span class=\"tok tok-en\">treasures</span> <span class=\"tok tok-en\">usually</span> <span class=\"tok tok-en\">don&#x27;t</span> <span class=\"tok tok-en\">show</span> <span class=\"tok tok-en\">off</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     }
   ]
 }

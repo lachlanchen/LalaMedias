@@ -10,32 +10,56 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:03.720",
-      "text": "魔法森林的小屋里,三个小伙伴都感冒了。"
+      "start_seconds": 0.0,
+      "end_seconds": 3.7199999999999998,
+      "text": "魔法森林的小屋里,三个小伙伴都感冒了。",
+      "html": "<span class=\"tok tok-kanji\">魔法森林的小屋里</span><span class=\"tok tok-punc\">,</span><span class=\"tok tok-kanji\">三个小伙伴都感冒了</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {}
     },
     {
       "start": "00:00:04.000",
       "end": "00:00:07.220",
-      "text": "我没事,我只是鼻子在练习打鼓。"
+      "start_seconds": 4.0,
+      "end_seconds": 7.22,
+      "text": "我没事,我只是鼻子在练习打鼓。",
+      "html": "<span class=\"tok tok-kanji\">我没事</span><span class=\"tok tok-punc\">,</span><span class=\"tok tok-kanji\">我只是鼻子在练习打鼓</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {}
     },
     {
       "start": "00:00:07.660",
       "end": "00:00:10.560",
-      "text": "感冒的时候要互相照顾,先喝热水。"
+      "start_seconds": 7.66,
+      "end_seconds": 10.56,
+      "text": "感冒的时候要互相照顾,先喝热水。",
+      "html": "<span class=\"tok tok-kanji\">感冒的时候要互相照顾</span><span class=\"tok tok-punc\">,</span><span class=\"tok tok-kanji\">先喝热水</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {}
     },
     {
       "start": "00:00:10.940",
       "end": "00:00:12.040",
-      "text": "这要能量体温吗?"
+      "start_seconds": 10.94,
+      "end_seconds": 12.04,
+      "text": "这要能量体温吗?",
+      "html": "<span class=\"tok tok-kanji\">这要能量体温吗</span><span class=\"tok tok-punc\">?</span>",
+      "tracks": {}
     },
     {
       "start": "00:00:12.480",
       "end": "00:00:14.520",
-      "text": "你娘出来可能是聪明温度。"
+      "start_seconds": 12.48,
+      "end_seconds": 14.52,
+      "text": "你娘出来可能是聪明温度。",
+      "html": "<span class=\"tok tok-kanji\">你娘出来可能是聪明温度</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {}
     },
     {
       "start": "00:00:16.420",
       "end": "00:00:18.820",
-      "text": "明天再一起打败喷嚏大王吧。"
+      "start_seconds": 16.42,
+      "end_seconds": 18.82,
+      "text": "明天再一起打败喷嚏大王吧。",
+      "html": "<span class=\"tok tok-kanji\">明天再一起打败喷嚏大王吧</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {}
     }
   ]
 }

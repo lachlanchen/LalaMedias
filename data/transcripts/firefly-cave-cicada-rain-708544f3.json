@@ -10,72 +10,352 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:02.100",
-      "text": "系统说这里有一条通往奇迹洞穴的小路"
+      "start_seconds": 0.0,
+      "end_seconds": 2.1,
+      "text": "系统说这里有一条通往奇迹洞穴的小路",
+      "html": "<span class=\"tok tok-kanji\">系统说这里有一条通往奇迹洞穴的小路</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "系统说这里有一条通往奇迹洞穴的小路",
+          "html": "<span class=\"tok tok-zh\">系统说这里有一条通往奇迹洞穴的小路</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "システムはここに奇跡[きせき]の洞窟[どうくつ]への小道[こみち]があると言っている[いっている]。",
+          "html": "<ruby>システム<rt>しすてむ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>ここ<rt>ここ</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>奇跡<rt>きせき</rt></ruby><ruby><ruby>の<rt>の</rt></ruby><rt>の</rt></ruby><ruby>洞窟<rt>どうくつ</rt></ruby><ruby>へ<rt>へ</rt></ruby>の<ruby>小道<rt>こみち</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>ある<rt>ある</rt></ruby><ruby>と<rt>と</rt></ruby><ruby>言っている<rt>いっている</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "The system says there's a path leading to a miracle cave.",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">system</span> <span class=\"tok tok-en\">says</span> <span class=\"tok tok-en\">there&#x27;s</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">path</span> <span class=\"tok tok-en\">leading</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">miracle</span> <span class=\"tok tok-en\">cave</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:02.100",
       "end": "00:00:03.660",
-      "text": "那系统有没有说这里为什么这么吵？"
+      "start_seconds": 2.1,
+      "end_seconds": 3.66,
+      "text": "那系统有没有说这里为什么这么吵？",
+      "html": "<span class=\"tok tok-kanji\">那系统有没有说这里为什么这么吵</span><span class=\"tok tok-punc\">？</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "那系统有没有说这里为什么这么吵？",
+          "html": "<span class=\"tok tok-zh\">那系统有没有说这里为什么这么吵</span><span class=\"tok tok-punc\">？</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "システムは、ここがなぜこんなにうるさいか言った[いった]の？",
+          "html": "<ruby>システム<rt>しすてむ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>ここ<rt>ここ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>なぜ<rt>なぜ</rt></ruby><ruby>こんなに<rt>こんなに</rt></ruby><ruby>うるさい<rt>うるさい</rt></ruby><ruby>か<rt>か</rt></ruby><ruby>言った<rt>いった</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Did the system say why it's so noisy here?",
+          "html": "<span class=\"tok tok-en\">Did</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">system</span> <span class=\"tok tok-en\">say</span> <span class=\"tok tok-en\">why</span> <span class=\"tok tok-en\">it&#x27;s</span> <span class=\"tok tok-en\">so</span> <span class=\"tok tok-en\">noisy</span> <span class=\"tok tok-en\">here</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:03.660",
       "end": "00:00:04.700",
-      "text": "因为它们在开会，而且好像在讨论我们"
+      "start_seconds": 3.66,
+      "end_seconds": 4.7,
+      "text": "因为它们在开会，而且好像在讨论我们",
+      "html": "<span class=\"tok tok-kanji\">因为它们在开会</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">而且好像在讨论我们</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "因为它们在开会，而且好像在讨论我们",
+          "html": "<span class=\"tok tok-zh\">因为它们在开会</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">而且好像在讨论我们</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "彼ら[かれら]が会議[かいぎ]をしていて、しかも私たち[わたしたち]のことを議論[ぎろん]しているみたい",
+          "html": "<ruby>彼ら<rt>かれら</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>会議<rt>かいぎ</rt></ruby><ruby><ruby>を<rt>を</rt></ruby><rt>を</rt></ruby><ruby><ruby>して<rt>して</rt></ruby><rt>して</rt></ruby><ruby>いて<rt>いて</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>しかも<rt>しかも</rt></ruby><ruby>私たち<rt>わたしたち</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>こと<rt>こと</rt></ruby>を<ruby>議論<rt>ぎろん</rt></ruby>して<ruby>いる<rt>いる</rt></ruby><ruby>みたい<rt>みたい</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Because they are having a meeting, and it seems like they are discussing us.",
+          "html": "<span class=\"tok tok-en\">Because</span> <span class=\"tok tok-en\">they</span> <span class=\"tok tok-en\">are</span> <span class=\"tok tok-en\">having</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">meeting</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">and</span> <span class=\"tok tok-en\">it</span> <span class=\"tok tok-en\">seems</span> <span class=\"tok tok-en\">like</span> <span class=\"tok tok-en\">they</span> <span class=\"tok tok-en\">are</span> <span class=\"tok tok-en\">discussing</span> <span class=\"tok tok-en\">us</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:04.700",
       "end": "00:00:05.180",
-      "text": "下雨了"
+      "start_seconds": 4.7,
+      "end_seconds": 5.18,
+      "text": "下雨了",
+      "html": "<span class=\"tok tok-kanji\">下雨了</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "下雨了",
+          "html": "<span class=\"tok tok-zh\">下雨了</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "雨[あめ]が降[ふ]っている",
+          "html": "<ruby>雨<rt>あめ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>降って<rt>ふって</rt></ruby><ruby>いる<rt>いる</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "It's raining.",
+          "html": "<span class=\"tok tok-en\">It&#x27;s</span> <span class=\"tok tok-en\">raining</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:05.180",
       "end": "00:00:06.020",
-      "text": "是蝉的尿尿雨"
+      "start_seconds": 5.18,
+      "end_seconds": 6.02,
+      "text": "是蝉的尿尿雨",
+      "html": "<span class=\"tok tok-kanji\">是蝉的尿尿雨</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "是蝉的尿尿雨",
+          "html": "<span class=\"tok tok-zh\">是蝉的尿尿雨</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "蝉[セミ]のおしっこ雨[あめ]だ",
+          "html": "<ruby>蝉<rt>セミ</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>おしっこ<rt>おしっこ</rt></ruby><ruby>雨<rt>あめ</rt></ruby><ruby>だ<rt>だ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "It's cicada urine rain.",
+          "html": "<span class=\"tok tok-en\">It&#x27;s</span> <span class=\"tok tok-en\">cicada</span> <span class=\"tok tok-en\">urine</span> <span class=\"tok tok-en\">rain</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:06.020",
       "end": "00:00:06.540",
-      "text": "我的发型"
+      "start_seconds": 6.02,
+      "end_seconds": 6.54,
+      "text": "我的发型",
+      "html": "<span class=\"tok tok-kanji\">我的发型</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我的发型",
+          "html": "<span class=\"tok tok-zh\">我的发型</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "私[わたし]の髪型[かみがた]",
+          "html": "<ruby>私<rt>わたし</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>髪型<rt>かみがた</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "My hairstyle",
+          "html": "<span class=\"tok tok-en\">My</span> <span class=\"tok tok-en\">hairstyle</span>"
+        }
+      }
     },
     {
       "start": "00:00:06.540",
       "end": "00:00:07.080",
-      "text": "我的尊严"
+      "start_seconds": 6.54,
+      "end_seconds": 7.08,
+      "text": "我的尊严",
+      "html": "<span class=\"tok tok-kanji\">我的尊严</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我的尊严",
+          "html": "<span class=\"tok tok-zh\">我的尊严</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "私[わたし]の尊厳[そんげん]",
+          "html": "<ruby>私<rt>わたし</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>尊厳<rt>そんげん</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "my dignity",
+          "html": "<span class=\"tok tok-en\">my</span> <span class=\"tok tok-en\">dignity</span>"
+        }
+      }
     },
     {
       "start": "00:00:07.080",
       "end": "00:00:07.720",
-      "text": "我的竹子"
+      "start_seconds": 7.08,
+      "end_seconds": 7.72,
+      "text": "我的竹子",
+      "html": "<span class=\"tok tok-kanji\">我的竹子</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我的竹子",
+          "html": "<span class=\"tok tok-zh\">我的竹子</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "私[わたし]の竹[たけ]",
+          "html": "<ruby>私<rt>わたし</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>竹<rt>たけ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "My bamboo",
+          "html": "<span class=\"tok tok-en\">My</span> <span class=\"tok tok-en\">bamboo</span>"
+        }
+      }
     },
     {
       "start": "00:00:07.720",
       "end": "00:00:09.540",
-      "text": "这里不会有更会尿尿的东西吧"
+      "start_seconds": 7.72,
+      "end_seconds": 9.54,
+      "text": "这里不会有更会尿尿的东西吧",
+      "html": "<span class=\"tok tok-kanji\">这里不会有更会尿尿的东西吧</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "这里不会有更会尿尿的东西吧",
+          "html": "<span class=\"tok tok-zh\">这里不会有更会尿尿的东西吧</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ここにはもっとおしっこが出来る[できる]奴[やつ]はいないだろう？",
+          "html": "<ruby>ここ<rt>ここ</rt></ruby><ruby>に<rt>に</rt></ruby><ruby><ruby>は<rt>は</rt></ruby><rt>は</rt></ruby><ruby>もっと<rt>もっと</rt></ruby><ruby>おしっこ<rt>おしっこ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>出来る<rt>できる</rt></ruby><ruby>奴<rt>やつ</rt></ruby>は<ruby>いない<rt>いない</rt></ruby><ruby>だろう<rt>だろう</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "There can't be something that pees even more here, right?",
+          "html": "<span class=\"tok tok-en\">There</span> <span class=\"tok tok-en\">can&#x27;t</span> <span class=\"tok tok-en\">be</span> <span class=\"tok tok-en\">something</span> <span class=\"tok tok-en\">that</span> <span class=\"tok tok-en\">pees</span> <span class=\"tok tok-en\">even</span> <span class=\"tok tok-en\">more</span> <span class=\"tok tok-en\">here</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">right</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:09.540",
       "end": "00:00:09.840",
-      "text": "哇"
+      "start_seconds": 9.54,
+      "end_seconds": 9.84,
+      "text": "哇",
+      "html": "<span class=\"tok tok-kanji\">哇</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "哇",
+          "html": "<span class=\"tok tok-zh\">哇</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "わあ",
+          "html": "<ruby>わあ<rt>わあ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Wow",
+          "html": "<span class=\"tok tok-en\">Wow</span>"
+        }
+      }
     },
     {
       "start": "00:00:09.840",
       "end": "00:00:11.260",
-      "text": "原来蝉不是在攻击我们"
+      "start_seconds": 9.84,
+      "end_seconds": 11.26,
+      "text": "原来蝉不是在攻击我们",
+      "html": "<span class=\"tok tok-kanji\">原来蝉不是在攻击我们</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "原来蝉不是在攻击我们",
+          "html": "<span class=\"tok tok-zh\">原来蝉不是在攻击我们</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "<ruby>つまり<rt>つまり</rt></ruby>、<ruby>蝉<rt>せみ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>私たち<rt>わたしたち</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>攻撃<rt>こうげき</rt></ruby><ruby>して<rt>して</rt></ruby><ruby>いる<rt>いる</rt></ruby><ruby>わけ<rt>わけ</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>ない<rt>ない</rt></ruby>",
+          "html": "<ruby>つまり<rt>つまり</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>蝉<rt>せみ</rt></ruby><ruby><ruby>は<rt>は</rt></ruby><rt>は</rt></ruby><ruby>私たち<rt>わたしたち</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>攻撃<rt>こうげき</rt></ruby><ruby>して<rt>して</rt></ruby><ruby>いる<rt>いる</rt></ruby><ruby>わけ<rt>わけ</rt></ruby><ruby>で<rt>で</rt></ruby>は<ruby>ない<rt>ない</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "So the cicadas weren't attacking us.",
+          "html": "<span class=\"tok tok-en\">So</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">cicadas</span> <span class=\"tok tok-en\">weren&#x27;t</span> <span class=\"tok tok-en\">attacking</span> <span class=\"tok tok-en\">us</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:11.260",
       "end": "00:00:12.660",
-      "text": "他们是在把我们赶到这里"
+      "start_seconds": 11.26,
+      "end_seconds": 12.66,
+      "text": "他们是在把我们赶到这里",
+      "html": "<span class=\"tok tok-kanji\">他们是在把我们赶到这里</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "他们是在把我们赶到这里",
+          "html": "<span class=\"tok tok-zh\">他们是在把我们赶到这里</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "彼ら[かれら]は[わ]私たち[わたしたち]を[お]ここに[に]追いやっている[おいやっている]んだ[んだ]",
+          "html": "<ruby>彼ら<rt>かれら</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>私たち<rt>わたしたち</rt></ruby><ruby>を<rt>お</rt></ruby><ruby>ここ<rt>ここ</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>追いやっている<rt>おいやっている</rt></ruby><ruby>んだ<rt>んだ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "They are driving us here.",
+          "html": "<span class=\"tok tok-en\">They</span> <span class=\"tok tok-en\">are</span> <span class=\"tok tok-en\">driving</span> <span class=\"tok tok-en\">us</span> <span class=\"tok tok-en\">here</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:12.660",
       "end": "00:00:14.080",
-      "text": "虽然前面的方式很湿润"
+      "start_seconds": 12.66,
+      "end_seconds": 14.08,
+      "text": "虽然前面的方式很湿润",
+      "html": "<span class=\"tok tok-kanji\">虽然前面的方式很湿润</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "虽然前面的方式很湿润",
+          "html": "<span class=\"tok tok-zh\">虽然前面的方式很湿润</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "前[まえ]の方法[ほうほう]はとても湿[しめ]っている",
+          "html": "<ruby>前<rt>まえ</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>方法<rt>ほうほう</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>とても<rt>とても</rt></ruby><ruby>湿っている<rt>しめっている</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Although the previous method was very wet",
+          "html": "<span class=\"tok tok-en\">Although</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">previous</span> <span class=\"tok tok-en\">method</span> <span class=\"tok tok-en\">was</span> <span class=\"tok tok-en\">very</span> <span class=\"tok tok-en\">wet</span>"
+        }
+      }
     },
     {
       "start": "00:00:14.080",
       "end": "00:00:14.960",
-      "text": "但结果很浪漫"
+      "start_seconds": 14.08,
+      "end_seconds": 14.96,
+      "text": "但结果很浪漫",
+      "html": "<span class=\"tok tok-kanji\">但结果很浪漫</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "但结果很浪漫",
+          "html": "<span class=\"tok tok-zh\">但结果很浪漫</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "だが結果[けっか]はとてもロマンチックだ",
+          "html": "<ruby><ruby>だ<rt>だ</rt></ruby>が<rt>だが</rt></ruby><ruby>結果<rt>けっか</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>とても<rt>とても</rt></ruby><ruby>ロマンチック<rt>ろまんちっく</rt></ruby>だ"
+        },
+        "en": {
+          "label": "English",
+          "text": "But the result is romantic.",
+          "html": "<span class=\"tok tok-en\">But</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">result</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">romantic</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     }
   ]
 }

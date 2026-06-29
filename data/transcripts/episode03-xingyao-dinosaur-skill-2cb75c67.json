@@ -10,87 +10,427 @@
     {
       "start": "00:00:00.380",
       "end": "00:00:02.360",
-      "text": "请把星药和那颗蛋交给我们保管"
+      "start_seconds": 0.38,
+      "end_seconds": 2.36,
+      "text": "请把星药和那颗蛋交给我们保管",
+      "html": "<span class=\"tok tok-kanji\">请把星药和那颗蛋交给我们保管</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "请把星药和那颗蛋交给我们保管",
+          "html": "<span class=\"tok tok-zh\">请把星药和那颗蛋交给我们保管</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "星薬[ほしやく]とその卵[たまご]を私たち[わたしたち]に預けて[あずけて]ください",
+          "html": "<ruby>星薬<rt>ほしやく</rt></ruby><ruby>と<rt>と</rt></ruby><ruby>その<rt>その</rt></ruby><ruby>卵<rt>たまご</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>私たち<rt>わたしたち</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>預けて<rt>あずけて</rt></ruby><ruby>ください<rt>ください</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Please hand over the star medicine and that egg to us for safekeeping.",
+          "html": "<span class=\"tok tok-en\">Please</span> <span class=\"tok tok-en\">hand</span> <span class=\"tok tok-en\">over</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">star</span> <span class=\"tok tok-en\">medicine</span> <span class=\"tok tok-en\">and</span> <span class=\"tok tok-en\">that</span> <span class=\"tok tok-en\">egg</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">us</span> <span class=\"tok tok-en\">for</span> <span class=\"tok tok-en\">safekeeping</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:02.360",
       "end": "00:00:03.140",
-      "text": "等一下"
+      "start_seconds": 2.36,
+      "end_seconds": 3.14,
+      "text": "等一下",
+      "html": "<span class=\"tok tok-kanji\">等一下</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "等一下",
+          "html": "<span class=\"tok tok-zh\">等一下</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ちょっと待[ま]って",
+          "html": "<ruby>ちょっと<rt>ちょっと</rt></ruby><ruby>待って<rt>まって</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Wait a moment.",
+          "html": "<span class=\"tok tok-en\">Wait</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">moment</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:03.140",
       "end": "00:00:03.920",
-      "text": "宇宙U盘还能孵蛋"
+      "start_seconds": 3.14,
+      "end_seconds": 3.92,
+      "text": "宇宙U盘还能孵蛋",
+      "html": "<span class=\"tok tok-kanji\">宇宙</span><span class=\"tok tok-en\">U</span><span class=\"tok tok-kanji\">盘还能孵蛋</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "宇宙U盘还能孵蛋",
+          "html": "<span class=\"tok tok-zh\">宇宙</span><span class=\"tok tok-en\">U</span><span class=\"tok tok-zh\">盘还能孵蛋</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "宇宙[うちゅう]USBメモリ[ゆうえすびいめもり]で卵[たまご]が孵せる[かえせる]",
+          "html": "<ruby>宇宙<rt>うちゅう</rt></ruby><ruby>USBメモリ<rt>ゆうえすびいめもり</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>卵<rt>たまご</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>孵せる<rt>かえせる</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "The Cosmic USB can also hatch eggs.",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">Cosmic</span> <span class=\"tok tok-en\">USB</span> <span class=\"tok tok-en\">can</span> <span class=\"tok tok-en\">also</span> <span class=\"tok tok-en\">hatch</span> <span class=\"tok tok-en\">eggs</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:03.920",
       "end": "00:00:05.180",
-      "text": "这功能也太先进了吧"
+      "start_seconds": 3.92,
+      "end_seconds": 5.18,
+      "text": "这功能也太先进了吧",
+      "html": "<span class=\"tok tok-kanji\">这功能也太先进了吧</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "这功能也太先进了吧",
+          "html": "<span class=\"tok tok-zh\">这功能也太先进了吧</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "この機能[きのう]は先進的[せんしんてき]すぎますね",
+          "html": "<ruby>この<rt>この</rt></ruby><ruby>機能<rt>きのう</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>先進的<rt>せんしんてき</rt></ruby><ruby>すぎます<rt>すぎます</rt></ruby><ruby>ね<rt>ね</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "This feature is just too advanced.",
+          "html": "<span class=\"tok tok-en\">This</span> <span class=\"tok tok-en\">feature</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">just</span> <span class=\"tok tok-en\">too</span> <span class=\"tok tok-en\">advanced</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:05.180",
       "end": "00:00:05.810",
-      "text": "不是工具"
+      "start_seconds": 5.18,
+      "end_seconds": 5.8100000000000005,
+      "text": "不是工具",
+      "html": "<span class=\"tok tok-kanji\">不是工具</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "不是工具",
+          "html": "<span class=\"tok tok-zh\">不是工具</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "道具[どうぐ]ではない",
+          "html": "<ruby>道具<rt>どうぐ</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>ない<rt>ない</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Not a tool",
+          "html": "<span class=\"tok tok-en\">Not</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">tool</span>"
+        }
+      }
     },
     {
       "start": "00:00:05.810",
       "end": "00:00:06.440",
-      "text": "是生命信号"
+      "start_seconds": 5.8100000000000005,
+      "end_seconds": 6.44,
+      "text": "是生命信号",
+      "html": "<span class=\"tok tok-kanji\">是生命信号</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "是生命信号",
+          "html": "<span class=\"tok tok-zh\">是生命信号</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "生命[せいめい]信号[しんごう]です",
+          "html": "<ruby>生命<rt>せいめい</rt></ruby><ruby>信号<rt>しんごう</rt></ruby><ruby>です<rt>です</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "It's a life signal.",
+          "html": "<span class=\"tok tok-en\">It&#x27;s</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">life</span> <span class=\"tok tok-en\">signal</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:06.440",
       "end": "00:00:07.180",
-      "text": "它快出来了"
+      "start_seconds": 6.44,
+      "end_seconds": 7.18,
+      "text": "它快出来了",
+      "html": "<span class=\"tok tok-kanji\">它快出来了</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "它快出来了",
+          "html": "<span class=\"tok tok-zh\">它快出来了</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "もうすぐ出て[でて]くる",
+          "html": "<ruby>もうすぐ<rt>もうすぐ</rt></ruby><ruby>出て<rt>でて</rt></ruby><ruby>くる<rt>くる</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "It's about to come out.",
+          "html": "<span class=\"tok tok-en\">It&#x27;s</span> <span class=\"tok tok-en\">about</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">come</span> <span class=\"tok tok-en\">out</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:07.180",
       "end": "00:00:08.119",
-      "text": "虽然听起来不专业"
+      "start_seconds": 7.18,
+      "end_seconds": 8.119,
+      "text": "虽然听起来不专业",
+      "html": "<span class=\"tok tok-kanji\">虽然听起来不专业</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "虽然听起来不专业",
+          "html": "<span class=\"tok tok-zh\">虽然听起来不专业</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "プロっぽくないけど",
+          "html": "<ruby>プロ<rt>ぷろ</rt></ruby><ruby>っぽく<rt>っぽく</rt></ruby><ruby>ない<rt>ない</rt></ruby><ruby>けど<rt>けど</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Although it sounds unprofessional",
+          "html": "<span class=\"tok tok-en\">Although</span> <span class=\"tok tok-en\">it</span> <span class=\"tok tok-en\">sounds</span> <span class=\"tok tok-en\">unprofessional</span>"
+        }
+      }
     },
     {
       "start": "00:00:08.119",
       "end": "00:00:08.840",
-      "text": "但温度刚刚好"
+      "start_seconds": 8.119,
+      "end_seconds": 8.84,
+      "text": "但温度刚刚好",
+      "html": "<span class=\"tok tok-kanji\">但温度刚刚好</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "但温度刚刚好",
+          "html": "<span class=\"tok tok-zh\">但温度刚刚好</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "でも温度[おんど]はちょうどいい",
+          "html": "<ruby>でも<rt>でも</rt></ruby><ruby>温度<rt>おんど</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>ちょうどいい<rt>ちょうどいい</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "But the temperature is just right.",
+          "html": "<span class=\"tok tok-en\">But</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">temperature</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">just</span> <span class=\"tok tok-en\">right</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:08.840",
       "end": "00:00:09.800",
-      "text": "我不是故意变大的"
+      "start_seconds": 8.84,
+      "end_seconds": 9.8,
+      "text": "我不是故意变大的",
+      "html": "<span class=\"tok tok-kanji\">我不是故意变大的</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我不是故意变大的",
+          "html": "<span class=\"tok tok-zh\">我不是故意变大的</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "わざと大きく[おおきく]なったんじゃない",
+          "html": "<ruby>わざと<rt>わざと</rt></ruby><ruby>大きく<rt>おおきく</rt></ruby><ruby>なった<rt>なった</rt></ruby><ruby>ん<rt>ん</rt></ruby><ruby>じゃない<rt>じゃない</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I didn't mean to get bigger.",
+          "html": "<span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">didn&#x27;t</span> <span class=\"tok tok-en\">mean</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">get</span> <span class=\"tok tok-en\">bigger</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:09.800",
       "end": "00:00:11.140",
-      "text": "它刚出生就会解决问题"
+      "start_seconds": 9.8,
+      "end_seconds": 11.14,
+      "text": "它刚出生就会解决问题",
+      "html": "<span class=\"tok tok-kanji\">它刚出生就会解决问题</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "它刚出生就会解决问题",
+          "html": "<span class=\"tok tok-zh\">它刚出生就会解决问题</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "生[う]まれたばかりで問題[もんだい]を解決[かいけつ]できる",
+          "html": "<ruby>生まれた<rt>うまれた</rt></ruby><ruby>ばかり<rt>ばかり</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>問題<rt>もんだい</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>解決<rt>かいけつ</rt></ruby><ruby>できる<rt>できる</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "It could solve problems right after it was born.",
+          "html": "<span class=\"tok tok-en\">It</span> <span class=\"tok tok-en\">could</span> <span class=\"tok tok-en\">solve</span> <span class=\"tok tok-en\">problems</span> <span class=\"tok tok-en\">right</span> <span class=\"tok tok-en\">after</span> <span class=\"tok tok-en\">it</span> <span class=\"tok tok-en\">was</span> <span class=\"tok tok-en\">born</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:11.140",
       "end": "00:00:11.780",
-      "text": "它不是厉害"
+      "start_seconds": 11.14,
+      "end_seconds": 11.78,
+      "text": "它不是厉害",
+      "html": "<span class=\"tok tok-kanji\">它不是厉害</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "它不是厉害",
+          "html": "<span class=\"tok tok-zh\">它不是厉害</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "すごい[すごい]ん[ん]じゃ[じゃ]ない[ない]",
+          "html": "<ruby>すごい<rt>すごい</rt></ruby><ruby>ん<rt>ん</rt></ruby><ruby>じゃ<rt>じゃ</rt></ruby><ruby>ない<rt>ない</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "It's not that it's amazing.",
+          "html": "<span class=\"tok tok-en\">It&#x27;s</span> <span class=\"tok tok-en\">not</span> <span class=\"tok tok-en\">that</span> <span class=\"tok tok-en\">it&#x27;s</span> <span class=\"tok tok-en\">amazing</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:11.780",
       "end": "00:00:12.680",
-      "text": "它只是太紧张了"
+      "start_seconds": 11.78,
+      "end_seconds": 12.68,
+      "text": "它只是太紧张了",
+      "html": "<span class=\"tok tok-kanji\">它只是太紧张了</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "它只是太紧张了",
+          "html": "<span class=\"tok tok-zh\">它只是太紧张了</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ただ緊張[きんちょう]しすぎているだけだ",
+          "html": "<ruby>た<ruby>だ<rt>だ</rt></ruby><rt>ただ</rt></ruby><ruby>緊張<rt>きんちょう</rt></ruby><ruby>し<rt>し</rt></ruby><ruby>すぎ<rt>すぎ</rt></ruby><ruby>て<rt>て</rt></ruby><ruby>いる<rt>いる</rt></ruby><ruby>だけ<rt>だけ</rt></ruby>だ"
+        },
+        "en": {
+          "label": "English",
+          "text": "It's just too nervous.",
+          "html": "<span class=\"tok tok-en\">It&#x27;s</span> <span class=\"tok tok-en\">just</span> <span class=\"tok tok-en\">too</span> <span class=\"tok tok-en\">nervous</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:12.680",
       "end": "00:00:13.240",
-      "text": "好消息"
+      "start_seconds": 12.68,
+      "end_seconds": 13.24,
+      "text": "好消息",
+      "html": "<span class=\"tok tok-kanji\">好消息</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "好消息",
+          "html": "<span class=\"tok tok-zh\">好消息</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "良い[よい]知らせ[しらせ]",
+          "html": "<ruby>良い<rt>よい</rt></ruby><ruby>知らせ<rt>しらせ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Good news",
+          "html": "<span class=\"tok tok-en\">Good</span> <span class=\"tok tok-en\">news</span>"
+        }
+      }
     },
     {
       "start": "00:00:13.240",
       "end": "00:00:13.800",
-      "text": "有新队友"
+      "start_seconds": 13.24,
+      "end_seconds": 13.8,
+      "text": "有新队友",
+      "html": "<span class=\"tok tok-kanji\">有新队友</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "有新队友",
+          "html": "<span class=\"tok tok-zh\">有新队友</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "新しい[あたらしい]仲間[なかま]がいる",
+          "html": "<ruby>新しい<rt>あたらしい</rt></ruby><ruby>仲間<rt>なかま</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>いる<rt>いる</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "We have new teammates.",
+          "html": "<span class=\"tok tok-en\">We</span> <span class=\"tok tok-en\">have</span> <span class=\"tok tok-en\">new</span> <span class=\"tok tok-en\">teammates</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:13.800",
       "end": "00:00:14.420",
-      "text": "坏消息"
+      "start_seconds": 13.8,
+      "end_seconds": 14.42,
+      "text": "坏消息",
+      "html": "<span class=\"tok tok-kanji\">坏消息</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "坏消息",
+          "html": "<span class=\"tok tok-zh\">坏消息</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "悪い[わるい]知らせ[しらせ]",
+          "html": "<ruby>悪い<rt>わるい</rt></ruby><ruby>知らせ<rt>しらせ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Bad news",
+          "html": "<span class=\"tok tok-en\">Bad</span> <span class=\"tok tok-en\">news</span>"
+        }
+      }
     },
     {
       "start": "00:00:14.420",
       "end": "00:00:15.040",
-      "text": "它比我大"
+      "start_seconds": 14.42,
+      "end_seconds": 15.04,
+      "text": "它比我大",
+      "html": "<span class=\"tok tok-kanji\">它比我大</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "它比我大",
+          "html": "<span class=\"tok tok-zh\">它比我大</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "それは[わ]私[わたし]より大きい[おおきい]",
+          "html": "<ruby>それ<rt>それ</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>私<rt>わたし</rt></ruby><ruby>より<rt>より</rt></ruby><ruby>大きい<rt>おおきい</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "It is bigger than me.",
+          "html": "<span class=\"tok tok-en\">It</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">bigger</span> <span class=\"tok tok-en\">than</span> <span class=\"tok tok-en\">me</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     }
   ]
 }

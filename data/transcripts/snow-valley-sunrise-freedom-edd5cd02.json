@@ -10,117 +10,577 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:00.980",
-      "text": "今天先滑到谷底，"
+      "start_seconds": 0.0,
+      "end_seconds": 0.98,
+      "text": "今天先滑到谷底，",
+      "html": "<span class=\"tok tok-kanji\">今天先滑到谷底</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "今天先滑到谷底，",
+          "html": "<span class=\"tok tok-zh\">今天先滑到谷底</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "今日[きょう]はまず谷底[たにぞこ]まで滑り[すべり]、",
+          "html": "<ruby>今日<rt>きょう</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>まず<rt>まず</rt></ruby><ruby>谷底<rt>たにぞこ</rt></ruby><ruby>まで<rt>まで</rt></ruby><ruby>滑り<rt>すべり</rt></ruby><ruby>、<rt>、</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Today, first slide to the bottom,",
+          "html": "<span class=\"tok tok-en\">Today</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">first</span> <span class=\"tok tok-en\">slide</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">bottom</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:00.980",
       "end": "00:00:02.080",
-      "text": "再去山顶看日出！"
+      "start_seconds": 0.98,
+      "end_seconds": 2.08,
+      "text": "再去山顶看日出！",
+      "html": "<span class=\"tok tok-kanji\">再去山顶看日出</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "再去山顶看日出！",
+          "html": "<span class=\"tok tok-zh\">再去山顶看日出</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "そして山頂[さんちょう]で日の出[ひので]を見[み]る！",
+          "html": "<ruby>そして<rt>そして</rt></ruby><ruby>山頂<rt>さんちょう</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>日の出<rt>ひので</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>見る<rt>みる</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Then go to the mountaintop to watch the sunrise!",
+          "html": "<span class=\"tok tok-en\">Then</span> <span class=\"tok tok-en\">go</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">mountaintop</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">watch</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">sunrise</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:02.080",
       "end": "00:00:03.200",
-      "text": "自由听起来很浪漫，"
+      "start_seconds": 2.08,
+      "end_seconds": 3.2,
+      "text": "自由听起来很浪漫，",
+      "html": "<span class=\"tok tok-kanji\">自由听起来很浪漫</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "自由听起来很浪漫，",
+          "html": "<span class=\"tok tok-zh\">自由听起来很浪漫</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "自由[じゆう]はロマンチックに聞こえる[きこえる]、",
+          "html": "<ruby>自由<rt>じゆう</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>ロマンチック<rt>ろまんちっく</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>聞こえる<rt>きこえる</rt></ruby><ruby>、<rt>、</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Freedom sounds romantic,",
+          "html": "<span class=\"tok tok-en\">Freedom</span> <span class=\"tok tok-en\">sounds</span> <span class=\"tok tok-en\">romantic</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:03.200",
       "end": "00:00:04.680",
-      "text": "为什么第一步是往下冲？"
+      "start_seconds": 3.2,
+      "end_seconds": 4.68,
+      "text": "为什么第一步是往下冲？",
+      "html": "<span class=\"tok tok-kanji\">为什么第一步是往下冲</span><span class=\"tok tok-punc\">？</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "为什么第一步是往下冲？",
+          "html": "<span class=\"tok tok-zh\">为什么第一步是往下冲</span><span class=\"tok tok-punc\">？</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "なぜ最初[さいしょ]の一歩[いっぽ]は下[した]へ向[む]かうのか？",
+          "html": "<ruby>なぜ<rt>なぜ</rt></ruby><ruby>最初<rt>さいしょ</rt></ruby><ruby><ruby>の<rt>の</rt></ruby><rt>の</rt></ruby><ruby>一歩<rt>いっぽ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>下<rt>した</rt></ruby><ruby>へ<rt>へ</rt></ruby><ruby>向<ruby>か<rt>か</rt></ruby>う<rt>むかう</rt></ruby>のか<ruby>？<rt>？</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Why is the first step downward?",
+          "html": "<span class=\"tok tok-en\">Why</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">first</span> <span class=\"tok tok-en\">step</span> <span class=\"tok tok-en\">downward</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:04.680",
       "end": "00:00:05.600",
-      "text": "因为有些风景，"
+      "start_seconds": 4.68,
+      "end_seconds": 5.6,
+      "text": "因为有些风景，",
+      "html": "<span class=\"tok tok-kanji\">因为有些风景</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "因为有些风景，",
+          "html": "<span class=\"tok tok-zh\">因为有些风景</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "いくつかの景色[けしき]があるから、",
+          "html": "<ruby>いくつか<rt>いくつか</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>景色<rt>けしき</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>ある<rt>ある</rt></ruby><ruby>から<rt>から</rt></ruby><ruby>、<rt>、</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Because some scenery,",
+          "html": "<span class=\"tok tok-en\">Because</span> <span class=\"tok tok-en\">some</span> <span class=\"tok tok-en\">scenery</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:05.600",
       "end": "00:00:06.820",
-      "text": "要先鼓起勇气下去，"
+      "start_seconds": 5.6,
+      "end_seconds": 6.82,
+      "text": "要先鼓起勇气下去，",
+      "html": "<span class=\"tok tok-kanji\">要先鼓起勇气下去</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "要先鼓起勇气下去，",
+          "html": "<span class=\"tok tok-zh\">要先鼓起勇气下去</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "まずは勇気[ゆうき]を振り絞って[ふりしぼって]下りなければ[おりなければ]ならない、",
+          "html": "<ruby>まず<rt>まず</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>勇気<rt>ゆうき</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>振り絞って<rt>ふりしぼって</rt></ruby><ruby>下りなければ<rt>おりなければ</rt></ruby><ruby>ならない<rt>ならない</rt></ruby><ruby>、<rt>、</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "You must first gather courage to go down,",
+          "html": "<span class=\"tok tok-en\">You</span> <span class=\"tok tok-en\">must</span> <span class=\"tok tok-en\">first</span> <span class=\"tok tok-en\">gather</span> <span class=\"tok tok-en\">courage</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">go</span> <span class=\"tok tok-en\">down</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:06.820",
       "end": "00:00:07.860",
-      "text": "才看得到上面。"
+      "start_seconds": 6.82,
+      "end_seconds": 7.86,
+      "text": "才看得到上面。",
+      "html": "<span class=\"tok tok-kanji\">才看得到上面</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "才看得到上面。",
+          "html": "<span class=\"tok tok-zh\">才看得到上面</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "やっと[上](うえ)が[見](み)える。",
+          "html": "<ruby>やっと<rt>やっと</rt></ruby><ruby>上<rt>うえ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>見える<rt>みえる</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Only then can you see above.",
+          "html": "<span class=\"tok tok-en\">Only</span> <span class=\"tok tok-en\">then</span> <span class=\"tok tok-en\">can</span> <span class=\"tok tok-en\">you</span> <span class=\"tok tok-en\">see</span> <span class=\"tok tok-en\">above</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:07.860",
       "end": "00:00:08.740",
-      "text": "庄子！"
+      "start_seconds": 7.86,
+      "end_seconds": 8.74,
+      "text": "庄子！",
+      "html": "<span class=\"tok tok-kanji\">庄子</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "庄子！",
+          "html": "<span class=\"tok tok-zh\">庄子</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "庄子[そうし]！",
+          "html": "<ruby>庄子<rt>そうし</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Zhuangzi!",
+          "html": "<span class=\"tok tok-en\">Zhuangzi</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:08.740",
       "end": "00:00:09.740",
-      "text": "你不是滑雪，"
+      "start_seconds": 8.74,
+      "end_seconds": 9.74,
+      "text": "你不是滑雪，",
+      "html": "<span class=\"tok tok-kanji\">你不是滑雪</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "你不是滑雪，",
+          "html": "<span class=\"tok tok-zh\">你不是滑雪</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "あなたはスキーをしているのではなく、",
+          "html": "<ruby>あなた<rt>あなた</rt></ruby><ruby><ruby>は<rt>は</rt></ruby><rt>は</rt></ruby><ruby>スキー<rt>すきー</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>している<rt>している</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>で<rt>で</rt></ruby>は<ruby>なく<rt>なく</rt></ruby><ruby>、<rt>、</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "You're not skiing,",
+          "html": "<span class=\"tok tok-en\">You&#x27;re</span> <span class=\"tok tok-en\">not</span> <span class=\"tok tok-en\">skiing</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:09.740",
       "end": "00:00:10.880",
-      "text": "你是在提交bug！"
+      "start_seconds": 9.74,
+      "end_seconds": 10.88,
+      "text": "你是在提交bug！",
+      "html": "<span class=\"tok tok-kanji\">你是在提交</span><span class=\"tok tok-en\">bug</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "你是在提交bug！",
+          "html": "<span class=\"tok tok-zh\">你是在提交</span><span class=\"tok tok-en\">bug</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "君[きみ]はバグを提出[ていしゅつ]している！",
+          "html": "<ruby>君<rt>きみ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>バグ<rt>ばぐ</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>提出<rt>ていしゅつ</rt></ruby><ruby>している<rt>している</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "You are submitting a bug!",
+          "html": "<span class=\"tok tok-en\">You</span> <span class=\"tok tok-en\">are</span> <span class=\"tok tok-en\">submitting</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">bug</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:10.880",
       "end": "00:00:11.580",
-      "text": "阿芽酱！"
+      "start_seconds": 10.88,
+      "end_seconds": 11.58,
+      "text": "阿芽酱！",
+      "html": "<span class=\"tok tok-kanji\">阿芽酱</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "阿芽酱！",
+          "html": "<span class=\"tok tok-zh\">阿芽酱</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "阿芽[あや]ちゃん！",
+          "html": "<ruby>阿芽<rt>あや</rt></ruby><ruby>ちゃん<rt>ちゃん</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Aya-chan!",
+          "html": "<span class=\"tok tok-en\">Aya</span><span class=\"tok tok-punc\">-</span><span class=\"tok tok-en\">chan</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:11.580",
       "end": "00:00:11.940",
-      "text": "我在！"
+      "start_seconds": 11.58,
+      "end_seconds": 11.94,
+      "text": "我在！",
+      "html": "<span class=\"tok tok-kanji\">我在</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我在！",
+          "html": "<span class=\"tok tok-zh\">我在</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "いる！",
+          "html": "<ruby>いる<rt>いる</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I'm here!",
+          "html": "<span class=\"tok tok-en\">I&#x27;m</span> <span class=\"tok tok-en\">here</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:11.940",
       "end": "00:00:12.620",
-      "text": "啦啦侠！"
+      "start_seconds": 11.94,
+      "end_seconds": 12.62,
+      "text": "啦啦侠！",
+      "html": "<span class=\"tok tok-kanji\">啦啦侠</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "啦啦侠！",
+          "html": "<span class=\"tok tok-zh\">啦啦侠</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ララヒーロー！",
+          "html": "<ruby>ララヒーロー<rt>ララヒーロー</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Lala Hero!",
+          "html": "<span class=\"tok tok-en\">Lala</span> <span class=\"tok tok-en\">Hero</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:12.620",
       "end": "00:00:13.340",
-      "text": "我也在！"
+      "start_seconds": 12.62,
+      "end_seconds": 13.34,
+      "text": "我也在！",
+      "html": "<span class=\"tok tok-kanji\">我也在</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我也在！",
+          "html": "<span class=\"tok tok-zh\">我也在</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "私[わたし]もいるよ！",
+          "html": "<ruby>私<rt>わたし</rt></ruby><ruby>も<rt>も</rt></ruby><ruby>いる<rt>いる</rt></ruby><ruby>よ<rt>よ</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I'm here too!",
+          "html": "<span class=\"tok tok-en\">I&#x27;m</span> <span class=\"tok tok-en\">here</span> <span class=\"tok tok-en\">too</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:13.340",
       "end": "00:00:14.620",
-      "text": "也请喊一下我的名字，"
+      "start_seconds": 13.34,
+      "end_seconds": 14.62,
+      "text": "也请喊一下我的名字，",
+      "html": "<span class=\"tok tok-kanji\">也请喊一下我的名字</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "也请喊一下我的名字，",
+          "html": "<span class=\"tok tok-zh\">也请喊一下我的名字</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "私[わたし]の名前[なまえ]も呼んで[よんで]ください。",
+          "html": "<ruby>私<rt>わたし</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>名前<rt>なまえ</rt></ruby><ruby>も<rt>も</rt></ruby><ruby>呼んで<rt>よんで</rt></ruby><ruby>ください<rt>ください</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Please say my name too,",
+          "html": "<span class=\"tok tok-en\">Please</span> <span class=\"tok tok-en\">say</span> <span class=\"tok tok-en\">my</span> <span class=\"tok tok-en\">name</span> <span class=\"tok tok-en\">too</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:14.620",
       "end": "00:00:16.120",
-      "text": "我正在努力感觉自由。"
+      "start_seconds": 14.62,
+      "end_seconds": 16.12,
+      "text": "我正在努力感觉自由。",
+      "html": "<span class=\"tok tok-kanji\">我正在努力感觉自由</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我正在努力感觉自由。",
+          "html": "<span class=\"tok tok-zh\">我正在努力感觉自由</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "自由[じゆう]を感[かん]じようと努力[どりょく]しています。",
+          "html": "<ruby>自由<rt>じゆう</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>感じよう<rt>かんじよう</rt></ruby><ruby>と<rt>と</rt></ruby><ruby>努力<rt>どりょく</rt></ruby><ruby>し<rt>し</rt></ruby><ruby>て<rt>て</rt></ruby><ruby>います<rt>います</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I am trying to feel free.",
+          "html": "<span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">am</span> <span class=\"tok tok-en\">trying</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">feel</span> <span class=\"tok tok-en\">free</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:16.120",
       "end": "00:00:17.180",
-      "text": "庄子！"
+      "start_seconds": 16.12,
+      "end_seconds": 17.18,
+      "text": "庄子！",
+      "html": "<span class=\"tok tok-kanji\">庄子</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "庄子！",
+          "html": "<span class=\"tok tok-zh\">庄子</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "そうし！",
+          "html": "<ruby>そうし<rt>そうし</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Zhuangzi!",
+          "html": "<span class=\"tok tok-en\">Zhuangzi</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:17.180",
       "end": "00:00:19.620",
-      "text": "希望不是一直在高处，"
+      "start_seconds": 17.18,
+      "end_seconds": 19.62,
+      "text": "希望不是一直在高处，",
+      "html": "<span class=\"tok tok-kanji\">希望不是一直在高处</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "希望不是一直在高处，",
+          "html": "<span class=\"tok tok-zh\">希望不是一直在高处</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "希望[きぼう]は常に[つねに]高み[たかみ]にあるわけではない、",
+          "html": "<ruby>希望<rt>きぼう</rt></ruby><ruby><ruby>は<rt>わ</rt></ruby><rt>わ</rt></ruby><ruby>常<ruby>に<rt>に</rt></ruby><rt>つねに</rt></ruby><ruby>高み<rt>たかみ</rt></ruby>に<ruby>ある<rt>ある</rt></ruby><ruby>わけ<rt>わけ</rt></ruby><ruby>で<rt>で</rt></ruby>は<ruby>ない<rt>ない</rt></ruby><ruby>、<rt>、</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Hope is not always at the summit.",
+          "html": "<span class=\"tok tok-en\">Hope</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">not</span> <span class=\"tok tok-en\">always</span> <span class=\"tok tok-en\">at</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">summit</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:19.620",
       "end": "00:00:22.100",
-      "text": "是你知道自己还能再上去。"
+      "start_seconds": 19.62,
+      "end_seconds": 22.1,
+      "text": "是你知道自己还能再上去。",
+      "html": "<span class=\"tok tok-kanji\">是你知道自己还能再上去</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "是你知道自己还能再上去。",
+          "html": "<span class=\"tok tok-zh\">是你知道自己还能再上去</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "自分[じぶん]がまだ上[あ]がれると知[し]っていることだ。",
+          "html": "<ruby>自分<rt>じぶん</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>ま<ruby>だ<rt>だ</rt></ruby><rt>まだ</rt></ruby><ruby>上がれる<rt>あがれる</rt></ruby><ruby>と<rt>と</rt></ruby><ruby>知って<rt>しって</rt></ruby><ruby>いる<rt>いる</rt></ruby><ruby>こと<rt>こと</rt></ruby>だ<ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "It is knowing that you can still go up again.",
+          "html": "<span class=\"tok tok-en\">It</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">knowing</span> <span class=\"tok tok-en\">that</span> <span class=\"tok tok-en\">you</span> <span class=\"tok tok-en\">can</span> <span class=\"tok tok-en\">still</span> <span class=\"tok tok-en\">go</span> <span class=\"tok tok-en\">up</span> <span class=\"tok tok-en\">again</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:22.100",
       "end": "00:00:23.720",
-      "text": "自由不是没有风，"
+      "start_seconds": 22.1,
+      "end_seconds": 23.72,
+      "text": "自由不是没有风，",
+      "html": "<span class=\"tok tok-kanji\">自由不是没有风</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "自由不是没有风，",
+          "html": "<span class=\"tok tok-zh\">自由不是没有风</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "自由[じゆう]は風[かぜ]がないことではない、",
+          "html": "<ruby>自由<rt>じゆう</rt></ruby><ruby><ruby>は<rt>は</rt></ruby><rt>は</rt></ruby><ruby>風<rt>かぜ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby><ruby>ない<rt>ない</rt></ruby><rt>ない</rt></ruby><ruby>こと<rt>こと</rt></ruby><ruby>で<rt>で</rt></ruby>はない<ruby>、<rt>、</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Freedom is not without wind,",
+          "html": "<span class=\"tok tok-en\">Freedom</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">not</span> <span class=\"tok tok-en\">without</span> <span class=\"tok tok-en\">wind</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:23.720",
       "end": "00:00:25.340",
-      "text": "也不是没有坡。"
+      "start_seconds": 23.72,
+      "end_seconds": 25.34,
+      "text": "也不是没有坡。",
+      "html": "<span class=\"tok tok-kanji\">也不是没有坡</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "也不是没有坡。",
+          "html": "<span class=\"tok tok-zh\">也不是没有坡</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "坂[さか]がないわけでもない。",
+          "html": "<ruby>坂<rt>さか</rt></ruby><ruby>が<rt>が</rt></ruby><ruby><ruby>ない<rt>ない</rt></ruby><rt>ない</rt></ruby><ruby>わけ<rt>わけ</rt></ruby><ruby>でも<rt>でも</rt></ruby>ない<ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "nor is it without slopes.",
+          "html": "<span class=\"tok tok-en\">nor</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">it</span> <span class=\"tok tok-en\">without</span> <span class=\"tok tok-en\">slopes</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:25.340",
       "end": "00:00:27.860",
-      "text": "自由是有人喊你的名字，"
+      "start_seconds": 25.34,
+      "end_seconds": 27.86,
+      "text": "自由是有人喊你的名字，",
+      "html": "<span class=\"tok tok-kanji\">自由是有人喊你的名字</span><span class=\"tok tok-punc\">，</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "自由是有人喊你的名字，",
+          "html": "<span class=\"tok tok-zh\">自由是有人喊你的名字</span><span class=\"tok tok-punc\">，</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "自由[じゆう]は誰[だれ]かがあなたの名前[なまえ]を呼[よ]ぶ、",
+          "html": "<ruby>自由<rt>じゆう</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>誰<rt>だれ</rt></ruby><ruby>か<rt>か</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>あなた<rt>あなた</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>名前<rt>なまえ</rt></ruby><ruby>を<rt>お</rt></ruby><ruby>呼ぶ<rt>よぶ</rt></ruby><ruby>、<rt>、</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Freedom is when someone calls your name,",
+          "html": "<span class=\"tok tok-en\">Freedom</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">when</span> <span class=\"tok tok-en\">someone</span> <span class=\"tok tok-en\">calls</span> <span class=\"tok tok-en\">your</span> <span class=\"tok tok-en\">name</span><span class=\"tok tok-punc\">,</span>"
+        }
+      }
     },
     {
       "start": "00:00:27.860",
       "end": "00:00:29.980",
-      "text": "你知道自己不是一个人。"
+      "start_seconds": 27.86,
+      "end_seconds": 29.98,
+      "text": "你知道自己不是一个人。",
+      "html": "<span class=\"tok tok-kanji\">你知道自己不是一个人</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "你知道自己不是一个人。",
+          "html": "<span class=\"tok tok-zh\">你知道自己不是一个人</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "<ruby>君<rt>きみ</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>が<ruby>一人<rt>ひとり</rt></ruby>じゃないって<ruby>知<rt>し</rt></ruby>っている。",
+          "html": "<ruby>君<rt>きみ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>自分<rt>じぶん</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>一人<rt>ひとり</rt></ruby><ruby>じゃない<rt>じゃない</rt></ruby><ruby>って<rt>って</rt></ruby><ruby>知っている<rt>しっている</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "You know you are not alone.",
+          "html": "<span class=\"tok tok-en\">You</span> <span class=\"tok tok-en\">know</span> <span class=\"tok tok-en\">you</span> <span class=\"tok tok-en\">are</span> <span class=\"tok tok-en\">not</span> <span class=\"tok tok-en\">alone</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     }
   ]
 }

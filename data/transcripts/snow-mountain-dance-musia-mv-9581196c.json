@@ -10,22 +10,102 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:02.700",
-      "text": "今朝も踊ろう"
+      "start_seconds": 0.0,
+      "end_seconds": 2.7,
+      "text": "今朝も踊ろう",
+      "html": "<span class=\"tok tok-kanji\">今朝</span><span class=\"tok tok-kana\">も</span><span class=\"tok tok-kanji\">踊</span><span class=\"tok tok-kana\">ろう</span>",
+      "tracks": {
+        "ja": {
+          "label": "日本語",
+          "text": "雪山で 踊ろう",
+          "html": "<span class=\"tok tok-kanji\">雪山</span><span class=\"tok tok-kana\">で</span> <span class=\"tok tok-kanji\">踊</span><span class=\"tok tok-kana\">ろう</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "在雪山跳舞吧",
+          "html": "<span class=\"tok tok-zh\">在雪山跳舞吧</span>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Let's dance in the snowy mountains.",
+          "html": "<span class=\"tok tok-en\">Let&#x27;s</span> <span class=\"tok tok-en\">dance</span> <span class=\"tok tok-en\">in</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">snowy</span> <span class=\"tok tok-en\">mountains</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:02.700",
       "end": "00:00:05.400",
-      "text": "みんなで踊ろう"
+      "start_seconds": 2.7,
+      "end_seconds": 5.4,
+      "text": "みんなで踊ろう",
+      "html": "<span class=\"tok tok-kana\">みんなで</span><span class=\"tok tok-kanji\">踊</span><span class=\"tok tok-kana\">ろう</span>",
+      "tracks": {
+        "ja": {
+          "label": "日本語",
+          "text": "みんなで 踊ろう",
+          "html": "<span class=\"tok tok-kana\">みんなで</span> <span class=\"tok tok-kanji\">踊</span><span class=\"tok tok-kana\">ろう</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "大家一起跳舞吧",
+          "html": "<span class=\"tok tok-zh\">大家一起跳舞吧</span>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Let's dance together",
+          "html": "<span class=\"tok tok-en\">Let&#x27;s</span> <span class=\"tok tok-en\">dance</span> <span class=\"tok tok-en\">together</span>"
+        }
+      }
     },
     {
       "start": "00:00:05.400",
       "end": "00:00:07.480",
-      "text": "キラリキラリ"
+      "start_seconds": 5.4,
+      "end_seconds": 7.48,
+      "text": "キラリキラリ",
+      "html": "<span class=\"tok tok-kana\">キラリキラリ</span>",
+      "tracks": {
+        "ja": {
+          "label": "日本語",
+          "text": "きらり きらり",
+          "html": "<span class=\"tok tok-kana\">きらり</span> <span class=\"tok tok-kana\">きらり</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "閃亮 閃亮",
+          "html": "<span class=\"tok tok-zh\">閃亮</span> <span class=\"tok tok-zh\">閃亮</span>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Sparkle, sparkle",
+          "html": "<span class=\"tok tok-en\">Sparkle</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">sparkle</span>"
+        }
+      }
     },
     {
       "start": "00:00:07.480",
       "end": "00:00:09.560",
-      "text": "笑いで行こう"
+      "start_seconds": 7.48,
+      "end_seconds": 9.56,
+      "text": "笑いで行こう",
+      "html": "<span class=\"tok tok-kanji\">笑</span><span class=\"tok tok-kana\">いで</span><span class=\"tok tok-kanji\">行</span><span class=\"tok tok-kana\">こう</span>",
+      "tracks": {
+        "ja": {
+          "label": "日本語",
+          "text": "未来へ 行こう",
+          "html": "<span class=\"tok tok-kanji\">未来</span><span class=\"tok tok-kana\">へ</span> <span class=\"tok tok-kanji\">行</span><span class=\"tok tok-kana\">こう</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "前往未來吧",
+          "html": "<span class=\"tok tok-zh\">前往未來吧</span>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Let's go to the future.",
+          "html": "<span class=\"tok tok-en\">Let&#x27;s</span> <span class=\"tok tok-en\">go</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">future</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     }
   ]
 }

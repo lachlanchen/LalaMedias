@@ -10,47 +10,137 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:02.340",
-      "text": "没关系"
+      "start_seconds": 0.0,
+      "end_seconds": 2.34,
+      "text": "没关系",
+      "html": "<span class=\"tok tok-kanji\">没关系</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "It's okay",
+          "html": "<span class=\"tok tok-en\">It&#x27;s</span> <span class=\"tok tok-en\">okay</span>"
+        }
+      }
     },
     {
       "start": "00:00:02.340",
       "end": "00:00:03.300",
-      "text": "我可以直接唱"
+      "start_seconds": 2.34,
+      "end_seconds": 3.3,
+      "text": "我可以直接唱",
+      "html": "<span class=\"tok tok-kanji\">我可以直接唱</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "I can just sing",
+          "html": "<span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">can</span> <span class=\"tok tok-en\">just</span> <span class=\"tok tok-en\">sing</span>"
+        }
+      }
     },
     {
       "start": "00:00:03.300",
       "end": "00:00:04.260",
-      "text": "我会伴奏"
+      "start_seconds": 3.3,
+      "end_seconds": 4.26,
+      "text": "我会伴奏",
+      "html": "<span class=\"tok tok-kanji\">我会伴奏</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "I'll play accompaniment",
+          "html": "<span class=\"tok tok-en\">I&#x27;ll</span> <span class=\"tok tok-en\">play</span> <span class=\"tok tok-en\">accompaniment</span>"
+        }
+      }
     },
     {
       "start": "00:00:04.260",
       "end": "00:00:05.800",
-      "text": "虽然我不会耍帅"
+      "start_seconds": 4.26,
+      "end_seconds": 5.8,
+      "text": "虽然我不会耍帅",
+      "html": "<span class=\"tok tok-kanji\">虽然我不会耍帅</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Although I can't show off",
+          "html": "<span class=\"tok tok-en\">Although</span> <span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">can&#x27;t</span> <span class=\"tok tok-en\">show</span> <span class=\"tok tok-en\">off</span>"
+        }
+      }
     },
     {
       "start": "00:00:05.800",
       "end": "00:00:06.700",
-      "text": "但我拍子很准"
+      "start_seconds": 5.8,
+      "end_seconds": 6.7,
+      "text": "但我拍子很准",
+      "html": "<span class=\"tok tok-kanji\">但我拍子很准</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "but my beat is very accurate",
+          "html": "<span class=\"tok tok-en\">but</span> <span class=\"tok tok-en\">my</span> <span class=\"tok tok-en\">beat</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">very</span> <span class=\"tok tok-en\">accurate</span>"
+        }
+      }
     },
     {
       "start": "00:00:06.700",
       "end": "00:00:08.440",
-      "text": "这个叫雨后企鹅步"
+      "start_seconds": 6.7,
+      "end_seconds": 8.44,
+      "text": "这个叫雨后企鹅步",
+      "html": "<span class=\"tok tok-kanji\">这个叫雨后企鹅步</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "This is called the penguin step after the rain.",
+          "html": "<span class=\"tok tok-en\">This</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">called</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">penguin</span> <span class=\"tok tok-en\">step</span> <span class=\"tok tok-en\">after</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">rain</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:08.440",
       "end": "00:00:12.340",
-      "text": "你不是说不会耍帅吗"
+      "start_seconds": 8.44,
+      "end_seconds": 12.34,
+      "text": "你不是说不会耍帅吗",
+      "html": "<span class=\"tok tok-kanji\">你不是说不会耍帅吗</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Didn't you say you wouldn't act cool?",
+          "html": "<span class=\"tok tok-en\">Didn&#x27;t</span> <span class=\"tok tok-en\">you</span> <span class=\"tok tok-en\">say</span> <span class=\"tok tok-en\">you</span> <span class=\"tok tok-en\">wouldn&#x27;t</span> <span class=\"tok tok-en\">act</span> <span class=\"tok tok-en\">cool</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:12.340",
       "end": "00:00:12.900",
-      "text": "刚才那个"
+      "start_seconds": 12.34,
+      "end_seconds": 12.9,
+      "text": "刚才那个",
+      "html": "<span class=\"tok tok-kanji\">刚才那个</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "That just now",
+          "html": "<span class=\"tok tok-en\">That</span> <span class=\"tok tok-en\">just</span> <span class=\"tok tok-en\">now</span>"
+        }
+      }
     },
     {
       "start": "00:00:12.900",
       "end": "00:00:14.300",
-      "text": "是系统自动可爱"
+      "start_seconds": 12.9,
+      "end_seconds": 14.3,
+      "text": "是系统自动可爱",
+      "html": "<span class=\"tok tok-kanji\">是系统自动可爱</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "It's the system's automatic cuteness.",
+          "html": "<span class=\"tok tok-en\">It&#x27;s</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">system&#x27;s</span> <span class=\"tok tok-en\">automatic</span> <span class=\"tok tok-en\">cuteness</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     }
   ]
 }

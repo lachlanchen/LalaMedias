@@ -10,112 +10,552 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:02.340",
-      "text": "我今天吃的是ハンバーグ，so warm!"
+      "start_seconds": 0.0,
+      "end_seconds": 2.34,
+      "text": "我今天吃的是ハンバーグ，so warm!",
+      "html": "<span class=\"tok tok-kanji\">我今天吃的是</span><span class=\"tok tok-kana\">ハンバーグ</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-en\">so</span> <span class=\"tok tok-en\">warm</span><span class=\"tok tok-punc\">!</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Today I ate hamburg steak, so warm!",
+          "html": "<span class=\"tok tok-en\">Today</span> <span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">ate</span> <span class=\"tok tok-en\">hamburg</span> <span class=\"tok tok-en\">steak</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">so</span> <span class=\"tok tok-en\">warm</span><span class=\"tok tok-punc\">!</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "我今天吃的是漢堡排，好溫暖！",
+          "html": "<span class=\"tok tok-zh\">我今天吃的是漢堡排</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">好溫暖</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "我今天吃的是ハンバーグ，so warm!",
+          "html": "<span class=\"tok tok-kanji\">我今天吃的是</span><span class=\"tok tok-kana\">ハンバーグ</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-en\">so</span> <span class=\"tok tok-en\">warm</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:02.824",
       "end": "00:00:04.624",
-      "text": "Hamburger？你的 burger 呢？"
+      "start_seconds": 2.824,
+      "end_seconds": 4.624,
+      "text": "Hamburger？你的 burger 呢？",
+      "html": "<span class=\"tok tok-en\">Hamburger</span><span class=\"tok tok-punc\">？</span><span class=\"tok tok-kanji\">你的</span> <span class=\"tok tok-en\">burger</span> <span class=\"tok tok-kanji\">呢</span><span class=\"tok tok-punc\">？</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Hamburger? Where is your burger?",
+          "html": "<span class=\"tok tok-en\">Hamburger</span><span class=\"tok tok-punc\">?</span> <span class=\"tok tok-en\">Where</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">your</span> <span class=\"tok tok-en\">burger</span><span class=\"tok tok-punc\">?</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "Hamburger？你的 burger 呢？",
+          "html": "<span class=\"tok tok-en\">Hamburger</span><span class=\"tok tok-punc\">？</span><span class=\"tok tok-zh\">你的</span> <span class=\"tok tok-en\">burger</span> <span class=\"tok tok-zh\">呢</span><span class=\"tok tok-punc\">？</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ハンバーガー？あなたのハンバーガーはどこ？",
+          "html": "<ruby><ruby>ハンバーガー<rt><ruby>は<rt>は</rt></ruby>んばーがー</rt></ruby><rt>はんばーがー</rt></ruby><ruby><ruby>？<rt>？</rt></ruby><rt>？</rt></ruby><ruby>あなた<rt>あなた</rt></ruby><ruby>の<rt>の</rt></ruby>ハンバーガーは<ruby>どこ<rt>どこ</rt></ruby>？"
+        }
+      }
     },
     {
       "start": "00:00:04.624",
       "end": "00:00:06.344",
-      "text": "为什么只有 ham?"
+      "start_seconds": 4.624,
+      "end_seconds": 6.344,
+      "text": "为什么只有 ham?",
+      "html": "<span class=\"tok tok-kanji\">为什么只有</span> <span class=\"tok tok-en\">ham</span><span class=\"tok tok-punc\">?</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Why only ham?",
+          "html": "<span class=\"tok tok-en\">Why</span> <span class=\"tok tok-en\">only</span> <span class=\"tok tok-en\">ham</span><span class=\"tok tok-punc\">?</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "为什么只有 ham?",
+          "html": "<span class=\"tok tok-zh\">为什么只有</span> <span class=\"tok tok-en\">ham</span><span class=\"tok tok-punc\">?</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "なぜ[なぜ]ハム[はむ]だけ[だけ]？",
+          "html": "<ruby>なぜ<rt>なぜ</rt></ruby><ruby>ハム<rt>はむ</rt></ruby><ruby>だけ<rt>だけ</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:06.344",
       "end": "00:00:07.464",
-      "text": "Hamburg？"
+      "start_seconds": 6.344,
+      "end_seconds": 7.464,
+      "text": "Hamburg？",
+      "html": "<span class=\"tok tok-en\">Hamburg</span><span class=\"tok tok-punc\">？</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Hamburg？",
+          "html": "<span class=\"tok tok-en\">Hamburg</span><span class=\"tok tok-punc\">？</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "漢堡？",
+          "html": "<span class=\"tok tok-zh\">漢堡</span><span class=\"tok tok-punc\">？</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ハンブルク？",
+          "html": "<ruby>ハンブルク<rt>はんぶるく</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:07.464",
       "end": "00:00:08.744",
-      "text": "不是德国城市吗？"
+      "start_seconds": 7.464,
+      "end_seconds": 8.744,
+      "text": "不是德国城市吗？",
+      "html": "<span class=\"tok tok-kanji\">不是德国城市吗</span><span class=\"tok tok-punc\">？</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Isn't it a German city?",
+          "html": "<span class=\"tok tok-en\">Isn&#x27;t</span> <span class=\"tok tok-en\">it</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">German</span> <span class=\"tok tok-en\">city</span><span class=\"tok tok-punc\">?</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "不是德国城市吗？",
+          "html": "<span class=\"tok tok-zh\">不是德国城市吗</span><span class=\"tok tok-punc\">？</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ドイツの都市[とし]ではないですか？",
+          "html": "<ruby>ドイツ<rt>どいつ</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>都市<rt>とし</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>ない<rt>ない</rt></ruby><ruby>です<rt>です</rt></ruby><ruby>か<rt>か</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:08.744",
       "end": "00:00:11.524",
-      "text": "我们坐错缆车了？"
+      "start_seconds": 8.744,
+      "end_seconds": 11.524000000000001,
+      "text": "我们坐错缆车了？",
+      "html": "<span class=\"tok tok-kanji\">我们坐错缆车了</span><span class=\"tok tok-punc\">？</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Did we take the wrong cable car?",
+          "html": "<span class=\"tok tok-en\">Did</span> <span class=\"tok tok-en\">we</span> <span class=\"tok tok-en\">take</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">wrong</span> <span class=\"tok tok-en\">cable</span> <span class=\"tok tok-en\">car</span><span class=\"tok tok-punc\">?</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "我们坐错缆车了？",
+          "html": "<span class=\"tok tok-zh\">我们坐错缆车了</span><span class=\"tok tok-punc\">？</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ロープウェイ[ろーぷうえい]を間違えた[まちがえた]？",
+          "html": "<ruby>ロープウェイ<rt>ろーぷうえい</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>間違えた<rt>まちがえた</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:11.524",
       "end": "00:00:13.704",
-      "text": "不是 Hamburg，也不是 hamburger"
+      "start_seconds": 11.524000000000001,
+      "end_seconds": 13.704,
+      "text": "不是 Hamburg，也不是 hamburger",
+      "html": "<span class=\"tok tok-kanji\">不是</span> <span class=\"tok tok-en\">Hamburg</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">也不是</span> <span class=\"tok tok-en\">hamburger</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Not Hamburg, nor hamburger",
+          "html": "<span class=\"tok tok-en\">Not</span> <span class=\"tok tok-en\">Hamburg</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">nor</span> <span class=\"tok tok-en\">hamburger</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "不是 Hamburg，也不是 hamburger",
+          "html": "<span class=\"tok tok-zh\">不是</span> <span class=\"tok tok-en\">Hamburg</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">也不是</span> <span class=\"tok tok-en\">hamburger</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "Hamburg[はんぶるく]でもなく、hamburger[はんばーがー]でもない",
+          "html": "<ruby>Hamburg<rt>はんぶるく</rt></ruby><ruby><ruby>でも<rt>でも</rt></ruby><rt>でも</rt></ruby><ruby>なく<rt>なく</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>hamburger<rt>はんばーがー</rt></ruby>でも<ruby>ない<rt>ない</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:13.704",
       "end": "00:00:16.664",
-      "text": "是日式ハンバーグ，汉堡肉啦！"
+      "start_seconds": 13.704,
+      "end_seconds": 16.664,
+      "text": "是日式ハンバーグ，汉堡肉啦！",
+      "html": "<span class=\"tok tok-kanji\">是日式</span><span class=\"tok tok-kana\">ハンバーグ</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">汉堡肉啦</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "It's a Japanese-style hamburger steak, the hamburger patty!",
+          "html": "<span class=\"tok tok-en\">It&#x27;s</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">Japanese</span><span class=\"tok tok-punc\">-</span><span class=\"tok tok-en\">style</span> <span class=\"tok tok-en\">hamburger</span> <span class=\"tok tok-en\">steak</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">hamburger</span> <span class=\"tok tok-en\">patty</span><span class=\"tok tok-punc\">!</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "是日式ハンバーグ，汉堡肉啦！",
+          "html": "<span class=\"tok tok-zh\">是日式</span><span class=\"tok tok-kana\">ハンバーグ</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">汉堡肉啦</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "日式[にっしき]ハンバーグ[はんばあぐ]だ[だ]よ[よ]、ハンバーグ[はんばあぐ]肉[にく]！",
+          "html": "<ruby>日式<rt>にっしき</rt></ruby><ruby><ruby>ハンバーグ<rt>はんばあぐ</rt></ruby><rt>はんばあぐ</rt></ruby><ruby>だ<rt>だ</rt></ruby><ruby>よ<rt>よ</rt></ruby><ruby>、<rt>、</rt></ruby>ハンバーグ<ruby>肉<rt>にく</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:16.664",
       "end": "00:00:19.284",
-      "text": "所以它只是汉堡的灵魂？"
+      "start_seconds": 16.664,
+      "end_seconds": 19.284,
+      "text": "所以它只是汉堡的灵魂？",
+      "html": "<span class=\"tok tok-kanji\">所以它只是汉堡的灵魂</span><span class=\"tok tok-punc\">？</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "So it's just the soul of the burger?",
+          "html": "<span class=\"tok tok-en\">So</span> <span class=\"tok tok-en\">it&#x27;s</span> <span class=\"tok tok-en\">just</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">soul</span> <span class=\"tok tok-en\">of</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">burger</span><span class=\"tok tok-punc\">?</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "所以它只是汉堡的灵魂？",
+          "html": "<span class=\"tok tok-zh\">所以它只是汉堡的灵魂</span><span class=\"tok tok-punc\">？</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "つまり、それはハンバーグ[はんばーぐ]の魂[たましい]なの？",
+          "html": "<ruby>つまり<rt>つまり</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>それ<rt>それ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>ハンバーグ<rt>はんばーぐ</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>魂<rt>たましい</rt></ruby><ruby>なの<rt>なの</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:19.284",
       "end": "00:00:19.740",
-      "text": "The"
+      "start_seconds": 19.284,
+      "end_seconds": 19.74,
+      "text": "The",
+      "html": "<span class=\"tok tok-en\">The</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "The",
+          "html": "<span class=\"tok tok-en\">The</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "The",
+          "html": "<span class=\"tok tok-en\">The</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "その",
+          "html": "<ruby>その<rt>その</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:19.740",
       "end": "00:00:20.196",
-      "text": "mountain"
+      "start_seconds": 19.74,
+      "end_seconds": 20.196,
+      "text": "mountain",
+      "html": "<span class=\"tok tok-en\">mountain</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "mountain",
+          "html": "<span class=\"tok tok-en\">mountain</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "mountain",
+          "html": "<span class=\"tok tok-en\">mountain</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "山[やま]",
+          "html": "<ruby>山<rt>やま</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:20.196",
       "end": "00:00:20.652",
-      "text": "made"
+      "start_seconds": 20.196,
+      "end_seconds": 20.652,
+      "text": "made",
+      "html": "<span class=\"tok tok-en\">made</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "made",
+          "html": "<span class=\"tok tok-en\">made</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "made",
+          "html": "<span class=\"tok tok-en\">made</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "作[つく]った",
+          "html": "<ruby>作った<rt>つくった</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:20.652",
       "end": "00:00:21.108",
-      "text": "a"
+      "start_seconds": 20.652,
+      "end_seconds": 21.108,
+      "text": "a",
+      "html": "<span class=\"tok tok-en\">a</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "a",
+          "html": "<span class=\"tok tok-en\">a</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "a",
+          "html": "<span class=\"tok tok-en\">a</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "一つ[ひとつ]の",
+          "html": "<ruby>一つ<rt>ひとつ</rt></ruby><ruby>の<rt>の</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:21.108",
       "end": "00:00:21.564",
-      "text": "burger!"
+      "start_seconds": 21.108,
+      "end_seconds": 21.564,
+      "text": "burger!",
+      "html": "<span class=\"tok tok-en\">burger</span><span class=\"tok tok-punc\">!</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "burger!",
+          "html": "<span class=\"tok tok-en\">burger</span><span class=\"tok tok-punc\">!</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "burger!",
+          "html": "<span class=\"tok tok-en\">burger</span><span class=\"tok tok-punc\">!</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "バーガー！",
+          "html": "<ruby>バーガー<rt>ばーがー</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:21.564",
       "end": "00:00:23.843",
-      "text": "阿尔卑斯山听懂英语了！"
+      "start_seconds": 21.564,
+      "end_seconds": 23.843,
+      "text": "阿尔卑斯山听懂英语了！",
+      "html": "<span class=\"tok tok-kanji\">阿尔卑斯山听懂英语了</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "The Alps understand English now!",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">Alps</span> <span class=\"tok tok-en\">understand</span> <span class=\"tok tok-en\">English</span> <span class=\"tok tok-en\">now</span><span class=\"tok tok-punc\">!</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "阿尔卑斯山听懂英语了！",
+          "html": "<span class=\"tok tok-zh\">阿尔卑斯山听懂英语了</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "アルプス[あるぷす]山[やま]が英語[えいご]を理解[りかい]した！",
+          "html": "<ruby>アルプス<rt>あるぷす</rt></ruby><ruby>山<rt>やま</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>英語<rt>えいご</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>理解<rt>りかい</rt></ruby><ruby>した<rt>した</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:23.843",
       "end": "00:00:24.383",
-      "text": "Merci,"
+      "start_seconds": 23.843,
+      "end_seconds": 24.383,
+      "text": "Merci,",
+      "html": "<span class=\"tok tok-en\">Merci</span><span class=\"tok tok-punc\">,</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Thank you,",
+          "html": "<span class=\"tok tok-en\">Thank</span> <span class=\"tok tok-en\">you</span><span class=\"tok tok-punc\">,</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "Merci,",
+          "html": "<span class=\"tok tok-en\">Merci</span><span class=\"tok tok-punc\">,</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ありがとう,",
+          "html": "<ruby>ありがとう<rt>ありがとう</rt></ruby><ruby>,<rt>,</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:24.383",
       "end": "00:00:24.923",
-      "text": "grazie,"
+      "start_seconds": 24.383,
+      "end_seconds": 24.923000000000002,
+      "text": "grazie,",
+      "html": "<span class=\"tok tok-en\">grazie</span><span class=\"tok tok-punc\">,</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "thank you,",
+          "html": "<span class=\"tok tok-en\">thank</span> <span class=\"tok tok-en\">you</span><span class=\"tok tok-punc\">,</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "grazie,",
+          "html": "<span class=\"tok tok-en\">grazie</span><span class=\"tok tok-punc\">,</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ありがとう,",
+          "html": "<ruby>ありがとう<rt>ありがとう</rt></ruby><ruby>,<rt>,</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:24.923",
       "end": "00:00:25.463",
-      "text": "thank"
+      "start_seconds": 24.923000000000002,
+      "end_seconds": 25.463,
+      "text": "thank",
+      "html": "<span class=\"tok tok-en\">thank</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "thank",
+          "html": "<span class=\"tok tok-en\">thank</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "thank",
+          "html": "<span class=\"tok tok-en\">thank</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ありがとう",
+          "html": "<ruby>ありがとう<rt>ありがとう</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:25.463",
       "end": "00:00:26.003",
-      "text": "you,"
+      "start_seconds": 25.463,
+      "end_seconds": 26.003,
+      "text": "you,",
+      "html": "<span class=\"tok tok-en\">you</span><span class=\"tok tok-punc\">,</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "you,",
+          "html": "<span class=\"tok tok-en\">you</span><span class=\"tok tok-punc\">,</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "you,",
+          "html": "<span class=\"tok tok-en\">you</span><span class=\"tok tok-punc\">,</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "あなた、",
+          "html": "<ruby>あなた<rt>あなた</rt></ruby><ruby>、<rt>、</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:26.003",
       "end": "00:00:26.543",
-      "text": "山神！"
+      "start_seconds": 26.003,
+      "end_seconds": 26.543,
+      "text": "山神！",
+      "html": "<span class=\"tok tok-kanji\">山神</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Mountain God!",
+          "html": "<span class=\"tok tok-en\">Mountain</span> <span class=\"tok tok-en\">God</span><span class=\"tok tok-punc\">!</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "山神！",
+          "html": "<span class=\"tok tok-zh\">山神</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "山[やま]神[かみ]！",
+          "html": "<ruby>山<rt>やま</rt></ruby><ruby>神<rt>かみ</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:26.544",
       "end": "00:00:27.374",
-      "text": "International"
+      "start_seconds": 26.544,
+      "end_seconds": 27.374,
+      "text": "International",
+      "html": "<span class=\"tok tok-en\">International</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "International",
+          "html": "<span class=\"tok tok-en\">International</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "International",
+          "html": "<span class=\"tok tok-en\">International</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "インターナショナル[いんたあなしょなる]",
+          "html": "<ruby>インターナショナル<rt>いんたあなしょなる</rt></ruby>"
+        }
+      }
     },
     {
       "start": "00:00:27.374",
       "end": "00:00:28.204",
-      "text": "ハンバーガー！"
+      "start_seconds": 27.374,
+      "end_seconds": 28.204,
+      "text": "ハンバーガー！",
+      "html": "<span class=\"tok tok-kana\">ハンバーガー</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Hamburger!",
+          "html": "<span class=\"tok tok-en\">Hamburger</span><span class=\"tok tok-punc\">!</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "ハンバーガー！",
+          "html": "<span class=\"tok tok-kana\">ハンバーガー</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ハンバーガー[はんばーがー]！",
+          "html": "<ruby>ハンバーガー<rt>はんばーがー</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        }
+      }
     }
   ]
 }

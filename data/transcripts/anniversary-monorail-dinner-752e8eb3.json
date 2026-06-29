@@ -10,72 +10,352 @@
     {
       "start": "00:00:00.260",
       "end": "00:00:00.840",
-      "text": "冷"
+      "start_seconds": 0.26,
+      "end_seconds": 0.84,
+      "text": "冷",
+      "html": "<span class=\"tok tok-kanji\">冷</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "冷",
+          "html": "<span class=\"tok tok-zh\">冷</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "冷たい[つめたい]",
+          "html": "<ruby>冷たい<rt>つめたい</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Cold",
+          "html": "<span class=\"tok tok-en\">Cold</span>"
+        }
+      }
     },
     {
       "start": "00:00:00.840",
       "end": "00:00:05.000",
-      "text": "我们坐那辆车去餐厅吧。今天是 anniversary，要好好吃一顿。"
+      "start_seconds": 0.84,
+      "end_seconds": 5.0,
+      "text": "我们坐那辆车去餐厅吧。今天是 anniversary，要好好吃一顿。",
+      "html": "<span class=\"tok tok-kanji\">我们坐那辆车去餐厅吧</span><span class=\"tok tok-punc\">。</span><span class=\"tok tok-kanji\">今天是</span> <span class=\"tok tok-en\">anniversary</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">要好好吃一顿</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我们坐那辆车去餐厅吧。今天是 anniversary，要好好吃一顿。",
+          "html": "<span class=\"tok tok-zh\">我们坐那辆车去餐厅吧</span><span class=\"tok tok-punc\">。</span><span class=\"tok tok-zh\">今天是</span> <span class=\"tok tok-en\">anniversary</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">要好好吃一顿</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "あの車[くるま]でレストランに行きましょう[いきましょう]。今日[きょう]はアニバーサリーなので、しっかり食べましょう[たべましょう]。",
+          "html": "<ruby>あの<rt>あの</rt></ruby><ruby>車<rt>くるま</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>レストラン<rt>レストラン</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>行きましょう<rt>いきましょう</rt></ruby><ruby><ruby>。<rt>。</rt></ruby><rt>。</rt></ruby><ruby>今日<rt>きょう</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>アニバーサリー<rt>アニバーサリー</rt></ruby><ruby>なので<rt>なので</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>しっかり<rt>しっかり</rt></ruby><ruby>食べましょう<rt>たべましょう</rt></ruby>。"
+        },
+        "en": {
+          "label": "English",
+          "text": "Let's take that car to the restaurant. Today is our anniversary, so let's have a nice meal.",
+          "html": "<span class=\"tok tok-en\">Let&#x27;s</span> <span class=\"tok tok-en\">take</span> <span class=\"tok tok-en\">that</span> <span class=\"tok tok-en\">car</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">restaurant</span><span class=\"tok tok-punc\">.</span> <span class=\"tok tok-en\">Today</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">our</span> <span class=\"tok tok-en\">anniversary</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">so</span> <span class=\"tok tok-en\">let&#x27;s</span> <span class=\"tok tok-en\">have</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">nice</span> <span class=\"tok tok-en\">meal</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:05.000",
       "end": "00:00:08.080",
-      "text": "车票找到了"
+      "start_seconds": 5.0,
+      "end_seconds": 8.08,
+      "text": "车票找到了",
+      "html": "<span class=\"tok tok-kanji\">车票找到了</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "车票找到了",
+          "html": "<span class=\"tok tok-zh\">车票找到了</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "切符[きっぷ]が見つかりました[みつかりました]",
+          "html": "<ruby>切符<rt>きっぷ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>見つかりました<rt>みつかりました</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "The ticket has been found.",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">ticket</span> <span class=\"tok tok-en\">has</span> <span class=\"tok tok-en\">been</span> <span class=\"tok tok-en\">found</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:08.080",
       "end": "00:00:10.000",
-      "text": "现在可以上车。"
+      "start_seconds": 8.08,
+      "end_seconds": 10.0,
+      "text": "现在可以上车。",
+      "html": "<span class=\"tok tok-kanji\">现在可以上车</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "现在可以上车。",
+          "html": "<span class=\"tok tok-zh\">现在可以上车</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "今[いま]、乗車[じょうしゃ]できます。",
+          "html": "<ruby>今<rt>いま</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>乗車<rt>じょうしゃ</rt></ruby><ruby>できます<rt>できます</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "You can board now.",
+          "html": "<span class=\"tok tok-en\">You</span> <span class=\"tok tok-en\">can</span> <span class=\"tok tok-en\">board</span> <span class=\"tok tok-en\">now</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:10.000",
       "end": "00:00:13.000",
-      "text": "不要硬切。"
+      "start_seconds": 10.0,
+      "end_seconds": 13.0,
+      "text": "不要硬切。",
+      "html": "<span class=\"tok tok-kanji\">不要硬切</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "不要硬切。",
+          "html": "<span class=\"tok tok-zh\">不要硬切</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "無理[むり]に切ら[きら]ないで。",
+          "html": "<ruby>無理<rt>むり</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>切ら<rt>きら</rt></ruby><ruby>ない<rt>ない</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Don't cut against the grain.",
+          "html": "<span class=\"tok tok-en\">Don&#x27;t</span> <span class=\"tok tok-en\">cut</span> <span class=\"tok tok-en\">against</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">grain</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:13.000",
       "end": "00:00:17.760",
-      "text": "要顺着牛肉的纹路切。"
+      "start_seconds": 13.0,
+      "end_seconds": 17.76,
+      "text": "要顺着牛肉的纹路切。",
+      "html": "<span class=\"tok tok-kanji\">要顺着牛肉的纹路切</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "要顺着牛肉的纹路切。",
+          "html": "<span class=\"tok tok-zh\">要顺着牛肉的纹路切</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "牛肉[ぎゅうにく]の筋[すじ]に沿って[そって]切り[きり]ます。",
+          "html": "<ruby>牛肉<rt>ぎゅう<ruby>に<rt>に</rt></ruby>く</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>筋<rt>すじ</rt></ruby>に<ruby>沿って<rt>そって</rt></ruby><ruby>切り<rt>きり</rt></ruby><ruby>ます<rt>ます</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Cut along the grain of the beef.",
+          "html": "<span class=\"tok tok-en\">Cut</span> <span class=\"tok tok-en\">along</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">grain</span> <span class=\"tok tok-en\">of</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">beef</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:17.760",
       "end": "00:00:20.920",
-      "text": "这里有小烟花机关。它很安全，不会碰到食物。"
+      "start_seconds": 17.76,
+      "end_seconds": 20.92,
+      "text": "这里有小烟花机关。它很安全，不会碰到食物。",
+      "html": "<span class=\"tok tok-kanji\">这里有小烟花机关</span><span class=\"tok tok-punc\">。</span><span class=\"tok tok-kanji\">它很安全</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">不会碰到食物</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "这里有小烟花机关。它很安全，不会碰到食物。",
+          "html": "<span class=\"tok tok-zh\">这里有小烟花机关</span><span class=\"tok tok-punc\">。</span><span class=\"tok tok-zh\">它很安全</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">不会碰到食物</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ここには小さな[ちいさな]花火[はなび]の仕掛け[しかけ]があります。とても安全[あんぜん]で食べ物[たべもの]には触れ[ふれ]ません。",
+          "html": "<ruby>ここ<rt>ここ</rt></ruby><ruby><ruby>に<rt>に</rt></ruby><rt>に</rt></ruby><ruby><ruby>は<rt>は</rt></ruby><rt>は</rt></ruby><ruby>小さな<rt>ちいさな</rt></ruby><ruby>花火<rt>はなび</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>仕掛け<rt>しかけ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>あります<rt>あります</rt></ruby><ruby><ruby>。<rt>。</rt></ruby><rt>。</rt></ruby><ruby>とても<rt>とても</rt></ruby><ruby>安全<rt>あんぜん</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>食べ物<rt>たべもの</rt></ruby>には<ruby>触れ<rt>ふれ</rt></ruby><ruby>ません<rt>ません</rt></ruby>。"
+        },
+        "en": {
+          "label": "English",
+          "text": "There is a small firework mechanism. It's very safe and won't touch the food.",
+          "html": "<span class=\"tok tok-en\">There</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">small</span> <span class=\"tok tok-en\">firework</span> <span class=\"tok tok-en\">mechanism</span><span class=\"tok tok-punc\">.</span> <span class=\"tok tok-en\">It&#x27;s</span> <span class=\"tok tok-en\">very</span> <span class=\"tok tok-en\">safe</span> <span class=\"tok tok-en\">and</span> <span class=\"tok tok-en\">won&#x27;t</span> <span class=\"tok tok-en\">touch</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">food</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:20.920",
       "end": "00:00:22.780",
-      "text": "一"
+      "start_seconds": 20.92,
+      "end_seconds": 22.78,
+      "text": "一",
+      "html": "<span class=\"tok tok-kanji\">一</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "一",
+          "html": "<span class=\"tok tok-zh\">一</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "一[いち]",
+          "html": "<ruby>一<rt>いち</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "One",
+          "html": "<span class=\"tok tok-en\">One</span>"
+        }
+      }
     },
     {
       "start": "00:00:22.780",
       "end": "00:00:23.480",
-      "text": "二"
+      "start_seconds": 22.78,
+      "end_seconds": 23.48,
+      "text": "二",
+      "html": "<span class=\"tok tok-kanji\">二</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "二",
+          "html": "<span class=\"tok tok-zh\">二</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "二[に]",
+          "html": "<ruby>二<rt>に</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Two",
+          "html": "<span class=\"tok tok-en\">Two</span>"
+        }
+      }
     },
     {
       "start": "00:00:23.480",
       "end": "00:00:24.120",
-      "text": "三"
+      "start_seconds": 23.48,
+      "end_seconds": 24.12,
+      "text": "三",
+      "html": "<span class=\"tok tok-kanji\">三</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "三",
+          "html": "<span class=\"tok tok-zh\">三</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "三[さん]",
+          "html": "<ruby>三<rt>さん</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Three",
+          "html": "<span class=\"tok tok-en\">Three</span>"
+        }
+      }
     },
     {
       "start": "00:00:24.120",
       "end": "00:00:26.900",
-      "text": "今天的晚餐有一点难"
+      "start_seconds": 24.12,
+      "end_seconds": 26.9,
+      "text": "今天的晚餐有一点难",
+      "html": "<span class=\"tok tok-kanji\">今天的晚餐有一点难</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "今天的晚餐有一点难",
+          "html": "<span class=\"tok tok-zh\">今天的晚餐有一点难</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "今日[きょう]の[の]夕食[ゆうしょく]は[わ]少[すこ]し難[むずか]しい",
+          "html": "<ruby>今日<rt>きょう</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>夕食<rt>ゆうしょく</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>少し<rt>すこし</rt></ruby><ruby>難しい<rt>むずかしい</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Tonight's dinner is a bit difficult",
+          "html": "<span class=\"tok tok-en\">Tonight&#x27;s</span> <span class=\"tok tok-en\">dinner</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">bit</span> <span class=\"tok tok-en\">difficult</span>"
+        }
+      }
     },
     {
       "start": "00:00:26.900",
       "end": "00:00:28.140",
-      "text": "但很好玩"
+      "start_seconds": 26.9,
+      "end_seconds": 28.14,
+      "text": "但很好玩",
+      "html": "<span class=\"tok tok-kanji\">但很好玩</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "但很好玩",
+          "html": "<span class=\"tok tok-zh\">但很好玩</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "でもとても楽[たの]しい",
+          "html": "<ruby>でも<rt>でも</rt></ruby><ruby>とても<rt>とても</rt></ruby><ruby>楽しい<rt>たのしい</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "But it's a lot of fun",
+          "html": "<span class=\"tok tok-en\">But</span> <span class=\"tok tok-en\">it&#x27;s</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">lot</span> <span class=\"tok tok-en\">of</span> <span class=\"tok tok-en\">fun</span>"
+        }
+      }
     },
     {
       "start": "00:00:28.140",
       "end": "00:00:28.920",
-      "text": "庄子机器人认真记录："
+      "start_seconds": 28.14,
+      "end_seconds": 28.92,
+      "text": "庄子机器人认真记录：",
+      "html": "<span class=\"tok tok-kanji\">庄子机器人认真记录</span><span class=\"tok tok-punc\">：</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "庄子机器人认真记录：",
+          "html": "<span class=\"tok tok-zh\">庄子机器人认真记录</span><span class=\"tok tok-punc\">：</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "荘子[そうし]ロボットは真剣に[しんけんに]記録する[きろくする]：",
+          "html": "<ruby>荘子<rt>そうし</rt></ruby><ruby>ロボット<rt>ろぼっと</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>真剣に<rt>しんけんに</rt></ruby><ruby>記録する<rt>きろくする</rt></ruby><ruby>：<rt>：</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "The Zhuangzi robot carefully records:",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">Zhuangzi</span> <span class=\"tok tok-en\">robot</span> <span class=\"tok tok-en\">carefully</span> <span class=\"tok tok-en\">records</span><span class=\"tok tok-punc\">:</span>"
+        }
+      }
     },
     {
       "start": "00:00:28.920",
       "end": "00:00:34.040",
-      "text": "寒い的夜晚，monorail，lobster，beef，小烟花，anniversary 成功。"
+      "start_seconds": 28.92,
+      "end_seconds": 34.04,
+      "text": "寒い的夜晚，monorail，lobster，beef，小烟花，anniversary 成功。",
+      "html": "<span class=\"tok tok-kanji\">寒</span><span class=\"tok tok-kana\">い</span><span class=\"tok tok-kanji\">的夜晚</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-en\">monorail</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-en\">lobster</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-en\">beef</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">小烟花</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-en\">anniversary</span> <span class=\"tok tok-kanji\">成功</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "寒い的夜晚，monorail，lobster，beef，小烟花，anniversary 成功。",
+          "html": "<span class=\"tok tok-zh\">寒</span><span class=\"tok tok-kana\">い</span><span class=\"tok tok-zh\">的夜晚</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-en\">monorail</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-en\">lobster</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-en\">beef</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">小烟花</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-en\">anniversary</span> <span class=\"tok tok-zh\">成功</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "寒い[さむい]夜[よる]、モノレール、ロブスター、ビーフ、小さな[ちいさな]花火[はなび]、アニバーサリーの成功[せいこう]。",
+          "html": "<ruby>寒い<rt>さむい</rt></ruby><ruby>夜<rt>よる</rt></ruby><ruby><ruby><ruby><ruby><ruby>、<rt>、</rt></ruby><rt>、</rt></ruby><rt>、</rt></ruby><rt>、</rt></ruby><rt>、</rt></ruby><ruby>モノレール<rt>モノレール</rt></ruby>、<ruby>ロブスター<rt>ロブスター</rt></ruby>、<ruby>ビーフ<rt>ビーフ</rt></ruby>、<ruby>小さな<rt>ちいさな</rt></ruby><ruby>花火<rt>はなび</rt></ruby>、<ruby>アニバーサリー<rt>アニバーサリー</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>成功<rt>せいこう</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Cold night, monorail, lobster, beef, small fireworks, anniversary success.",
+          "html": "<span class=\"tok tok-en\">Cold</span> <span class=\"tok tok-en\">night</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">monorail</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">lobster</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">beef</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">small</span> <span class=\"tok tok-en\">fireworks</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">anniversary</span> <span class=\"tok tok-en\">success</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     }
   ]
 }

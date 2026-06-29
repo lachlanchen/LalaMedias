@@ -10,62 +10,302 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:01.440",
-      "text": "欢迎来到今日香港寻宝计划"
+      "start_seconds": 0.0,
+      "end_seconds": 1.44,
+      "text": "欢迎来到今日香港寻宝计划",
+      "html": "<span class=\"tok tok-kanji\">欢迎来到今日香港寻宝计划</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "欢迎来到今日香港寻宝计划",
+          "html": "<span class=\"tok tok-zh\">欢迎来到今日香港寻宝计划</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "今日[きょう]の香港[ほんこん]宝探し[たからさがし]計画[けいかく]へようこそ",
+          "html": "<ruby>今日<rt>きょう</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>香港<rt>ほんこん</rt></ruby><ruby>宝探し<rt>たからさがし</rt></ruby><ruby>計画<rt>けいかく</rt></ruby><ruby>へ<rt>へ</rt></ruby><ruby>ようこそ<rt>ようこそ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Welcome to today's Hong Kong Treasure Hunt Plan.",
+          "html": "<span class=\"tok tok-en\">Welcome</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">today&#x27;s</span> <span class=\"tok tok-en\">Hong</span> <span class=\"tok tok-en\">Kong</span> <span class=\"tok tok-en\">Treasure</span> <span class=\"tok tok-en\">Hunt</span> <span class=\"tok tok-en\">Plan</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:01.440",
       "end": "00:00:03.420",
-      "text": "今天我们要寻找传说中的神秘终极夜宵"
+      "start_seconds": 1.44,
+      "end_seconds": 3.42,
+      "text": "今天我们要寻找传说中的神秘终极夜宵",
+      "html": "<span class=\"tok tok-kanji\">今天我们要寻找传说中的神秘终极夜宵</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "今天我们要寻找传说中的神秘终极夜线",
+          "html": "<span class=\"tok tok-zh\">今天我们要寻找传说中的神秘终极夜线</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "今日[きょう]、私たち[わたしたち]は伝説[でんせつ]の神秘[しんぴ]の究極[きゅうきょく]の夜線[やせん]を探[さが]します。",
+          "html": "<ruby>今日<rt>きょう</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>私たち<rt>わたしたち</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>伝説<rt>でんせつ</rt></ruby><ruby><ruby><ruby>の<rt>の</rt></ruby><rt>の</rt></ruby><rt>の</rt></ruby><ruby>神秘<rt>しんぴ</rt></ruby>の<ruby>究極<rt>きゅうきょく</rt></ruby>の<ruby>夜線<rt>やせん</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>探し<rt>さがし</rt></ruby><ruby>ます<rt>ます</rt></ruby>。"
+        },
+        "en": {
+          "label": "English",
+          "text": "Today we're going to find the legendary mysterious ultimate night line.",
+          "html": "<span class=\"tok tok-en\">Today</span> <span class=\"tok tok-en\">we&#x27;re</span> <span class=\"tok tok-en\">going</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">find</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">legendary</span> <span class=\"tok tok-en\">mysterious</span> <span class=\"tok tok-en\">ultimate</span> <span class=\"tok tok-en\">night</span> <span class=\"tok tok-en\">line</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:03.420",
       "end": "00:00:04.540",
-      "text": "我们原本只是出来吃晚饭吧"
+      "start_seconds": 3.42,
+      "end_seconds": 4.54,
+      "text": "我们原本只是出来吃晚饭吧",
+      "html": "<span class=\"tok tok-kanji\">我们原本只是出来吃晚饭吧</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "夏云原本是在吃碗吧",
+          "html": "<span class=\"tok tok-zh\">夏云原本是在吃碗吧</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "シャー[しゃあ]・ユン[ゆん]は[わ]元々[もともと]茶碗[ちゃわん]を[お]食べて[たべて]いた[いた]の[の]だろう[だろう]か[か]",
+          "html": "<ruby>シャー<rt>しゃあ</rt></ruby><ruby>・<rt>・</rt></ruby><ruby>ユン<rt>ゆん</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>元々<rt>もともと</rt></ruby><ruby>茶碗<rt>ちゃわん</rt></ruby><ruby>を<rt>お</rt></ruby><ruby>食べて<rt>たべて</rt></ruby><ruby>いた<rt>いた</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>だろう<rt>だろう</rt></ruby><ruby>か<rt>か</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Xia Yun was just eating, wasn't he?",
+          "html": "<span class=\"tok tok-en\">Xia</span> <span class=\"tok tok-en\">Yun</span> <span class=\"tok tok-en\">was</span> <span class=\"tok tok-en\">just</span> <span class=\"tok tok-en\">eating</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">wasn&#x27;t</span> <span class=\"tok tok-en\">he</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:04.540",
       "end": "00:00:05.300",
-      "text": "看来真正的高手"
+      "start_seconds": 4.54,
+      "end_seconds": 5.3,
+      "text": "看来真正的高手",
+      "html": "<span class=\"tok tok-kanji\">看来真正的高手</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "看来真正的高手",
+          "html": "<span class=\"tok tok-zh\">看来真正的高手</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "本当[ほんとう]の達人[たつじん]のようだ",
+          "html": "<ruby>本当<rt>ほんとう</rt></ruby><ruby><ruby>の<rt>の</rt></ruby><rt>の</rt></ruby><ruby>達人<rt>たつじん</rt></ruby>の<ruby>よう<rt>よう</rt></ruby><ruby>だ<rt>だ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Looks like the real master",
+          "html": "<span class=\"tok tok-en\">Looks</span> <span class=\"tok tok-en\">like</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">real</span> <span class=\"tok tok-en\">master</span>"
+        }
+      }
     },
     {
       "start": "00:00:05.300",
       "end": "00:00:06.540",
-      "text": "你已经连续第五次把吃的当线索了"
+      "start_seconds": 5.3,
+      "end_seconds": 6.54,
+      "text": "你已经连续第五次把吃的当线索了",
+      "html": "<span class=\"tok tok-kanji\">你已经连续第五次把吃的当线索了</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "你已经连续第五次把吃的当线索了",
+          "html": "<span class=\"tok tok-zh\">你已经连续第五次把吃的当线索了</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "もう五回[ごかい]連続[れんぞく]で食べ物[たべもの]を手がかり[てがかり]にしている[している]よ",
+          "html": "<ruby>もう<rt>もう</rt></ruby><ruby>五回<rt>ごかい</rt></ruby><ruby>連続<rt>れんぞく</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>食べ物<rt>たべもの</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>手がかり<rt>てがかり</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>している<rt>している</rt></ruby><ruby>よ<rt>よ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "That's the fifth time in a row you've mistaken food for clues.",
+          "html": "<span class=\"tok tok-en\">That&#x27;s</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">fifth</span> <span class=\"tok tok-en\">time</span> <span class=\"tok tok-en\">in</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">row</span> <span class=\"tok tok-en\">you&#x27;ve</span> <span class=\"tok tok-en\">mistaken</span> <span class=\"tok tok-en\">food</span> <span class=\"tok tok-en\">for</span> <span class=\"tok tok-en\">clues</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:06.540",
       "end": "00:00:07.180",
-      "text": "我找到宝藏了"
+      "start_seconds": 6.54,
+      "end_seconds": 7.18,
+      "text": "我找到宝藏了",
+      "html": "<span class=\"tok tok-kanji\">我找到宝藏了</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我找到宝藏了",
+          "html": "<span class=\"tok tok-zh\">我找到宝藏了</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "宝[たから]を見つけた[みつけた]",
+          "html": "<ruby>宝<rt>たから</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>見つけた<rt>みつけた</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I found the treasure",
+          "html": "<span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">found</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">treasure</span>"
+        }
+      }
     },
     {
       "start": "00:00:07.180",
       "end": "00:00:08.020",
-      "text": "干炒牛河、奶油猪仔包"
+      "start_seconds": 7.18,
+      "end_seconds": 8.02,
+      "text": "干炒牛河、奶油猪仔包",
+      "html": "<span class=\"tok tok-kanji\">干炒牛河</span><span class=\"tok tok-punc\">、</span><span class=\"tok tok-kanji\">奶油猪仔包</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "三杆炒牛是大猪宰包",
+          "html": "<span class=\"tok tok-zh\">三杆炒牛是大猪宰包</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "三本[さんぼん]の[の]炒め[いため]牛[うし]は[わ]大きな[おおきな]豚[ぶた]の[の]屠殺[とさつ]包み[つつみ]だ[だ]",
+          "html": "<ruby>三本<rt>さんぼん</rt></ruby><ruby><ruby>の<rt>の</rt></ruby><rt>の</rt></ruby><ruby>炒め<rt>いため</rt></ruby><ruby>牛<rt>うし</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>大きな<rt>おおきな</rt></ruby><ruby>豚<rt>ぶた</rt></ruby>の<ruby>屠殺<rt>とさつ</rt></ruby><ruby>包み<rt>つつみ</rt></ruby><ruby>だ<rt>だ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Three rods of stir-fried beef are big pork buns.",
+          "html": "<span class=\"tok tok-en\">Three</span> <span class=\"tok tok-en\">rods</span> <span class=\"tok tok-en\">of</span> <span class=\"tok tok-en\">stir</span><span class=\"tok tok-punc\">-</span><span class=\"tok tok-en\">fried</span> <span class=\"tok tok-en\">beef</span> <span class=\"tok tok-en\">are</span> <span class=\"tok tok-en\">big</span> <span class=\"tok tok-en\">pork</span> <span class=\"tok tok-en\">buns</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:08.020",
       "end": "00:00:09.600",
-      "text": "这难道是失传已久的武功秘籍"
+      "start_seconds": 8.02,
+      "end_seconds": 9.6,
+      "text": "这难道是失传已久的武功秘籍",
+      "html": "<span class=\"tok tok-kanji\">这难道是失传已久的武功秘籍</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "这难道是失传已足藏教徒秘籍",
+          "html": "<span class=\"tok tok-zh\">这难道是失传已足藏教徒秘籍</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "これ[これ]は[は]失伝[しつでん]した[した]チベット[ちべっと]教徒[きょうと]の[の]秘伝書[ひでんしょ]な[な]の[の]か[か]？[？]",
+          "html": "<ruby>これ<rt>これ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>失伝<rt>しつでん</rt></ruby><ruby>した<rt>した</rt></ruby><ruby>チベット<rt>ちべっと</rt></ruby><ruby>教徒<rt>きょうと</rt></ruby><ruby><ruby>の<rt>の</rt></ruby><rt>の</rt></ruby><ruby>秘伝書<rt>ひでんしょ</rt></ruby><ruby>な<rt>な</rt></ruby>の<ruby>か<rt>か</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Could this be the long-lost Tibetan Buddhist secret manual?",
+          "html": "<span class=\"tok tok-en\">Could</span> <span class=\"tok tok-en\">this</span> <span class=\"tok tok-en\">be</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">long</span><span class=\"tok tok-punc\">-</span><span class=\"tok tok-en\">lost</span> <span class=\"tok tok-en\">Tibetan</span> <span class=\"tok tok-en\">Buddhist</span> <span class=\"tok tok-en\">secret</span> <span class=\"tok tok-en\">manual</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:09.600",
       "end": "00:00:10.900",
-      "text": "下雨天大家总会肚子饿嘛"
+      "start_seconds": 9.6,
+      "end_seconds": 10.9,
+      "text": "下雨天大家总会肚子饿嘛",
+      "html": "<span class=\"tok tok-kanji\">下雨天大家总会肚子饿嘛</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "夏云茶大家总会肚子饿吗",
+          "html": "<span class=\"tok tok-zh\">夏云茶大家总会肚子饿吗</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "夏雲茶[かうんちゃ]、みんなはいつもお腹[おなか]が空く[すく]の？",
+          "html": "<ruby>夏雲茶<rt>かうんちゃ</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>みんな<rt>みんな</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>いつも<rt>いつも</rt></ruby><ruby>お腹<rt>おなか</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>空く<rt>すく</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Is everyone always hungry at Xiayun Tea?",
+          "html": "<span class=\"tok tok-en\">Is</span> <span class=\"tok tok-en\">everyone</span> <span class=\"tok tok-en\">always</span> <span class=\"tok tok-en\">hungry</span> <span class=\"tok tok-en\">at</span> <span class=\"tok tok-en\">Xiayun</span> <span class=\"tok tok-en\">Tea</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:10.900",
       "end": "00:00:12.020",
-      "text": "原来这就是隐藏茶餐厅"
+      "start_seconds": 10.9,
+      "end_seconds": 12.02,
+      "text": "原来这就是隐藏茶餐厅",
+      "html": "<span class=\"tok tok-kanji\">原来这就是隐藏茶餐厅</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "原来这就是隐藏茶餐厅",
+          "html": "<span class=\"tok tok-zh\">原来这就是隐藏茶餐厅</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "これが隠れ茶餐廳[かくれちゃあしゃんてん]だったのか",
+          "html": "<ruby>これ<rt>これ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>隠れ茶餐廳<rt><ruby>か<rt>か</rt></ruby>くれちゃあしゃんてん</rt></ruby><ruby>だった<rt>だった</rt></ruby><ruby>の<rt>の</rt></ruby>か"
+        },
+        "en": {
+          "label": "English",
+          "text": "So this is the hidden tea restaurant.",
+          "html": "<span class=\"tok tok-en\">So</span> <span class=\"tok tok-en\">this</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">hidden</span> <span class=\"tok tok-en\">tea</span> <span class=\"tok tok-en\">restaurant</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:12.020",
       "end": "00:00:13.300",
-      "text": "原来今天的宝藏是菠萝包"
+      "start_seconds": 12.02,
+      "end_seconds": 13.3,
+      "text": "原来今天的宝藏是菠萝包",
+      "html": "<span class=\"tok tok-kanji\">原来今天的宝藏是菠萝包</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "原来今天的宝藏是菠萝包",
+          "html": "<span class=\"tok tok-zh\">原来今天的宝藏是菠萝包</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "今日[きょう]の宝物[たからもの]はパイナップルパンだ",
+          "html": "<ruby>今日<rt>きょう</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>宝物<rt>たからもの</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>パイナップルパン<rt>ぱいなっぷるぱん</rt></ruby><ruby>だ<rt>だ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "So today's treasure is the pineapple bun.",
+          "html": "<span class=\"tok tok-en\">So</span> <span class=\"tok tok-en\">today&#x27;s</span> <span class=\"tok tok-en\">treasure</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">pineapple</span> <span class=\"tok tok-en\">bun</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:13.300",
       "end": "00:00:14.640",
-      "text": "那我能不能把大家一起吃饭再加一份菠萝包"
+      "start_seconds": 13.3,
+      "end_seconds": 14.64,
+      "text": "那我能不能把大家一起吃饭再加一份菠萝包",
+      "html": "<span class=\"tok tok-kanji\">那我能不能把大家一起吃饭再加一份菠萝包</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "那我们只有我几把夹起菠萝包",
+          "html": "<span class=\"tok tok-zh\">那我们只有我几把夹起菠萝包</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "じゃあ、私たち[わたしたち]数人[すうにん]だけがパイナップルパンを挟[はさ]む。",
+          "html": "<ruby>じゃあ<rt>じゃあ</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>私たち<rt>わたしたち</rt></ruby><ruby>数人<rt>すうにん</rt></ruby><ruby>だけ<rt>だけ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>パイナップルパン<rt>ぱいなっぷるぱん</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>挟む<rt>はさむ</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Then only a few of us pick up the pineapple bun.",
+          "html": "<span class=\"tok tok-en\">Then</span> <span class=\"tok tok-en\">only</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">few</span> <span class=\"tok tok-en\">of</span> <span class=\"tok tok-en\">us</span> <span class=\"tok tok-en\">pick</span> <span class=\"tok tok-en\">up</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">pineapple</span> <span class=\"tok tok-en\">bun</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     }
   ]
 }

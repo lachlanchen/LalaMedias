@@ -10,62 +10,302 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:01.900",
-      "text": "别踩湿石头，会滑。"
+      "start_seconds": 0.0,
+      "end_seconds": 1.9,
+      "text": "别踩湿石头，会滑。",
+      "html": "<span class=\"tok tok-kanji\">别踩湿石头</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">会滑</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "别踩湿石头，会滑。",
+          "html": "<span class=\"tok tok-zh\">别踩湿石头</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">会滑</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "濡れた[ぬれた]石[いし]を踏まないで[ふまないで]、滑る[すべる]よ",
+          "html": "<ruby>濡れた<rt>ぬれた</rt></ruby><ruby>石<rt>いし</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>踏まないで<rt>ふまないで</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>滑る<rt>すべる</rt></ruby><ruby>よ<rt>よ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Don't step on the wet stones, they're slippery.",
+          "html": "<span class=\"tok tok-en\">Don&#x27;t</span> <span class=\"tok tok-en\">step</span> <span class=\"tok tok-en\">on</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">wet</span> <span class=\"tok tok-en\">stones</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">they&#x27;re</span> <span class=\"tok tok-en\">slippery</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:01.900",
       "end": "00:00:06.200",
-      "text": "阿芽酱，你在哪儿？"
+      "start_seconds": 1.9,
+      "end_seconds": 6.2,
+      "text": "阿芽酱，你在哪儿？",
+      "html": "<span class=\"tok tok-kanji\">阿芽酱</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">你在哪儿</span><span class=\"tok tok-punc\">？</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "阿芽酱，你在哪儿？",
+          "html": "<span class=\"tok tok-zh\">阿芽酱</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">你在哪儿</span><span class=\"tok tok-punc\">？</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "アヤちゃん、どこにいるの？",
+          "html": "<ruby>アヤちゃん<rt>あやちゃん</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>どこ<rt>どこ</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>いる<rt>いる</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Aya-chan, where are you?",
+          "html": "<span class=\"tok tok-en\">Aya</span><span class=\"tok tok-punc\">-</span><span class=\"tok tok-en\">chan</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">where</span> <span class=\"tok tok-en\">are</span> <span class=\"tok tok-en\">you</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:06.200",
       "end": "00:00:07.840",
-      "text": "我这里有饼干，你别慌！"
+      "start_seconds": 6.2,
+      "end_seconds": 7.84,
+      "text": "我这里有饼干，你别慌！",
+      "html": "<span class=\"tok tok-kanji\">我这里有饼干</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">你别慌</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我这里有饼干，你别慌！",
+          "html": "<span class=\"tok tok-zh\">我这里有饼干</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">你别慌</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ここにクッキーがあるよ、慌て[あわて]ないで！",
+          "html": "<ruby>ここ<rt>ここ</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>クッキー<rt>くっきー</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>ある<rt>ある</rt></ruby><ruby>よ<rt>よ</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>慌て<rt>あわて</rt></ruby><ruby>ない<rt>ない</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I have cookies here, don't panic!",
+          "html": "<span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">have</span> <span class=\"tok tok-en\">cookies</span> <span class=\"tok tok-en\">here</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">don&#x27;t</span> <span class=\"tok tok-en\">panic</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:07.840",
       "end": "00:00:09.180",
-      "text": "你先别管饼干"
+      "start_seconds": 7.84,
+      "end_seconds": 9.18,
+      "text": "你先别管饼干",
+      "html": "<span class=\"tok tok-kanji\">你先别管饼干</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "你先别管饼干",
+          "html": "<span class=\"tok tok-zh\">你先别管饼干</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "クッキー[くっきー]は[わ]とりあえず[とりあえず]気[き]に[に]しないで[しないで]",
+          "html": "<ruby>クッキー<rt>くっきー</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>とりあえず<rt>とりあえず</rt></ruby><ruby>気<rt>き</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>しないで<rt>しないで</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Forget the cookies for now.",
+          "html": "<span class=\"tok tok-en\">Forget</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">cookies</span> <span class=\"tok tok-en\">for</span> <span class=\"tok tok-en\">now</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:09.180",
       "end": "00:00:11.300",
-      "text": "往发光的萤火虫这边走"
+      "start_seconds": 9.18,
+      "end_seconds": 11.3,
+      "text": "往发光的萤火虫这边走",
+      "html": "<span class=\"tok tok-kanji\">往发光的萤火虫这边走</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "往发光的萤火虫这边走",
+          "html": "<span class=\"tok tok-zh\">往发光的萤火虫这边走</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "光る[ひかる]蛍[ほたる]の方[ほう]へ来[こ]い",
+          "html": "<ruby>光る<rt>ひかる</rt></ruby><ruby>蛍<rt>ほたる</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>方<rt>ほう</rt></ruby><ruby>へ<rt>へ</rt></ruby><ruby>来い<rt>こい</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Walk toward the glowing fireflies.",
+          "html": "<span class=\"tok tok-en\">Walk</span> <span class=\"tok tok-en\">toward</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">glowing</span> <span class=\"tok tok-en\">fireflies</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:11.300",
       "end": "00:00:14.260",
-      "text": "我被森林抓住了！"
+      "start_seconds": 11.3,
+      "end_seconds": 14.26,
+      "text": "我被森林抓住了！",
+      "html": "<span class=\"tok tok-kanji\">我被森林抓住了</span><span class=\"tok tok-punc\">！</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我被森林抓住了！",
+          "html": "<span class=\"tok tok-zh\">我被森林抓住了</span><span class=\"tok tok-punc\">！</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "森[もり]に捕まった[つかまった]！",
+          "html": "<ruby>森<rt>もり</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>捕まった<rt>つかまった</rt></ruby><ruby>！<rt>！</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "The forest has got me!",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">forest</span> <span class=\"tok tok-en\">has</span> <span class=\"tok tok-en\">got</span> <span class=\"tok tok-en\">me</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:14.260",
       "end": "00:00:22.100",
-      "text": "原来你们是靠零食导航？"
+      "start_seconds": 14.26,
+      "end_seconds": 22.1,
+      "text": "原来你们是靠零食导航？",
+      "html": "<span class=\"tok tok-kanji\">原来你们是靠零食导航</span><span class=\"tok tok-punc\">？</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "原来你们是靠零食导航？",
+          "html": "<span class=\"tok tok-zh\">原来你们是靠零食导航</span><span class=\"tok tok-punc\">？</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "つまり、おやつでナビ[なび]してるの？",
+          "html": "<ruby>つまり<rt>つまり</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>おやつ<rt>おやつ</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>ナビ<rt>なび</rt></ruby><ruby>してる<rt>してる</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "So you're navigating by snacks?",
+          "html": "<span class=\"tok tok-en\">So</span> <span class=\"tok tok-en\">you&#x27;re</span> <span class=\"tok tok-en\">navigating</span> <span class=\"tok tok-en\">by</span> <span class=\"tok tok-en\">snacks</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:22.100",
       "end": "00:00:23.860",
-      "text": "路线不标准，但有效。"
+      "start_seconds": 22.1,
+      "end_seconds": 23.86,
+      "text": "路线不标准，但有效。",
+      "html": "<span class=\"tok tok-kanji\">路线不标准</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-kanji\">但有效</span><span class=\"tok tok-punc\">。</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "路线不标准，但有效。",
+          "html": "<span class=\"tok tok-zh\">路线不标准</span><span class=\"tok tok-punc\">，</span><span class=\"tok tok-zh\">但有效</span><span class=\"tok tok-punc\">。</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ルートは標準的[ひょうじゅんてき]ではないが、有効[ゆうこう]だ。",
+          "html": "<ruby>ルート<rt>るーと</rt></ruby><ruby><ruby>は<rt>は</rt></ruby><rt>は</rt></ruby><ruby>標準的<rt>ひょうじゅんてき</rt></ruby><ruby>で<rt>で</rt></ruby>は<ruby>ない<rt>ない</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>有効<rt>ゆうこう</rt></ruby><ruby>だ<rt>だ</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "The route is not standard, but it works.",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">route</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">not</span> <span class=\"tok tok-en\">standard</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">but</span> <span class=\"tok tok-en\">it</span> <span class=\"tok tok-en\">works</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:30.000",
       "end": "00:00:30.104",
-      "text": "优优独播剧场——YoYo"
+      "start_seconds": 30.0,
+      "end_seconds": 30.104,
+      "text": "优优独播剧场——YoYo",
+      "html": "<span class=\"tok tok-kanji\">优优独播剧场</span><span class=\"tok tok-punc\">—</span><span class=\"tok tok-punc\">—</span><span class=\"tok tok-en\">YoYo</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "优优独播剧场——YoYo",
+          "html": "<span class=\"tok tok-zh\">优优独播剧场</span><span class=\"tok tok-punc\">—</span><span class=\"tok tok-punc\">—</span><span class=\"tok tok-en\">YoYo</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ユウユウ[ゆうゆう]独占[どくせん]劇場[げきじょう]——YoYo[よーよー]",
+          "html": "<ruby>ユウユウ<rt>ゆうゆう</rt></ruby><ruby>独占<rt>どくせん</rt></ruby><ruby>劇場<rt>げきじょう</rt></ruby><ruby>——<rt>——</rt></ruby><ruby>YoYo<rt>よーよー</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Youyou Exclusive Theater – YoYo",
+          "html": "<span class=\"tok tok-en\">Youyou</span> <span class=\"tok tok-en\">Exclusive</span> <span class=\"tok tok-en\">Theater</span> <span class=\"tok tok-punc\">–</span> <span class=\"tok tok-en\">YoYo</span>"
+        }
+      }
     },
     {
       "start": "00:00:30.104",
       "end": "00:00:30.209",
-      "text": "Television"
+      "start_seconds": 30.104,
+      "end_seconds": 30.209,
+      "text": "Television",
+      "html": "<span class=\"tok tok-en\">Television</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "Television",
+          "html": "<span class=\"tok tok-en\">Television</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "テレビ[てれび]",
+          "html": "<ruby>テレビ<rt>てれび</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Television",
+          "html": "<span class=\"tok tok-en\">Television</span>"
+        }
+      }
     },
     {
       "start": "00:00:30.209",
       "end": "00:00:30.313",
-      "text": "Series"
+      "start_seconds": 30.209,
+      "end_seconds": 30.313,
+      "text": "Series",
+      "html": "<span class=\"tok tok-en\">Series</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "Series",
+          "html": "<span class=\"tok tok-en\">Series</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "シリーズ[しりーず]",
+          "html": "<ruby>シリーズ<rt>しりーず</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Series",
+          "html": "<span class=\"tok tok-en\">Series</span>"
+        }
+      }
     },
     {
       "start": "00:00:30.313",
       "end": "00:00:30.418",
-      "text": "Exclusive"
+      "start_seconds": 30.313,
+      "end_seconds": 30.418,
+      "text": "Exclusive",
+      "html": "<span class=\"tok tok-en\">Exclusive</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "Exclusive",
+          "html": "<span class=\"tok tok-en\">Exclusive</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "独占[どくせん]",
+          "html": "<ruby>独占<rt>どくせん</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Exclusive",
+          "html": "<span class=\"tok tok-en\">Exclusive</span>"
+        }
+      }
     }
   ]
 }

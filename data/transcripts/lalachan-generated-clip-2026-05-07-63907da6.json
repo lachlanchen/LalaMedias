@@ -10,42 +10,202 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:00.790",
-      "text": "哇"
+      "start_seconds": 0.0,
+      "end_seconds": 0.79,
+      "text": "哇",
+      "html": "<span class=\"tok tok-kanji\">哇</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "哇",
+          "html": "<span class=\"tok tok-zh\">哇</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "わあ",
+          "html": "<ruby>わあ<rt>わあ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Wow",
+          "html": "<span class=\"tok tok-en\">Wow</span>"
+        }
+      }
     },
     {
       "start": "00:00:00.790",
       "end": "00:00:01.580",
-      "text": "这里也太漂亮了吧"
+      "start_seconds": 0.79,
+      "end_seconds": 1.58,
+      "text": "这里也太漂亮了吧",
+      "html": "<span class=\"tok tok-kanji\">这里也太漂亮了吧</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "这里也太漂亮了吧",
+          "html": "<span class=\"tok tok-zh\">这里也太漂亮了吧</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ここ、あまりにも綺麗[きれい]すぎるよ",
+          "html": "<ruby>ここ<rt>ここ</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>あまりにも<rt>あまりにも</rt></ruby><ruby>綺麗<rt>きれい</rt></ruby><ruby>すぎる<rt>すぎる</rt></ruby><ruby>よ<rt>よ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "This place is so beautiful!",
+          "html": "<span class=\"tok tok-en\">This</span> <span class=\"tok tok-en\">place</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">so</span> <span class=\"tok tok-en\">beautiful</span><span class=\"tok tok-punc\">!</span>"
+        }
+      }
     },
     {
       "start": "00:00:01.580",
       "end": "00:00:03.380",
-      "text": "我感觉像进游戏里面了"
+      "start_seconds": 1.58,
+      "end_seconds": 3.38,
+      "text": "我感觉像进游戏里面了",
+      "html": "<span class=\"tok tok-kanji\">我感觉像进游戏里面了</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我感觉像进游戏里面了",
+          "html": "<span class=\"tok tok-zh\">我感觉像进游戏里面了</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ゲームの中[なか]に入った[はいった]みたいだ",
+          "html": "<ruby>ゲーム<rt>げーむ</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>中<rt>なか</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>入った<rt>はいった</rt></ruby><ruby>みたい<rt>みたい</rt></ruby><ruby>だ<rt>だ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "I feel like I'm inside a game.",
+          "html": "<span class=\"tok tok-en\">I</span> <span class=\"tok tok-en\">feel</span> <span class=\"tok tok-en\">like</span> <span class=\"tok tok-en\">I&#x27;m</span> <span class=\"tok tok-en\">inside</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">game</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:03.380",
       "end": "00:00:05.200",
-      "text": "你们晚上是不是不用开灯呀"
+      "start_seconds": 3.38,
+      "end_seconds": 5.2,
+      "text": "你们晚上是不是不用开灯呀",
+      "html": "<span class=\"tok tok-kanji\">你们晚上是不是不用开灯呀</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "你们晚上是不是不用开灯呀",
+          "html": "<span class=\"tok tok-zh\">你们晚上是不是不用开灯呀</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "夜[よる]は電気[でんき]をつけなくていいんですか？",
+          "html": "<ruby>夜<rt>よる</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>電気<rt>で<ruby>ん<rt>ん</rt></ruby>き</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>つけなくて<rt>つけなくて</rt></ruby><ruby>いい<rt>いい</rt></ruby>ん<ruby>です<rt>です</rt></ruby><ruby>か<rt>か</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "You don't need to turn on the lights at night, right?",
+          "html": "<span class=\"tok tok-en\">You</span> <span class=\"tok tok-en\">don&#x27;t</span> <span class=\"tok tok-en\">need</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">turn</span> <span class=\"tok tok-en\">on</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">lights</span> <span class=\"tok tok-en\">at</span> <span class=\"tok tok-en\">night</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">right</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:05.200",
       "end": "00:00:07.080",
-      "text": "我们生气的时候会更亮哦"
+      "start_seconds": 5.2,
+      "end_seconds": 7.08,
+      "text": "我们生气的时候会更亮哦",
+      "html": "<span class=\"tok tok-kanji\">我们生气的时候会更亮哦</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "我们生气的时候会更亮哦",
+          "html": "<span class=\"tok tok-zh\">我们生气的时候会更亮哦</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "私[わたし]たちが怒[おこ]る時[とき]はもっと明[あか]るくなるよ",
+          "html": "<ruby>私たち<rt>わたしたち</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>怒る<rt>おこる</rt></ruby><ruby>時<rt>とき</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>もっと<rt>もっと</rt></ruby><ruby>明るく<rt>あかるく</rt></ruby><ruby>なる<rt>なる</rt></ruby><ruby>よ<rt>よ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "When we're angry, we glow brighter.",
+          "html": "<span class=\"tok tok-en\">When</span> <span class=\"tok tok-en\">we&#x27;re</span> <span class=\"tok tok-en\">angry</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">we</span> <span class=\"tok tok-en\">glow</span> <span class=\"tok tok-en\">brighter</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:07.080",
       "end": "00:00:09.000",
-      "text": "那你们吵架的时候起不像闪电"
+      "start_seconds": 7.08,
+      "end_seconds": 9.0,
+      "text": "那你们吵架的时候起不像闪电",
+      "html": "<span class=\"tok tok-kanji\">那你们吵架的时候起不像闪电</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "那你们吵架的时候起不像闪电",
+          "html": "<span class=\"tok tok-zh\">那你们吵架的时候起不像闪电</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "じゃあ、喧嘩[けんか]する時[とき]は稲妻[いなずま]みたいじゃない？",
+          "html": "<ruby>じゃあ<rt>じゃあ</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>喧嘩<rt>けんか</rt></ruby><ruby>する<rt>する</rt></ruby><ruby>時<rt>とき</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>稲妻<rt>いなずま</rt></ruby><ruby>みたい<rt>みたい</rt></ruby><ruby>じゃない<rt>じゃない</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Then when you argue, isn't it like lightning?",
+          "html": "<span class=\"tok tok-en\">Then</span> <span class=\"tok tok-en\">when</span> <span class=\"tok tok-en\">you</span> <span class=\"tok tok-en\">argue</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">isn&#x27;t</span> <span class=\"tok tok-en\">it</span> <span class=\"tok tok-en\">like</span> <span class=\"tok tok-en\">lightning</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:09.000",
       "end": "00:00:10.880",
-      "text": "魔法世界果然是天堂"
+      "start_seconds": 9.0,
+      "end_seconds": 10.88,
+      "text": "魔法世界果然是天堂",
+      "html": "<span class=\"tok tok-kanji\">魔法世界果然是天堂</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "魔法世界果然是天堂",
+          "html": "<span class=\"tok tok-zh\">魔法世界果然是天堂</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "魔法世界[まほうせかい]はまさに天国[てんごく]だ",
+          "html": "<ruby>魔法世界<rt>まほうせかい</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>まさに<rt>まさに</rt></ruby><ruby>天国<rt>てんごく</rt></ruby><ruby>だ<rt>だ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "The magical world is indeed a paradise.",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">magical</span> <span class=\"tok tok-en\">world</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">indeed</span> <span class=\"tok tok-en\">a</span> <span class=\"tok tok-en\">paradise</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:10.880",
       "end": "00:00:12.820",
-      "text": "这里的蛋糕也会怕胖哦"
+      "start_seconds": 10.88,
+      "end_seconds": 12.82,
+      "text": "这里的蛋糕也会怕胖哦",
+      "html": "<span class=\"tok tok-kanji\">这里的蛋糕也会怕胖哦</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "这里的蛋糕也会怕胖哦",
+          "html": "<span class=\"tok tok-zh\">这里的蛋糕也会怕胖哦</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ここの<ruby>ケーキ<rt>けーき</rt></ruby>も<ruby>太<rt>ふと</rt></ruby>るのが<ruby>怖<rt>こわ</rt></ruby>いんだよ",
+          "html": "<ruby>ここ<rt>ここ</rt></ruby><ruby><ruby>の<rt>の</rt></ruby><rt>の</rt></ruby><ruby>ケーキ<rt>けーき</rt></ruby><ruby>も<rt>も</rt></ruby><ruby>太る<rt>ふとる</rt></ruby>の<ruby>が<rt>が</rt></ruby><ruby>怖い<rt>こわい</rt></ruby><ruby>んだ<rt>んだ</rt></ruby><ruby>よ<rt>よ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "The cake here is also afraid of getting fat.",
+          "html": "<span class=\"tok tok-en\">The</span> <span class=\"tok tok-en\">cake</span> <span class=\"tok tok-en\">here</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">also</span> <span class=\"tok tok-en\">afraid</span> <span class=\"tok tok-en\">of</span> <span class=\"tok tok-en\">getting</span> <span class=\"tok tok-en\">fat</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     }
   ]
 }

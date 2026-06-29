@@ -10,47 +10,227 @@
     {
       "start": "00:00:00.000",
       "end": "00:00:01.000",
-      "text": "根据宇宙传说"
+      "start_seconds": 0.0,
+      "end_seconds": 1.0,
+      "text": "根据宇宙传说",
+      "html": "<span class=\"tok tok-kanji\">根据宇宙传说</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "根据宇宙传说",
+          "html": "<span class=\"tok tok-zh\">根据宇宙传说</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "宇宙[うちゅう]の伝説[でんせつ]によると",
+          "html": "<ruby>宇宙<rt>うちゅう</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>伝説<rt>でんせつ</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>よる<rt>よる</rt></ruby><ruby>と<rt>と</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "According to cosmic legend",
+          "html": "<span class=\"tok tok-en\">According</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">cosmic</span> <span class=\"tok tok-en\">legend</span>"
+        }
+      }
     },
     {
       "start": "00:00:01.000",
       "end": "00:00:02.900",
-      "text": "火星上藏着无限量薯片"
+      "start_seconds": 1.0,
+      "end_seconds": 2.9,
+      "text": "火星上藏着无限量薯片",
+      "html": "<span class=\"tok tok-kanji\">火星上藏着无限量薯片</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "火星上藏着无限量薯片",
+          "html": "<span class=\"tok tok-zh\">火星上藏着无限量薯片</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "火星[かせい]には無限[むげん]のポテトチップスが隠されている[かくされている]。",
+          "html": "<ruby>火星<rt>かせい</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>無限<rt>むげん</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>ポテトチップス<rt>ぽてとちっぷす</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>隠されている<rt>かくされている</rt></ruby><ruby>。<rt>。</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Mars hides an unlimited supply of chips.",
+          "html": "<span class=\"tok tok-en\">Mars</span> <span class=\"tok tok-en\">hides</span> <span class=\"tok tok-en\">an</span> <span class=\"tok tok-en\">unlimited</span> <span class=\"tok tok-en\">supply</span> <span class=\"tok tok-en\">of</span> <span class=\"tok tok-en\">chips</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:02.900",
       "end": "00:00:04.680",
-      "text": "等一下,那里有东西在动"
+      "start_seconds": 2.9,
+      "end_seconds": 4.68,
+      "text": "等一下,那里有东西在动",
+      "html": "<span class=\"tok tok-kanji\">等一下</span><span class=\"tok tok-punc\">,</span><span class=\"tok tok-kanji\">那里有东西在动</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "等一下,那里有东西在动",
+          "html": "<span class=\"tok tok-zh\">等一下</span><span class=\"tok tok-punc\">,</span><span class=\"tok tok-zh\">那里有东西在动</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "ちょっと待って[まって]、あそこに何か[なにか]が動いて[うごいて]いる",
+          "html": "<ruby>ちょっと<rt>ちょっと</rt></ruby><ruby>待って<rt>まって</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>あそこ<rt>あそこ</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>何か<rt>なにか</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>動いて<rt>うごいて</rt></ruby><ruby>いる<rt>いる</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Wait, something is moving over there.",
+          "html": "<span class=\"tok tok-en\">Wait</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">something</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">moving</span> <span class=\"tok tok-en\">over</span> <span class=\"tok tok-en\">there</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:04.680",
       "end": "00:00:06.460",
-      "text": "谁敢闯入薯片领地"
+      "start_seconds": 4.68,
+      "end_seconds": 6.46,
+      "text": "谁敢闯入薯片领地",
+      "html": "<span class=\"tok tok-kanji\">谁敢闯入薯片领地</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "谁敢闯入薯片领地",
+          "html": "<span class=\"tok tok-zh\">谁敢闯入薯片领地</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "誰[だれ]がポテトチップスの領地[りょうち]に侵入[しんにゅう]するんだ",
+          "html": "<ruby>誰<rt>だれ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>ポテトチップス<rt>ぽてとちっぷす</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>領地<rt>りょうち</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>侵入<rt>しんにゅう</rt></ruby><ruby>する<rt>する</rt></ruby><ruby>んだ<rt>んだ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Who dares to enter the chip territory?",
+          "html": "<span class=\"tok tok-en\">Who</span> <span class=\"tok tok-en\">dares</span> <span class=\"tok tok-en\">to</span> <span class=\"tok tok-en\">enter</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">chip</span> <span class=\"tok tok-en\">territory</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:06.460",
       "end": "00:00:08.100",
-      "text": "这哪里是薯片"
+      "start_seconds": 6.46,
+      "end_seconds": 8.1,
+      "text": "这哪里是薯片",
+      "html": "<span class=\"tok tok-kanji\">这哪里是薯片</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "这哪里是薯片",
+          "html": "<span class=\"tok tok-zh\">这哪里是薯片</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "これはポテトチップスじゃない",
+          "html": "<ruby>これ<rt>これ</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>ポテトチップス<rt>ぽてとちっぷす</rt></ruby><ruby>じゃ<rt>じゃ</rt></ruby><ruby>ない<rt>ない</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "This is not chips.",
+          "html": "<span class=\"tok tok-en\">This</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">not</span> <span class=\"tok tok-en\">chips</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     },
     {
       "start": "00:00:08.100",
       "end": "00:00:09.700",
-      "text": "这是地狱拉尾套餐吧"
+      "start_seconds": 8.1,
+      "end_seconds": 9.7,
+      "text": "这是地狱拉尾套餐吧",
+      "html": "<span class=\"tok tok-kanji\">这是地狱拉尾套餐吧</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "这是地狱拉尾套餐吧",
+          "html": "<span class=\"tok tok-zh\">这是地狱拉尾套餐吧</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "これ[これ]は[わ]地獄[じごく]ラーメン[らーめん]セット[せっと]です[です]ね[ね]",
+          "html": "<ruby>これ<rt>これ</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>地獄<rt>じごく</rt></ruby><ruby>ラーメン<rt>らーめん</rt></ruby><ruby>セット<rt>せっと</rt></ruby><ruby>です<rt>です</rt></ruby><ruby>ね<rt>ね</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "This is the Hell Tail set meal, isn't it?",
+          "html": "<span class=\"tok tok-en\">This</span> <span class=\"tok tok-en\">is</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">Hell</span> <span class=\"tok tok-en\">Tail</span> <span class=\"tok tok-en\">set</span> <span class=\"tok tok-en\">meal</span><span class=\"tok tok-punc\">,</span> <span class=\"tok tok-en\">isn&#x27;t</span> <span class=\"tok tok-en\">it</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:09.700",
       "end": "00:00:10.020",
-      "text": "啊"
+      "start_seconds": 9.7,
+      "end_seconds": 10.02,
+      "text": "啊",
+      "html": "<span class=\"tok tok-kanji\">啊</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "啊",
+          "html": "<span class=\"tok tok-zh\">啊</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "あっ",
+          "html": "<ruby>あっ<rt>あっ</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "Ah",
+          "html": "<span class=\"tok tok-en\">Ah</span>"
+        }
+      }
     },
     {
       "start": "00:00:10.020",
       "end": "00:00:13.500",
-      "text": "所以我们到底有没有拯救宇宙"
+      "start_seconds": 10.02,
+      "end_seconds": 13.5,
+      "text": "所以我们到底有没有拯救宇宙",
+      "html": "<span class=\"tok tok-kanji\">所以我们到底有没有拯救宇宙</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "所以我们到底有没有拯救宇宙",
+          "html": "<span class=\"tok tok-zh\">所以我们到底有没有拯救宇宙</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "それで、結局[けっきょく]私たち[わたしたち]は宇宙[うちゅう]を救った[すくった]のか？",
+          "html": "<ruby>それで<rt>それで</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>結局<rt>けっきょく</rt></ruby><ruby>私たち<rt>わたしたち</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>宇宙<rt>うちゅう</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>救った<rt>すくった</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>か<rt>か</rt></ruby><ruby>？<rt>？</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "So did we actually save the universe?",
+          "html": "<span class=\"tok tok-en\">So</span> <span class=\"tok tok-en\">did</span> <span class=\"tok tok-en\">we</span> <span class=\"tok tok-en\">actually</span> <span class=\"tok tok-en\">save</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">universe</span><span class=\"tok tok-punc\">?</span>"
+        }
+      }
     },
     {
       "start": "00:00:13.500",
       "end": "00:00:15.000",
-      "text": "至少我们拯救了晚饭"
+      "start_seconds": 13.5,
+      "end_seconds": 15.0,
+      "text": "至少我们拯救了晚饭",
+      "html": "<span class=\"tok tok-kanji\">至少我们拯救了晚饭</span>",
+      "tracks": {
+        "zh": {
+          "label": "中文",
+          "text": "至少我们拯救了晚饭",
+          "html": "<span class=\"tok tok-zh\">至少我们拯救了晚饭</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "せめて晩ご飯[ばんごはん]は助けた[たすけた]",
+          "html": "<ruby>せめて<rt>せめて</rt></ruby><ruby>晩ご飯<rt>ばんご<ruby>は<rt>わ</rt></ruby>ん</rt></ruby>は<ruby>助けた<rt>たすけた</rt></ruby>"
+        },
+        "en": {
+          "label": "English",
+          "text": "At least we saved dinner.",
+          "html": "<span class=\"tok tok-en\">At</span> <span class=\"tok tok-en\">least</span> <span class=\"tok tok-en\">we</span> <span class=\"tok tok-en\">saved</span> <span class=\"tok tok-en\">dinner</span><span class=\"tok tok-punc\">.</span>"
+        }
+      }
     }
   ]
 }
