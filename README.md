@@ -31,8 +31,8 @@ Titles, descriptions, and publish categories are viewer-facing metadata, followi
 
 ## Current Contents
 
-- Videos: `46`
-- Videos with matched transcript sidecars: `43`
+- Videos: `47`
+- Videos with matched transcript sidecars: `44`
 - Canonical video data: `1.1 GB`
 
 ## Storage Note

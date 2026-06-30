@@ -1,0 +1,111 @@
+{
+  "slug": "take-care-of-yourself-hope-en-chorus-highlight-d9151608",
+  "source_subtitle": "media/subtitles/take-care-of-yourself-hope-en-chorus-highlight-d9151608/subtitle-2.srt",
+  "subtitle_files": [
+    "media/subtitles/take-care-of-yourself-hope-en-chorus-highlight-d9151608/subtitle-1.md",
+    "media/subtitles/take-care-of-yourself-hope-en-chorus-highlight-d9151608/subtitle-2.srt",
+    "media/subtitles/take-care-of-yourself-hope-en-chorus-highlight-d9151608/subtitle-3.md"
+  ],
+  "entries": [
+    {
+      "start": "00:00:00.000",
+      "end": "00:00:02.625",
+      "start_seconds": 0.0,
+      "end_seconds": 2.625,
+      "text": "Take care of yourself",
+      "html": "<span class=\"tok tok-en\">Take</span> <span class=\"tok tok-en\">care</span> <span class=\"tok tok-en\">of</span> <span class=\"tok tok-en\">yourself</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Take care of yourself",
+          "html": "<span class=\"tok tok-en\">Take</span> <span class=\"tok tok-en\">care</span> <span class=\"tok tok-en\">of</span> <span class=\"tok tok-en\">yourself</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "照顧好自己",
+          "html": "<span class=\"tok tok-zh\">照顧好自己</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "お[お]元気[げんき]で[で]",
+          "html": "<ruby>お<rt>お</rt></ruby><ruby>元気<rt>げんき</rt></ruby><ruby>で<rt>で</rt></ruby>"
+        }
+      }
+    },
+    {
+      "start": "00:00:02.625",
+      "end": "00:00:05.250",
+      "start_seconds": 2.625,
+      "end_seconds": 5.25,
+      "text": "Take care of yourself",
+      "html": "<span class=\"tok tok-en\">Take</span> <span class=\"tok tok-en\">care</span> <span class=\"tok tok-en\">of</span> <span class=\"tok tok-en\">yourself</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Take care of yourself",
+          "html": "<span class=\"tok tok-en\">Take</span> <span class=\"tok tok-en\">care</span> <span class=\"tok tok-en\">of</span> <span class=\"tok tok-en\">yourself</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "保重",
+          "html": "<span class=\"tok tok-zh\">保重</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "お[お]大事[だいじ]に[に]",
+          "html": "<ruby>お<rt>お</rt></ruby><ruby>大事<rt>だいじ</rt></ruby><ruby>に<rt>に</rt></ruby>"
+        }
+      }
+    },
+    {
+      "start": "00:00:05.250",
+      "end": "00:00:10.500",
+      "start_seconds": 5.25,
+      "end_seconds": 10.5,
+      "text": "Even dark roads find the morning",
+      "html": "<span class=\"tok tok-en\">Even</span> <span class=\"tok tok-en\">dark</span> <span class=\"tok tok-en\">roads</span> <span class=\"tok tok-en\">find</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">morning</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Even dark roads find the morning",
+          "html": "<span class=\"tok tok-en\">Even</span> <span class=\"tok tok-en\">dark</span> <span class=\"tok tok-en\">roads</span> <span class=\"tok tok-en\">find</span> <span class=\"tok tok-en\">the</span> <span class=\"tok tok-en\">morning</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "即使黑暗的道路也會迎來黎明",
+          "html": "<span class=\"tok tok-zh\">即使黑暗的道路也會迎來黎明</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "暗[くら]い道[みち]にも朝[あさ]は訪[おとず]れる",
+          "html": "<ruby>暗い<rt>くらい</rt></ruby><ruby>道<rt>みち</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>も<rt>も</rt></ruby><ruby>朝<rt>あさ</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>訪れる<rt>おとずれる</rt></ruby>"
+        }
+      }
+    },
+    {
+      "start": "00:00:10.500",
+      "end": "00:00:15.000",
+      "start_seconds": 10.5,
+      "end_seconds": 15.0,
+      "text": "Take care of...",
+      "html": "<span class=\"tok tok-en\">Take</span> <span class=\"tok tok-en\">care</span> <span class=\"tok tok-en\">of</span><span class=\"tok tok-punc\">.</span><span class=\"tok tok-punc\">.</span><span class=\"tok tok-punc\">.</span>",
+      "tracks": {
+        "en": {
+          "label": "English",
+          "text": "Take care of...",
+          "html": "<span class=\"tok tok-en\">Take</span> <span class=\"tok tok-en\">care</span> <span class=\"tok tok-en\">of</span><span class=\"tok tok-punc\">.</span><span class=\"tok tok-punc\">.</span><span class=\"tok tok-punc\">.</span>"
+        },
+        "zh": {
+          "label": "中文",
+          "text": "照顧...",
+          "html": "<span class=\"tok tok-zh\">照顧</span><span class=\"tok tok-punc\">.</span><span class=\"tok tok-punc\">.</span><span class=\"tok tok-punc\">.</span>"
+        },
+        "ja": {
+          "label": "日本語",
+          "text": "気[き]を[を]つけて[つけて]…",
+          "html": "<ruby>気<rt>き</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>つけて<rt>つけて</rt></ruby><ruby>…<rt>…</rt></ruby>"
+        }
+      }
+    }
+  ]
+}

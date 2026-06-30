@@ -1,0 +1,2 @@
+- 00:00:00,000 --> 00:00:05,250: Take care of yourself, take care of
+- 00:00:05,250 --> 00:00:10,500: yourself Even dark roads find the morning

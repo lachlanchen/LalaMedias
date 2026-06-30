@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-29T19:32:22.854513",
-  "video_count": 46,
-  "with_transcripts": 43,
-  "canonical_video_bytes": 1156218848,
+  "generated_at": "2026-06-30T19:09:31.843221",
+  "video_count": 47,
+  "with_transcripts": 44,
+  "canonical_video_bytes": 1173980160,
   "source_policy": "videos are collected only from the top-level LALACHAN/Videos folder; text subtitles may be matched from LazyEdit sidecars"
 }

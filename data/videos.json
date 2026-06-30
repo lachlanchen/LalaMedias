@@ -1,5 +1,40 @@
 [
   {
+    "slug": "take-care-of-yourself-hope-en-chorus-highlight-d9151608",
+    "title": "Take Care of Yourself (Hope Version) - LALACHAN Chorus Highlight",
+    "description": "This is a chorus highlight from the LALACHAN music video for 'Take Care of Yourself - Hope Version.' The video features Aya Chan (red panda girl) as lead singer, joined by RaraXia (giant panda boy) on guitar, Sasa Kun (boy character) on keyboard, and Zhuangzi robot keeping the stage rhythm. The four buddies perform as a tiny warm forest-stage band, delivering a gentle and hopeful message about self-care. The lyric hook repeats 'Take care of yourself' and 'Even dark roads find the morning.' This version focuses on the uplifting chorus part of the full song by Musia.",
+    "publish_category": "lalamv",
+    "sha256": "d9151608681df133d9fc921fe4f1bcf9fd833b20e90b9187d5e17e1d054bb82d",
+    "video": "media/videos/take-care-of-yourself-hope-en-chorus-highlight-d9151608.mp4",
+    "video_url": "https://github.com/lachlanchen/LalaMedias/releases/download/media-v1/take-care-of-yourself-hope-en-chorus-highlight-d9151608.mp4",
+    "thumbnail": "media/thumbs/take-care-of-yourself-hope-en-chorus-highlight-d9151608.jpg",
+    "page": "videos/take-care-of-yourself-hope-en-chorus-highlight-d9151608.html",
+    "duration": 15.022,
+    "width": 1256,
+    "height": 720,
+    "size": 17761312,
+    "transcript": "data/transcripts/take-care-of-yourself-hope-en-chorus-highlight-d9151608.json",
+    "subtitle_files": [
+      "media/subtitles/take-care-of-yourself-hope-en-chorus-highlight-d9151608/subtitle-1.md",
+      "media/subtitles/take-care-of-yourself-hope-en-chorus-highlight-d9151608/subtitle-2.srt",
+      "media/subtitles/take-care-of-yourself-hope-en-chorus-highlight-d9151608/subtitle-3.md"
+    ],
+    "sources": [
+      {
+        "source": "lalachan-videos",
+        "name": "take_care_of_yourself_hope_en_chorus_highlight_15s_song_locked_2026-06-30.mp4",
+        "size": 17761312,
+        "mtime": "2026-06-30T16:52:33.662919"
+      },
+      {
+        "source": "lalachan-videos",
+        "name": "take_care_of_yourself_hope_en_chorus_highlight_15s_visual_xyq.mp4",
+        "size": 17693105,
+        "mtime": "2026-06-30T16:51:35.595759"
+      }
+    ]
+  },
+  {
     "slug": "aya-chan-hikari-ame-full-mv-c371e7d0",
     "title": "Aya Chan Hikari Ame Full MV",
     "description": "Aya Chan Hikari Ame Full MV is a LALACHAN character music video with clean source video and text subtitles shown below when available.",
@@ -16,8 +51,8 @@
     "transcript": "data/transcripts/aya-chan-hikari-ame-full-mv-c371e7d0.json",
     "subtitle_files": [
       "media/subtitles/aya-chan-hikari-ame-full-mv-c371e7d0/subtitle-1.md",
-      "media/subtitles/aya-chan-hikari-ame-full-mv-c371e7d0/subtitle-2.srt",
-      "media/subtitles/aya-chan-hikari-ame-full-mv-c371e7d0/subtitle-3.md"
+      "media/subtitles/aya-chan-hikari-ame-full-mv-c371e7d0/subtitle-2.md",
+      "media/subtitles/aya-chan-hikari-ame-full-mv-c371e7d0/subtitle-3.srt"
     ],
     "sources": [
       {

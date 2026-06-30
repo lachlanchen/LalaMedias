@@ -77,6 +77,7 @@ GENERATED_VIDEO_PREFIXES = (
     "red_",
     "restaurant_",
     "snow_",
+    "take_",
     "tokushima_",
     "treasure_",
     "typhoon_",
@@ -258,7 +259,7 @@ def title_from_path(path: Path) -> str:
 
 def family_key(path: Path) -> str:
     text = path.stem.lower()
-    text = re.sub(r"\b20\d{2}[-_]\d{2}[-_]\d{2}\b", " ", text)
+    text = re.sub(r"(?<!\d)20\d{2}[-_]\d{2}[-_]\d{2}(?!\d)", " ", text)
     text = re.sub(r"(?i)(portrait_blurfill.*|portrait_fg\d+.*|subtitle_space.*)", " ", text)
     for token in [
         "subtitles_logo",
@@ -303,6 +304,143 @@ def description_from_title(title: str, category: str) -> str:
     if category == "lalamv":
         return f"{title} is a LALACHAN character music video with clean source video and text subtitles shown below when available."
     return f"{title} is a generated LALACHAN story video. The page keeps the video clean and renders matched text subtitles below the player when available."
+
+
+_METADATA_JSON_FILES: list[Path] | None = None
+
+
+def metadata_json_files() -> list[Path]:
+    """Return LazyEdit publish metadata files that can improve viewer text.
+
+    These files are used only for concise public title/description/category
+    fields. They are not used to copy full scripts into the website metadata.
+    """
+
+    global _METADATA_JSON_FILES
+    if _METADATA_JSON_FILES is not None:
+        return _METADATA_JSON_FILES
+    files: list[Path] = []
+    if LAZYEDIT_DATA_ROOT.exists():
+        for path in walk_files(LAZYEDIT_DATA_ROOT):
+            lower = str(path).lower()
+            if path.suffix.lower() != ".json":
+                continue
+            if not path.name.lower().endswith("_metadata.json"):
+                continue
+            if "/publish/" not in lower:
+                continue
+            files.append(path)
+    _METADATA_JSON_FILES = files
+    return files
+
+
+def load_metadata(path: Path) -> dict[str, Any]:
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    return data if isinstance(data, dict) else {}
+
+
+def metadata_score(item: MediaItem, path: Path, data: dict[str, Any]) -> int:
+    if not data:
+        return 0
+    metadata_blob = json.dumps(data, ensure_ascii=False).lower()
+    if "teddy bear" in metadata_blob:
+        return 0
+    tokens = stem_tokens(item.canonical.path)
+    path_tokens = stem_tokens(path)
+    shared = tokens & path_tokens
+    score = len(shared) + sum(2 for token in shared if len(token) >= 7)
+    title_blob = " ".join(
+        str(value)
+        for value in [
+            data.get("title"),
+            data.get("brief_description"),
+            data.get("middle_description"),
+            (data.get("english_version") or {}).get("title") if isinstance(data.get("english_version"), dict) else "",
+        ]
+        if value
+    ).lower()
+    for token in tokens:
+        if len(token) >= 5 and token in title_blob:
+            score += 1
+    if data.get("publish_category"):
+        score += 1
+    if isinstance(data.get("english_version"), dict):
+        score += 2
+    return score
+
+
+def best_metadata_for_item(item: MediaItem) -> dict[str, Any]:
+    best: tuple[int, float, Path, dict[str, Any]] | None = None
+    for path in metadata_json_files():
+        data = load_metadata(path)
+        score = metadata_score(item, path, data)
+        if score < 6:
+            continue
+        try:
+            mtime = path.stat().st_mtime
+        except OSError:
+            mtime = 0
+        candidate = (score, mtime, path, data)
+        if best is None or candidate[:2] > best[:2]:
+            best = candidate
+    return best[3] if best else {}
+
+
+def previous_manifest_items() -> dict[str, dict[str, Any]]:
+    """Load existing manifest rows so rebuilds keep stable public metadata."""
+
+    candidates: list[Path] = []
+    override = os.environ.get("LALAMEDIAS_PREVIOUS_MANIFEST")
+    if override:
+        candidates.append(Path(override).expanduser())
+    candidates.append(REPO_ROOT / "data" / "videos.json")
+    for path in candidates:
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if not isinstance(data, list):
+            continue
+        result: dict[str, dict[str, Any]] = {}
+        for row in data:
+            if isinstance(row, dict) and row.get("sha256"):
+                result[str(row["sha256"])] = row
+        if result:
+            return result
+    return {}
+
+
+def apply_lazyedit_metadata(items: list[MediaItem]) -> None:
+    previous = previous_manifest_items()
+    for item in items:
+        existing = previous.get(item.sha256)
+        if existing:
+            item.title = str(existing.get("title") or item.title)
+            item.description = str(existing.get("description") or item.description)
+            item.publish_category = str(existing.get("publish_category") or item.publish_category)
+            continue
+        data = best_metadata_for_item(item)
+        if not data:
+            continue
+        english = data.get("english_version") if isinstance(data.get("english_version"), dict) else {}
+        title = str(english.get("title") or data.get("title") or "").strip()
+        description = str(
+            english.get("middle_description")
+            or english.get("brief_description")
+            or data.get("middle_description")
+            or data.get("brief_description")
+            or ""
+        ).strip()
+        category = str(data.get("publish_category") or "").strip().lower()
+        if title:
+            item.title = title
+        if description:
+            item.description = description
+        if category:
+            item.publish_category = category
 
 
 def slugify(title: str, sha: str) -> str:
@@ -1448,6 +1586,7 @@ def main() -> int:
     lazy_videos = [v for v in videos if v.source == "lazyedit-data"]
     items = group_by_hash(videos)
     attach_subtitles(items, lazy_videos, subtitles)
+    apply_lazyedit_metadata(items)
 
     print(f"unique videos: {len(items)}", file=sys.stderr)
     print(f"canonical bytes: {human_size(sum(item.canonical.size for item in items))}", file=sys.stderr)
