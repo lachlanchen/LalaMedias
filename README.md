@@ -39,6 +39,8 @@ Rebuild only this proof without scanning or regenerating media:
 python3 scripts/collect_lala_medias.py --proof-only aginti-autonomous-lab-ai-glasses-2b85b0d9
 ```
 
+Have one rights-cleared lecture? See the [fixed bilingual lecture pack](https://lazying.art/lecture-pack/?utm_source=github&utm_medium=repository&utm_campaign=bilingual_lecture_pack_pilot&utm_content=lalamedias_readme).
+
 ## Current Contents
 
 - Videos: `47`

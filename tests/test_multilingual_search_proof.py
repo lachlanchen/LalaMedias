@@ -88,6 +88,7 @@ class MultilingualSearchProofTests(unittest.TestCase):
         page = PAGE_PATH.read_text(encoding="utf-8")
         self.assertIn('id="transcript-search"', page)
         self.assertIn("Search all 45 aligned transcript strings.", page)
+        self.assertIn("utm_content=multilingual_media_sample", page)
         self.assertIn("not an automated Local Knowledge Terminal import or a customer result", page)
         self.assertNotIn("<ruby><ruby>", page)
 

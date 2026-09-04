@@ -1243,6 +1243,7 @@ def render_proof_section(transcript: dict[str, Any], proof: dict[str, Any]) -> s
       <h3>Transcript-checked concept pointers</h3>
       <div class="concept-grid">{''.join(concepts_html)}</div>
       <p class="proof-note">These five pointers were checked against the aligned transcript. They are not an automated Local Knowledge Terminal import or a customer result.</p>
+      <p class="proof-cta">Have one rights-cleared lecture? <a href="https://lazying.art/lecture-pack/?utm_source=github&amp;utm_medium=proof&amp;utm_campaign=bilingual_lecture_pack_pilot&amp;utm_content=multilingual_media_sample">See the fixed bilingual lecture pack →</a></p>
     </section>"""
 
 
@@ -1689,6 +1690,14 @@ ruby rt {
   color: var(--muted);
   line-height: 1.55;
 }
+.proof-cta {
+  margin: 18px 0 0;
+  color: var(--muted);
+}
+.proof-cta a {
+  color: var(--accent);
+  font-weight: 750;
+}
 .search-results {
   display: grid;
   gap: 8px;
@@ -1868,6 +1877,8 @@ def write_readme(items: list[MediaItem]) -> None:
         "```bash",
         "python3 scripts/collect_lala_medias.py --proof-only aginti-autonomous-lab-ai-glasses-2b85b0d9",
         "```",
+        "",
+        "Have one rights-cleared lecture? See the [fixed bilingual lecture pack](https://lazying.art/lecture-pack/?utm_source=github&utm_medium=repository&utm_campaign=bilingual_lecture_pack_pilot&utm_content=lalamedias_readme).",
         "",
         "## Current Contents",
         "",
