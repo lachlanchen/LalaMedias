@@ -22,8 +22,8 @@
         },
         "ja": {
           "label": "日本語",
-          "text": "今日[きょう]は広告[こうこく]を撮らず[とらず]に、本当[ほんとう]の実験[じっけん]を一度[いちど]します。",
-          "html": "<ruby>今日<rt>きょう</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>広告<rt>こうこく</rt></ruby><ruby><ruby>を<rt>を</rt></ruby><rt>を</rt></ruby><ruby>撮らず<rt>とらず</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>本当<rt>ほんとう</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>実験<rt>じっけん</rt></ruby>を<ruby>一度<rt>いちど</rt></ruby><ruby>します<rt>します</rt></ruby><ruby>。<rt>。</rt></ruby>"
+          "text": "今日は広告を撮らずに、本当の実験を一度します。",
+          "html": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>広告<rt>こうこく</rt></ruby>を<ruby>撮らず<rt>とらず</rt></ruby>に、<ruby>本当<rt>ほんとう</rt></ruby>の<ruby>実験<rt>じっけん</rt></ruby>を<ruby>一度<rt>いちど</rt></ruby>します。"
         },
         "en": {
           "label": "English",
@@ -47,8 +47,8 @@
         },
         "ja": {
           "label": "日本語",
-          "text": "目標[もくひょう]は簡単[かんたん]だ：腫瘍[しゅよう]の周り[まわり]で一体[いったい]何[なに]が起こって[おこって]いるのかをはっきりと見る[みる]ことだ。",
-          "html": "<ruby>目標<rt>もくひょう</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>簡単<rt><ruby>か<rt>か</rt></ruby>んたん</rt></ruby><ruby><ruby>だ<rt>だ</rt></ruby><rt>だ</rt></ruby><ruby>：<rt>：</rt></ruby><ruby>腫瘍<rt>しゅよう</rt></ruby><ruby><ruby>の<rt>の</rt></ruby><rt>の</rt></ruby><ruby>周り<rt>まわり</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>一体<rt>いったい</rt></ruby><ruby>何<rt>なに</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>起こって<rt>おこって</rt></ruby><ruby>いる<rt>いる</rt></ruby>のか<ruby>を<rt>を</rt></ruby><ruby>はっきり<rt>はっきり</rt></ruby><ruby>と<rt>と</rt></ruby><ruby>見る<rt>みる</rt></ruby><ruby>こと<rt>こと</rt></ruby>だ<ruby>。<rt>。</rt></ruby>"
+          "text": "目標は簡単だ：腫瘍の周りで一体何が起こっているのかをはっきりと見ることだ。",
+          "html": "<ruby>目標<rt>もくひょう</rt></ruby>は<ruby>簡単<rt>かんたん</rt></ruby>だ：<ruby>腫瘍<rt>しゅよう</rt></ruby>の<ruby>周り<rt>まわり</rt></ruby>で<ruby>一体<rt>いったい</rt></ruby><ruby>何<rt>なに</rt></ruby>が<ruby>起こって<rt>おこって</rt></ruby>いるのかをはっきりと<ruby>見る<rt>みる</rt></ruby>ことだ。"
         },
         "en": {
           "label": "English",
@@ -72,8 +72,8 @@
         },
         "ja": {
           "label": "日本語",
-          "text": "オルガノイド[おるがのいど]の状態[じょうたい]は安定[あんてい]している。",
-          "html": "<ruby>オルガノイド<rt>おるが<ruby>の<rt>の</rt></ruby>いど</rt></ruby>の<ruby>状態<rt>じょうたい</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>安定<rt>あん<ruby>て<rt>て</rt></ruby>い</rt></ruby><ruby>し<rt>し</rt></ruby>て<ruby>いる<rt>いる</rt></ruby><ruby>。<rt>。</rt></ruby>"
+          "text": "オルガノイドの状態は安定している。",
+          "html": "オルガノイドの<ruby>状態<rt>じょうたい</rt></ruby>は<ruby>安定<rt>あんてい</rt></ruby>している。"
         },
         "en": {
           "label": "English",
@@ -97,8 +97,8 @@
         },
         "ja": {
           "label": "日本語",
-          "text": "微環境[びかんきょう]のスキャンを開始[かいし]します。",
-          "html": "<ruby>微環境<rt>びかんきょう</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>スキャン<rt>すきゃん</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>開始<rt>かいし</rt></ruby><ruby>します<rt>します</rt></ruby><ruby>。<rt>。</rt></ruby>"
+          "text": "微環境のスキャンを開始します。",
+          "html": "<ruby>微環境<rt>びかんきょう</rt></ruby>のスキャンを<ruby>開始<rt>かいし</rt></ruby>します。"
         },
         "en": {
           "label": "English",
@@ -122,8 +122,8 @@
         },
         "ja": {
           "label": "日本語",
-          "text": "赤[あか]い輪[わ]が見[み]えますが、それは拡大[かくだい]していますか？",
-          "html": "<ruby>赤い<rt>あ<ruby>か<rt>か</rt></ruby>い</rt></ruby><ruby>輪<rt>わ</rt></ruby><ruby><ruby>が<rt>が</rt></ruby><rt>が</rt></ruby><ruby>見えます<rt>みえます</rt></ruby>が<ruby>、<rt>、</rt></ruby><ruby>それ<rt>それ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>拡大<rt>かくだい</rt></ruby><ruby>して<rt>して</rt></ruby><ruby>います<rt>います</rt></ruby>か<ruby>？<rt>？</rt></ruby>"
+          "text": "赤い輪が見えますが、それは拡大していますか？",
+          "html": "<ruby>赤<rt>あか</rt></ruby>い<ruby>輪<rt>わ</rt></ruby>が<ruby>見<rt>み</rt></ruby>えますが、それは<ruby>拡大<rt>かくだい</rt></ruby>していますか？"
         },
         "en": {
           "label": "English",
@@ -147,8 +147,8 @@
         },
         "ja": {
           "label": "日本語",
-          "text": "単なる[たんなる]拡張[かくちょう]ではありません。まるで[まるで]周囲[しゅうい]の細胞[さいぼう]を誤った[あやまった]方向[ほうこう]に導いて[みちびいて]いるようです。",
-          "html": "<ruby>単なる<rt>たんなる</rt></ruby><ruby>拡張<rt>かくちょう</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>あり<rt>あり</rt></ruby><ruby>ません<rt>ません</rt></ruby><ruby><ruby>。<rt>。</rt></ruby><rt>。</rt></ruby><ruby>まるで<rt>まるで</rt></ruby><ruby>周囲<rt>しゅうい</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>細胞<rt>さいぼう</rt></ruby><ruby>を<rt>お</rt></ruby><ruby>誤った<rt>あやまった</rt></ruby><ruby>方向<rt>ほうこう</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>導いて<rt>みちびいて</rt></ruby><ruby>いる<rt>いる</rt></ruby><ruby>よう<rt>よう</rt></ruby><ruby>です<rt>です</rt></ruby>。"
+          "text": "単なる拡張ではありません。まるで周囲の細胞を誤った方向に導いているようです。",
+          "html": "<ruby>単なる<rt>たんなる</rt></ruby><ruby>拡張<rt>かくちょう</rt></ruby>ではありません。まるで<ruby>周囲<rt>しゅうい</rt></ruby>の<ruby>細胞<rt>さいぼう</rt></ruby>を<ruby>誤った<rt>あやまった</rt></ruby><ruby>方向<rt>ほうこう</rt></ruby>に<ruby>導いて<rt>みちびいて</rt></ruby>いるようです。"
         },
         "en": {
           "label": "English",
@@ -172,8 +172,8 @@
         },
         "ja": {
           "label": "日本語",
-          "text": "問題[もんだい]は[わ]癌細胞[がんさいぼう]の[の]中[なか]で[で]だけ[だけ]なく[なく]、[、]その[その]周り[まわり]に[に]も[も]ある[ある]。[。]",
-          "html": "<ruby>問題<rt><ruby>も<rt>も</rt></ruby>んだい</rt></ruby><ruby>は<rt>わ</rt></ruby><ruby>癌細胞<rt>がんさいぼう</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>中<rt>なか</rt></ruby><ruby>だけ<rt>だけ</rt></ruby><ruby>で<rt>で</rt></ruby><ruby>なく<rt>なく</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>その<rt>その</rt></ruby><ruby>周り<rt>まわり</rt></ruby><ruby>に<rt>に</rt></ruby>も<ruby>ある<rt>ある</rt></ruby><ruby>。<rt>。</rt></ruby>"
+          "text": "問題は癌細胞の中でだけなく、その周りにもある。",
+          "html": "<ruby>問題<rt>もんだい</rt></ruby>は<ruby>癌細胞<rt>がんさいぼう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>でだけなく、その<ruby>周り<rt>まわり</rt></ruby>にもある。"
         },
         "en": {
           "label": "English",
@@ -197,8 +197,8 @@
         },
         "ja": {
           "label": "日本語",
-          "text": "それは自分[じぶん]に見[み]えない家[いえ]を建[た]てたのか？",
-          "html": "<ruby>それ<rt>それ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>自分<rt>じぶん</rt></ruby><ruby>に<rt>に</rt></ruby><ruby>見えない<rt>みえない</rt></ruby><ruby>家<rt>いえ</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>建てた<rt>たてた</rt></ruby><ruby>の<rt>の</rt></ruby><ruby>か<rt>か</rt></ruby><ruby>？<rt>？</rt></ruby>"
+          "text": "それは自分に見えない家を建てたのか？",
+          "html": "それは<ruby>自分<rt>じぶん</rt></ruby>に<ruby>見<rt>み</rt></ruby>えない<ruby>家<rt>いえ</rt></ruby>を<ruby>建<rt>た</rt></ruby>てたのか？"
         },
         "en": {
           "label": "English",
@@ -222,8 +222,8 @@
         },
         "ja": {
           "label": "日本語",
-          "text": "はい。倒す[たおす]のを急がず[いそがず]、まずこの家[いえ]を分解[ぶんかい]してみよう。",
-          "html": "<ruby>はい<rt>はい</rt></ruby><ruby><ruby>。<rt>。</rt></ruby><rt>。</rt></ruby><ruby>倒す<rt>たおす</rt></ruby><ruby>の<rt>の</rt></ruby><ruby><ruby>を<rt>を</rt></ruby><rt>を</rt></ruby><ruby>急がず<rt>いそがず</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>まず<rt>まず</rt></ruby><ruby>この<rt>この</rt></ruby><ruby>家<rt>いえ</rt></ruby>を<ruby>分解<rt>ぶんかい</rt></ruby><ruby>して<rt>して</rt></ruby><ruby>みよう<rt>みよう</rt></ruby>。"
+          "text": "はい。倒すのを急がず、まずこの家を分解してみよう。",
+          "html": "はい。<ruby>倒す<rt>たおす</rt></ruby>のを<ruby>急がず<rt>いそがず</rt></ruby>、まずこの<ruby>家<rt>いえ</rt></ruby>を<ruby>分解<rt>ぶんかい</rt></ruby>してみよう。"
         },
         "en": {
           "label": "English",
@@ -247,8 +247,8 @@
         },
         "ja": {
           "label": "日本語",
-          "text": "反応[はんのう]が弱く[よわく]なる。仮説[かせつ]は検証[けんしょう]を続ける[つづける]価値[かち]がある。",
-          "html": "<ruby>反応<rt><ruby>は<rt>は</rt></ruby>んのう</rt></ruby><ruby><ruby>が<rt>が</rt></ruby><rt>が</rt></ruby><ruby>弱く<rt>よわく</rt></ruby><ruby>なる<rt>なる</rt></ruby><ruby><ruby>。<rt>。</rt></ruby><rt>。</rt></ruby><ruby>仮説<rt>かせつ</rt></ruby>は<ruby>検証<rt>けんしょう</rt></ruby><ruby>を<rt>を</rt></ruby><ruby>続ける<rt>つづける</rt></ruby><ruby>価値<rt>かち</rt></ruby>が<ruby>ある<rt>ある</rt></ruby>。"
+          "text": "反応が弱くなる。仮説は検証を続ける価値がある。",
+          "html": "<ruby>反応<rt>はんのう</rt></ruby>が<ruby>弱く<rt>よわく</rt></ruby>なる。<ruby>仮説<rt>かせつ</rt></ruby>は<ruby>検証<rt>けんしょう</rt></ruby>を<ruby>続ける<rt>つづける</rt></ruby><ruby>価値<rt>かち</rt></ruby>がある。"
         },
         "en": {
           "label": "English",
@@ -272,8 +272,8 @@
         },
         "ja": {
           "label": "日本語",
-          "text": "これ[これ]は[は]奇跡[きせき]で[で]は[は]ない[ない]が[が]、これ[これ]が[が]方向[ほうこう]だ[だ]。",
-          "html": "<ruby><ruby>これ<rt>これ</rt></ruby><rt>これ</rt></ruby><ruby><ruby>は<rt>は</rt></ruby><rt>は</rt></ruby><ruby>奇跡<rt>きせき</rt></ruby><ruby>で<rt>で</rt></ruby>は<ruby>ない<rt>ない</rt></ruby><ruby><ruby>が<rt>が</rt></ruby><rt>が</rt></ruby><ruby>、<rt>、</rt></ruby>これが<ruby>方向<rt>ほうこう</rt></ruby><ruby>だ<rt>だ</rt></ruby><ruby>。<rt>。</rt></ruby>"
+          "text": "これは奇跡ではないが、これが方向だ。",
+          "html": "これは<ruby>奇跡<rt>きせき</rt></ruby>ではないが、これが<ruby>方向<rt>ほうこう</rt></ruby>だ。"
         },
         "en": {
           "label": "English",
@@ -297,8 +297,8 @@
         },
         "ja": {
           "label": "日本語",
-          "text": "そのお菓子[おかし]の箱[はこ]も確認[かくにん]する必要[ひつよう]がありますか？",
-          "html": "<ruby>そ<ruby>の<rt>の</rt></ruby><rt>その</rt></ruby><ruby>お菓子<rt>お<ruby>か<rt>か</rt></ruby>し</rt></ruby>の<ruby>箱<rt>はこ</rt></ruby><ruby>も<rt>も</rt></ruby><ruby>確認<rt>かくにん</rt></ruby><ruby>する<rt>する</rt></ruby><ruby>必要<rt>ひつよう</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>あります<rt>あります</rt></ruby>か<ruby>？<rt>？</rt></ruby>"
+          "text": "そのお菓子の箱も確認する必要がありますか？",
+          "html": "そのお<ruby>菓子<rt>おかし</rt></ruby>の<ruby>箱<rt>はこ</rt></ruby>も<ruby>確認<rt>かくにん</rt></ruby>する<ruby>必要<rt>ひつよう</rt></ruby>がありますか？"
         },
         "en": {
           "label": "English",
@@ -323,7 +323,7 @@
         "ja": {
           "label": "日本語",
           "text": "いいえ。",
-          "html": "<ruby>いいえ<rt>いいえ</rt></ruby><ruby>。<rt>。</rt></ruby>"
+          "html": "いいえ。"
         },
         "en": {
           "label": "English",
@@ -347,8 +347,8 @@
         },
         "ja": {
           "label": "日本語",
-          "text": "証拠[しょうこ]は十分[じゅうぶん]だ、君[きみ]が食べた[たべた]のだ",
-          "html": "<ruby>証拠<rt>しょうこ</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>十分<rt>じゅうぶん</rt></ruby><ruby><ruby>だ<rt>だ</rt></ruby><rt>だ</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>君<rt>きみ</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>食べた<rt>たべた</rt></ruby><ruby>の<rt>の</rt></ruby>だ"
+          "text": "証拠は十分だ、君が食べたのだ",
+          "html": "<ruby>証拠<rt>しょうこ</rt></ruby>は<ruby>十分<rt>じゅうぶん</rt></ruby>だ、<ruby>君<rt>きみ</rt></ruby>が<ruby>食べた<rt>たべた</rt></ruby>のだ"
         },
         "en": {
           "label": "English",
@@ -372,8 +372,8 @@
         },
         "ja": {
           "label": "日本語",
-          "text": "今日<きょう>の最初<さいしょ>の結論<けつろん>は、ついに議論<ぎろん>の余地<よち>がなかった。",
-          "html": "<ruby>今日<rt>きょう</rt></ruby><ruby><ruby><ruby>の<rt>の</rt></ruby><rt>の</rt></ruby><rt>の</rt></ruby><ruby>最初<rt>さいしょ</rt></ruby>の<ruby>結論<rt>けつろん</rt></ruby><ruby>は<rt>は</rt></ruby><ruby>、<rt>、</rt></ruby><ruby>ついに<rt>ついに</rt></ruby><ruby>議論<rt>ぎろん</rt></ruby>の<ruby>余地<rt>よち</rt></ruby><ruby>が<rt>が</rt></ruby><ruby>なかった<rt>なかった</rt></ruby>。"
+          "text": "今日の最初の結論は、ついに議論の余地がなかった。",
+          "html": "<ruby>今日<rt>きょう</rt></ruby>の<ruby>最初<rt>さいしょ</rt></ruby>の<ruby>結論<rt>けつろん</rt></ruby>は、ついに<ruby>議論<rt>ぎろん</rt></ruby>の<ruby>余地<rt>よち</rt></ruby>がなかった。"
         },
         "en": {
           "label": "English",
@@ -382,5 +382,12 @@
         }
       }
     }
-  ]
+  ],
+  "track_exports": {
+    "en": "media/subtitles/aginti-autonomous-lab-ai-glasses-2b85b0d9/transcript.en.vtt",
+    "ja": "media/subtitles/aginti-autonomous-lab-ai-glasses-2b85b0d9/transcript.ja.vtt"
+  },
+  "normalization": {
+    "ja_ruby": "Kanji-only inline readings normalized to non-nested HTML; no translation or ASR rerun."
+  }
 }

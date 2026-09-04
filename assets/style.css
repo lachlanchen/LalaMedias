@@ -198,6 +198,123 @@ ruby rt {
   font-weight: 700;
   color: #6f5cff;
 }
+.study-tools {
+  margin-top: 28px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: 10px;
+  padding: clamp(18px, 4vw, 30px);
+}
+.study-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: flex-start;
+}
+.study-heading h2,
+.study-tools h3 {
+  margin: 4px 0 14px;
+}
+.eyebrow {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.proof-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.proof-downloads a {
+  color: var(--accent);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 10px;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+.search-label {
+  display: block;
+  font-weight: 750;
+  margin-top: 12px;
+}
+.transcript-search {
+  width: 100%;
+  margin-top: 8px;
+  border: 1px solid #b9c4dc;
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  padding: 12px 14px;
+  font: inherit;
+}
+.transcript-search:focus {
+  outline: 3px solid rgba(43, 99, 255, 0.18);
+  border-color: var(--accent);
+}
+.search-summary,
+.proof-note {
+  color: var(--muted);
+  line-height: 1.55;
+}
+.search-results {
+  display: grid;
+  gap: 8px;
+  margin: 12px 0 24px;
+}
+.search-result {
+  display: grid;
+  grid-template-columns: 40px 88px minmax(0, 1fr);
+  gap: 10px;
+  align-items: baseline;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--ink);
+  padding: 10px 12px;
+  text-align: left;
+  cursor: pointer;
+}
+.search-result:hover,
+.concept-card:hover {
+  border-color: var(--accent);
+}
+.search-result-lang {
+  color: var(--accent);
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+.search-result-time,
+.concept-card span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+.concept-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+  gap: 10px;
+}
+.concept-card {
+  display: grid;
+  gap: 6px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--ink);
+  padding: 12px;
+  text-align: left;
+  cursor: pointer;
+}
+.concept-card small {
+  color: var(--muted);
+  line-height: 1.4;
+}
 details {
   margin-top: 18px;
   border: 1px solid var(--line);
@@ -215,5 +332,17 @@ details li {
   }
   .topbar {
     display: block;
+  }
+  .study-heading {
+    display: block;
+  }
+  .proof-downloads {
+    justify-content: flex-start;
+  }
+  .search-result {
+    grid-template-columns: 38px 1fr;
+  }
+  .search-result-text {
+    grid-column: 1 / -1;
   }
 }

@@ -29,6 +29,16 @@ LazyEdit subtitle matching prefers `*_mixed_polished.srt`, then polished, mixed,
 
 Titles, descriptions, and publish categories are viewer-facing metadata, following the same concise style used for LazyEdit submission. Full scripts are not copied into metadata.
 
+## Multilingual Search Proof
+
+`AgInTi Autonomous Lab AI Glasses` is a bounded, project-created proof: search 15 aligned lines in Japanese, English, or Chinese; jump to the exact video time; inspect five transcript-checked concept pointers; or download English and Japanese WebVTT tracks. Its source and rights manifest records the media hash and project provenance. This is not an automated Local Knowledge Terminal import or a customer result.
+
+Rebuild only this proof without scanning or regenerating media:
+
+```bash
+python3 scripts/collect_lala_medias.py --proof-only aginti-autonomous-lab-ai-glasses-2b85b0d9
+```
+
 ## Current Contents
 
 - Videos: `47`

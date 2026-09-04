@@ -130,6 +130,7 @@ class MediaItem:
     slug: str = ""
     title: str = ""
     video_rel: str = ""
+    video_url: str = ""
     thumb_rel: str = ""
     duration: float | None = None
     width: int | None = None
@@ -806,26 +807,68 @@ def pair_values(pair: Any) -> tuple[str | None, str | None]:
     return None, None
 
 
+KANJI_RE = re.compile(r"[\u3400-\u9fff\u3005\u3006\u30f6]")
+INLINE_JAPANESE_READING_RE = re.compile(
+    r"(?P<base>[\u3400-\u9fff\u3005\u3006\u30f6]+[\u3040-\u30ff\u30fc]*)"
+    r"(?:\[(?P<bracket>[^\[\]\n]+)\]|<(?P<angle>[^<>\n]+)>)"
+)
+LEFTOVER_READING_RE = re.compile(r"\[[^\[\]\n]+\]|<[^<>\n]+>")
+
+
+def normalize_japanese_text(text: str) -> str:
+    """Remove inline reading notation while retaining the Japanese surface text."""
+
+    return LEFTOVER_READING_RE.sub("", text)
+
+
+def japanese_html_from_inline_readings(text: str) -> str:
+    """Render conservative, non-nested ruby from inline Japanese readings.
+
+    Only spans containing kanji receive ruby. Kana-only and punctuation readings
+    are reduced to their surface text because they add noise and were the source
+    of malformed nested ruby in older generated transcript data.
+    """
+
+    parts: list[str] = []
+    cursor = 0
+    for match in INLINE_JAPANESE_READING_RE.finditer(text):
+        parts.append(html.escape(LEFTOVER_READING_RE.sub("", text[cursor : match.start()])))
+        base = match.group("base")
+        reading = match.group("bracket") or match.group("angle") or ""
+        if KANJI_RE.search(base) and reading and reading != base:
+            parts.append(f"<ruby>{html.escape(base)}<rt>{html.escape(reading)}</rt></ruby>")
+        else:
+            parts.append(html.escape(base))
+        cursor = match.end()
+    parts.append(html.escape(LEFTOVER_READING_RE.sub("", text[cursor:])))
+    return "".join(parts).replace("\n", "<br>")
+
+
 def ruby_html_from_pairs(text: str, pairs: Any) -> str | None:
     if not isinstance(pairs, list) or not pairs:
         return None
-    rendered = html.escape(text)
-    used = False
+    parts: list[str] = []
+    cursor = 0
     for pair in pairs:
         base, reading = pair_values(pair)
-        if not base or not reading:
+        if not base or not reading or not KANJI_RE.search(base):
             continue
-        escaped_base = html.escape(base)
-        ruby = f"<ruby>{escaped_base}<rt>{html.escape(reading)}</rt></ruby>"
-        if escaped_base in rendered:
-            rendered = rendered.replace(escaped_base, ruby, 1)
-            used = True
-    return rendered if used else None
+        position = text.find(base, cursor)
+        if position < 0:
+            continue
+        parts.append(html.escape(text[cursor:position]))
+        parts.append(f"<ruby>{html.escape(base)}<rt>{html.escape(reading)}</rt></ruby>")
+        cursor = position + len(base)
+    if not parts:
+        return None
+    parts.append(html.escape(text[cursor:]))
+    return "".join(parts).replace("\n", "<br>")
 
 
 def track_text_from_row(row: dict[str, Any], lang: str) -> str:
     if lang == "ja":
-        return str(row.get("ruby") or row.get("ja") or row.get("text") or "").strip()
+        raw = str(row.get("ja") or row.get("text") or row.get("ruby") or "").strip()
+        return normalize_japanese_text(raw)
     if lang == "en":
         return str(row.get("en") or row.get("text") or "").strip()
     if lang == "zh":
@@ -837,9 +880,12 @@ def track_html_from_row(row: dict[str, Any], lang: str) -> str:
     text = track_text_from_row(row, lang)
     if not text:
         return ""
-    ruby = ruby_html_from_pairs(str(row.get("ja") or text), row.get("furigana_pairs"))
-    if lang == "ja" and ruby:
-        return ruby
+    if lang == "ja":
+        ruby = ruby_html_from_pairs(str(row.get("ja") or text), row.get("furigana_pairs"))
+        if ruby:
+            return ruby
+        annotated = str(row.get("ruby") or row.get("ja") or row.get("text") or text)
+        return japanese_html_from_inline_readings(annotated)
     if "<" in text and ">" in text:
         return safe_subtitle_html(text)
     return colorize_text(text, lang)
@@ -991,6 +1037,93 @@ def enrich_transcript_entries(item: MediaItem, entries: list[dict[str, str]]) ->
     return enriched
 
 
+def normalize_transcript_tracks(transcript: dict[str, Any]) -> None:
+    """Normalize persisted Japanese tracks without rerunning transcription."""
+
+    entries = transcript.get("entries")
+    if not isinstance(entries, list):
+        return
+    for entry in entries:
+        if not isinstance(entry, dict):
+            continue
+        tracks = entry.get("tracks")
+        if not isinstance(tracks, dict):
+            continue
+        japanese = tracks.get("ja")
+        if not isinstance(japanese, dict):
+            continue
+        annotated = str(japanese.get("text") or "")
+        current_html = str(japanese.get("html") or "")
+        if LEFTOVER_READING_RE.search(annotated):
+            japanese["text"] = normalize_japanese_text(annotated)
+            japanese["html"] = japanese_html_from_inline_readings(annotated)
+        elif "<ruby><ruby>" in current_html:
+            japanese["html"] = html.escape(annotated).replace("\n", "<br>")
+
+
+def transcript_to_vtt(transcript: dict[str, Any], lang: str) -> str:
+    lines = ["WEBVTT", ""]
+    entries = transcript.get("entries")
+    if not isinstance(entries, list):
+        return "\n".join(lines)
+    for entry in entries:
+        if not isinstance(entry, dict):
+            continue
+        tracks = entry.get("tracks")
+        track = tracks.get(lang) if isinstance(tracks, dict) else None
+        start = normalize_timestamp(entry.get("start"))
+        end = normalize_timestamp(entry.get("end"))
+        text = str(track.get("text") or "").replace("-->", "→").strip() if isinstance(track, dict) else ""
+        if not start or not end or not text:
+            continue
+        lines.extend([f"{start} --> {end}", text, ""])
+    return "\n".join(lines)
+
+
+def proof_dir(slug: str) -> Path:
+    return REPO_ROOT / "data" / "proofs" / slug
+
+
+def read_json_object(path: Path) -> dict[str, Any]:
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    return data if isinstance(data, dict) else {}
+
+
+def read_proof_data(slug: str) -> dict[str, Any]:
+    root = proof_dir(slug)
+    concepts = read_json_object(root / "concepts.json")
+    source_manifest = read_json_object(root / "source-manifest.json")
+    if not concepts or not source_manifest:
+        return {}
+    return {
+        "schema": "lalamedias.multilingual-search-proof.v1",
+        "concepts": concepts.get("concepts") or [],
+        "edges": concepts.get("edges") or [],
+        "review_status": concepts.get("review_status"),
+        "notices": concepts.get("notices") or [],
+        "source_manifest": f"data/proofs/{slug}/source-manifest.json",
+    }
+
+
+def write_proof_exports(item: MediaItem, transcript: dict[str, Any]) -> None:
+    if not read_proof_data(item.slug):
+        return
+    out_dir = REPO_ROOT / "media" / "subtitles" / item.slug
+    out_dir.mkdir(parents=True, exist_ok=True)
+    exports: dict[str, str] = {}
+    for lang in ("en", "ja"):
+        path = out_dir / f"transcript.{lang}.vtt"
+        path.write_text(transcript_to_vtt(transcript, lang), encoding="utf-8")
+        exports[lang] = str(path.relative_to(REPO_ROOT))
+    transcript["track_exports"] = exports
+    transcript["normalization"] = {
+        "ja_ruby": "Kanji-only inline readings normalized to non-nested HTML; no translation or ASR rerun.",
+    }
+
+
 def copy_subtitles_and_transcript(item: MediaItem) -> None:
     if not item.subtitles:
         return
@@ -1015,6 +1148,8 @@ def copy_subtitles_and_transcript(item: MediaItem) -> None:
             "subtitle_files": copied,
             "entries": enriched_entries,
         }
+        normalize_transcript_tracks(transcript)
+        write_proof_exports(item, transcript)
         out = REPO_ROOT / "data" / "transcripts" / f"{item.slug}.json"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(json.dumps(transcript, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -1064,17 +1199,69 @@ def json_for_script(data: dict[str, Any]) -> str:
     return json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
 
 
+def render_proof_section(transcript: dict[str, Any], proof: dict[str, Any]) -> str:
+    if not proof:
+        return ""
+    concepts_html: list[str] = []
+    for concept in proof.get("concepts") or []:
+        if not isinstance(concept, dict):
+            continue
+        label = str(concept.get("label") or concept.get("id") or "Concept")
+        definition = str(concept.get("definition") or "")
+        start = str(concept.get("start") or "")
+        start_seconds = concept.get("start_seconds")
+        if not isinstance(start_seconds, (int, float)):
+            continue
+        concepts_html.append(
+            f'<button class="concept-card" type="button" data-seek="{start_seconds}">'
+            f'<strong>{html.escape(label)}</strong><span>{html.escape(start)}</span>'
+            f'<small>{html.escape(definition)}</small></button>'
+        )
+    exports_html: list[str] = []
+    exports = transcript.get("track_exports")
+    if isinstance(exports, dict):
+        for lang, label in (("en", "English VTT"), ("ja", "Japanese VTT")):
+            rel = exports.get(lang)
+            if rel:
+                exports_html.append(f'<a href="../{html.escape(str(rel))}" download>{label}</a>')
+    manifest = proof.get("source_manifest")
+    if manifest:
+        exports_html.append(f'<a href="../{html.escape(str(manifest))}">Source and rights manifest</a>')
+    return f"""
+    <section class="study-tools" aria-labelledby="study-tools-heading">
+      <div class="study-heading">
+        <div>
+          <p class="eyebrow">Multilingual search proof</p>
+          <h2 id="study-tools-heading">Find a line, then jump to its evidence</h2>
+        </div>
+        <div class="proof-downloads">{' '.join(exports_html)}</div>
+      </div>
+      <label class="search-label" for="transcript-search">Search Japanese, English, or Chinese</label>
+      <input id="transcript-search" class="transcript-search" type="search" autocomplete="off" placeholder="Try organoid, 仮説, or 证据">
+      <p id="search-summary" class="search-summary">Search all 45 aligned transcript strings.</p>
+      <div id="search-results" class="search-results" aria-live="polite"></div>
+      <h3>Transcript-checked concept pointers</h3>
+      <div class="concept-grid">{''.join(concepts_html)}</div>
+      <p class="proof-note">These five pointers were checked against the aligned transcript. They are not an automated Local Knowledge Terminal import or a customer result.</p>
+    </section>"""
+
+
 def render_page(item: MediaItem) -> str:
     transcript = read_transcript_data(item)
     entries = transcript.get("entries") or []
     transcript_json = json_for_script(transcript if entries else {"slug": item.slug, "entries": []})
+    proof = read_proof_data(item.slug)
+    proof_json = json_for_script(proof)
+    proof_html = render_proof_section(transcript, proof)
     caption_hint = (
         "Play the video to see the current timed line. Japanese, English, and Chinese tracks are shown when LazyEdit provides them."
         if entries
         else "No LazyEdit timed subtitle sidecar was matched for this video yet."
     )
 
-    if VIDEO_BASE_URL:
+    if item.video_url:
+        video_src = item.video_url if "://" in item.video_url else f"../{item.video_url}"
+    elif VIDEO_BASE_URL:
         video_src = f"{VIDEO_BASE_URL}/{Path(item.video_rel).name}"
     else:
         video_src = f"../{item.video_rel}"
@@ -1115,6 +1302,7 @@ def render_page(item: MediaItem) -> str:
         <p>{html.escape(duration)} · {html.escape(dims)} · {human_size(item.canonical.size)} · category <code>{html.escape(item.publish_category)}</code> · SHA-256 <code>{item.sha256[:12]}</code></p>
       </div>
     </section>
+{proof_html}
     <details>
       <summary>Source Files</summary>
       <ul>{sources_html}</ul>
@@ -1125,6 +1313,7 @@ def render_page(item: MediaItem) -> str:
     </details>
   </main>
   <script id="timed-text-data" type="application/json">{transcript_json}</script>
+  <script id="proof-data" type="application/json">{proof_json}</script>
   <script>
     (() => {{
       const video = document.querySelector("video");
@@ -1188,6 +1377,7 @@ def render_page(item: MediaItem) -> str:
       video.addEventListener("loadedmetadata", updateCaption);
     }})();
   </script>
+  <script src="../assets/video-page.js"></script>
 </body>
 </html>
 """
@@ -1436,6 +1626,123 @@ ruby rt {
   font-weight: 700;
   color: #6f5cff;
 }
+.study-tools {
+  margin-top: 28px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: 10px;
+  padding: clamp(18px, 4vw, 30px);
+}
+.study-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: flex-start;
+}
+.study-heading h2,
+.study-tools h3 {
+  margin: 4px 0 14px;
+}
+.eyebrow {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.proof-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.proof-downloads a {
+  color: var(--accent);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 10px;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+.search-label {
+  display: block;
+  font-weight: 750;
+  margin-top: 12px;
+}
+.transcript-search {
+  width: 100%;
+  margin-top: 8px;
+  border: 1px solid #b9c4dc;
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  padding: 12px 14px;
+  font: inherit;
+}
+.transcript-search:focus {
+  outline: 3px solid rgba(43, 99, 255, 0.18);
+  border-color: var(--accent);
+}
+.search-summary,
+.proof-note {
+  color: var(--muted);
+  line-height: 1.55;
+}
+.search-results {
+  display: grid;
+  gap: 8px;
+  margin: 12px 0 24px;
+}
+.search-result {
+  display: grid;
+  grid-template-columns: 40px 88px minmax(0, 1fr);
+  gap: 10px;
+  align-items: baseline;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--ink);
+  padding: 10px 12px;
+  text-align: left;
+  cursor: pointer;
+}
+.search-result:hover,
+.concept-card:hover {
+  border-color: var(--accent);
+}
+.search-result-lang {
+  color: var(--accent);
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+.search-result-time,
+.concept-card span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+.concept-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+  gap: 10px;
+}
+.concept-card {
+  display: grid;
+  gap: 6px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--ink);
+  padding: 12px;
+  text-align: left;
+  cursor: pointer;
+}
+.concept-card small {
+  color: var(--muted);
+  line-height: 1.4;
+}
 details {
   margin-top: 18px;
   border: 1px solid var(--line);
@@ -1453,6 +1760,18 @@ details li {
   }
   .topbar {
     display: block;
+  }
+  .study-heading {
+    display: block;
+  }
+  .proof-downloads {
+    justify-content: flex-start;
+  }
+  .search-result {
+    grid-template-columns: 38px 1fr;
+  }
+  .search-result-text {
+    grid-column: 1 / -1;
   }
 }
 """
@@ -1476,7 +1795,7 @@ def write_site(items: list[MediaItem]) -> None:
                 "publish_category": item.publish_category,
                 "sha256": item.sha256,
                 "video": item.video_rel,
-                "video_url": f"{VIDEO_BASE_URL}/{Path(item.video_rel).name}" if VIDEO_BASE_URL else item.video_rel,
+                "video_url": item.video_url or (f"{VIDEO_BASE_URL}/{Path(item.video_rel).name}" if VIDEO_BASE_URL else item.video_rel),
                 "thumbnail": item.thumb_rel if (REPO_ROOT / item.thumb_rel).exists() else None,
                 "page": item.page_rel,
                 "duration": item.duration,
@@ -1540,6 +1859,16 @@ def write_readme(items: list[MediaItem]) -> None:
         "",
         "Titles, descriptions, and publish categories are viewer-facing metadata, following the same concise style used for LazyEdit submission. Full scripts are not copied into metadata.",
         "",
+        "## Multilingual Search Proof",
+        "",
+        "`AgInTi Autonomous Lab AI Glasses` is a bounded, project-created proof: search 15 aligned lines in Japanese, English, or Chinese; jump to the exact video time; inspect five transcript-checked concept pointers; or download English and Japanese WebVTT tracks. Its source and rights manifest records the media hash and project provenance. This is not an automated Local Knowledge Terminal import or a customer result.",
+        "",
+        "Rebuild only this proof without scanning or regenerating media:",
+        "",
+        "```bash",
+        "python3 scripts/collect_lala_medias.py --proof-only aginti-autonomous-lab-ai-glasses-2b85b0d9",
+        "```",
+        "",
         "## Current Contents",
         "",
         f"- Videos: `{len(items)}`",
@@ -1551,6 +1880,66 @@ def write_readme(items: list[MediaItem]) -> None:
         "The website, thumbnails, subtitles, and manifests live in Git. MP4 files are kept locally under `media/videos/` and can be uploaded as GitHub Release assets. Set `LALAMEDIAS_VIDEO_BASE_URL` before regenerating the site to make public pages point at release-hosted MP4 files.",
     ]
     (REPO_ROOT / "README.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def item_from_manifest(slug: str) -> MediaItem:
+    rows = json.loads((REPO_ROOT / "data" / "videos.json").read_text(encoding="utf-8"))
+    row = next((candidate for candidate in rows if isinstance(candidate, dict) and candidate.get("slug") == slug), None)
+    if not row:
+        raise ValueError(f"proof slug is not present in data/videos.json: {slug}")
+    video_rel = str(row.get("video") or "")
+    canonical = VideoCandidate(
+        path=REPO_ROOT / video_rel,
+        source="lalachan-videos",
+        size=int(row.get("size") or 0),
+        mtime=0,
+        sha256=str(row.get("sha256") or ""),
+    )
+    sources: list[VideoCandidate] = []
+    for source in row.get("sources") or []:
+        if not isinstance(source, dict):
+            continue
+        sources.append(
+            VideoCandidate(
+                path=Path(str(source.get("name") or "source")),
+                source=str(source.get("source") or "lalachan-videos"),
+                size=int(source.get("size") or 0),
+                mtime=0,
+                sha256=str(row.get("sha256") or ""),
+            )
+        )
+    return MediaItem(
+        sha256=str(row.get("sha256") or ""),
+        canonical=canonical,
+        sources=sources or [canonical],
+        slug=slug,
+        title=str(row.get("title") or slug),
+        video_rel=video_rel,
+        video_url=str(row.get("video_url") or ""),
+        thumb_rel=str(row.get("thumbnail") or ""),
+        duration=float(row["duration"]) if row.get("duration") is not None else None,
+        width=int(row["width"]) if row.get("width") is not None else None,
+        height=int(row["height"]) if row.get("height") is not None else None,
+        transcript_rel=str(row.get("transcript") or ""),
+        subtitle_rel_files=[str(path) for path in row.get("subtitle_files") or []],
+        page_rel=str(row.get("page") or f"videos/{slug}.html"),
+        description=str(row.get("description") or ""),
+        publish_category=str(row.get("publish_category") or "lalachan"),
+    )
+
+
+def build_proof_only(slug: str) -> None:
+    item = item_from_manifest(slug)
+    transcript_path = REPO_ROOT / item.transcript_rel
+    transcript = read_json_object(transcript_path)
+    if not transcript:
+        raise ValueError(f"proof transcript is missing or invalid: {item.transcript_rel}")
+    if not read_proof_data(slug):
+        raise ValueError(f"proof metadata is missing or invalid: data/proofs/{slug}")
+    normalize_transcript_tracks(transcript)
+    write_proof_exports(item, transcript)
+    transcript_path.write_text(json.dumps(transcript, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (REPO_ROOT / item.page_rel).write_text(render_page(item), encoding="utf-8")
 
 
 def clean_generated_outputs() -> None:
@@ -1577,7 +1966,12 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Collect LALACHAN generated videos into LalaMedias.")
     parser.add_argument("--dry-run", action="store_true", help="Only scan and report; do not copy media or write the site.")
     parser.add_argument("--clean", action="store_true", help="Remove previously generated archive media/pages before rebuilding.")
+    parser.add_argument("--proof-only", metavar="SLUG", help="Rebuild one configured proof from existing repo-owned data only.")
     args = parser.parse_args()
+
+    if args.proof_only:
+        build_proof_only(args.proof_only)
+        return 0
 
     videos, subtitles = collect_candidates()
     print(f"candidate videos: {len(videos)}", file=sys.stderr)

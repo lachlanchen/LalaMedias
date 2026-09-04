@@ -1,0 +1,60 @@
+{
+  "schema": "lalamedias.source-rights-manifest.v1",
+  "asset_slug": "aginti-autonomous-lab-ai-glasses-2b85b0d9",
+  "title": "AgInTi Autonomous Lab AI Glasses",
+  "media": {
+    "repository": "https://github.com/lachlanchen/RaraXiaAndAyaChan",
+    "path": "Videos/aginti_autonomous_lab_ai_glasses_30s.mp4",
+    "archive_path": "media/videos/aginti-autonomous-lab-ai-glasses-2b85b0d9.mp4",
+    "sha256": "2b85b0d95538a571893fb1ea2ea2123a4e7e1535bf92953f884181ae608aadeb",
+    "duration_seconds": 30.467,
+    "width": 1112,
+    "height": 836
+  },
+  "project_provenance": {
+    "story": {
+      "repository": "https://github.com/lachlanchen/RaraXiaAndAyaChan",
+      "path": "references/stories/2026-06-09-aginti-autonomous-lab-ai-glasses-v2-30s.md"
+    },
+    "generation_prompt": {
+      "repository": "https://github.com/lachlanchen/RaraXiaAndAyaChan",
+      "path": "references/prompts/2026-06-09-aginti-autonomous-lab-ai-glasses-v2-30s.md"
+    },
+    "origin": "Project-authored LALACHAN story, prompt, and generated output; no customer or third-party lecture media is used in this proof."
+  },
+  "track_provenance": {
+    "zh": {
+      "role": "timed source transcript",
+      "path": "media/subtitles/aginti-autonomous-lab-ai-glasses-2b85b0d9/subtitle-2.srt",
+      "segments": 15
+    },
+    "ja": {
+      "role": "existing aligned translation track",
+      "path": "data/transcripts/aginti-autonomous-lab-ai-glasses-2b85b0d9.json",
+      "export": "media/subtitles/aginti-autonomous-lab-ai-glasses-2b85b0d9/transcript.ja.vtt",
+      "segments": 15
+    },
+    "en": {
+      "role": "existing aligned translation track",
+      "path": "data/transcripts/aginti-autonomous-lab-ai-glasses-2b85b0d9.json",
+      "export": "media/subtitles/aginti-autonomous-lab-ai-glasses-2b85b0d9/transcript.en.vtt",
+      "segments": 15
+    },
+    "processing": "Existing tracks were normalized and exported without rerunning ASR, translation, or media generation."
+  },
+  "rights": {
+    "status": "project-controlled demonstration source",
+    "basis": [
+      "The story and generation prompt are maintained in the LazyingArt project repository.",
+      "The canonical generated output and its hash are maintained by the same project.",
+      "No customer material or third-party lecture recording is included."
+    ],
+    "external_release_gate": "Before redistribution outside project-controlled channels, the repository owner should confirm that the original generation-service terms and any reference assets permit the intended use."
+  },
+  "claims": {
+    "customer_result": false,
+    "automated_lkt_import": false,
+    "scientific_result": false,
+    "purpose": "A bounded demonstration of searchable, timestamped multilingual media and reviewed concept pointers."
+  }
+}

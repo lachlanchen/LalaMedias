@@ -1,0 +1,125 @@
+{
+  "schema": "lalamedias.reviewed-concepts.v1",
+  "asset_slug": "aginti-autonomous-lab-ai-glasses-2b85b0d9",
+  "review_status": "reviewed-against-transcript",
+  "review_basis": "The five requested concepts were checked against the existing aligned transcript; no automatic concept extraction is claimed.",
+  "concepts": [
+    {
+      "id": "concept:organoid",
+      "label": "Organoid",
+      "translations": {
+        "en": "organoid",
+        "ja": "オルガノイド",
+        "zh": "类器官"
+      },
+      "definition": "A laboratory-grown 3D cell model mentioned in the demonstration.",
+      "start": "00:00:04.000",
+      "end": "00:00:05.000",
+      "start_seconds": 4.0,
+      "end_seconds": 5.0,
+      "evidence_entries": [2]
+    },
+    {
+      "id": "concept:tumor-microenvironment",
+      "label": "Tumor microenvironment",
+      "translations": {
+        "en": "tumor microenvironment",
+        "ja": "腫瘍微環境",
+        "zh": "肿瘤微环境"
+      },
+      "definition": "The surroundings of a tumor, represented across two nearby transcript lines.",
+      "start": "00:00:02.000",
+      "end": "00:00:06.720",
+      "start_seconds": 2.0,
+      "end_seconds": 6.72,
+      "evidence_entries": [1, 3]
+    },
+    {
+      "id": "concept:cancer-cell",
+      "label": "Cancer cell",
+      "translations": {
+        "en": "cancer cell",
+        "ja": "癌細胞",
+        "zh": "癌细胞"
+      },
+      "definition": "The cell type explicitly contrasted with its surroundings in the dialogue.",
+      "start": "00:00:11.620",
+      "end": "00:00:14.960",
+      "start_seconds": 11.62,
+      "end_seconds": 14.96,
+      "evidence_entries": [6]
+    },
+    {
+      "id": "concept:hypothesis",
+      "label": "Hypothesis",
+      "translations": {
+        "en": "hypothesis",
+        "ja": "仮説",
+        "zh": "假设"
+      },
+      "definition": "A proposed explanation that the dialogue says should be tested further.",
+      "start": "00:00:19.920",
+      "end": "00:00:22.140",
+      "start_seconds": 19.92,
+      "end_seconds": 22.14,
+      "evidence_entries": [9]
+    },
+    {
+      "id": "concept:evidence",
+      "label": "Evidence",
+      "translations": {
+        "en": "evidence",
+        "ja": "証拠",
+        "zh": "证据"
+      },
+      "definition": "Information used to support the dialogue's final, playful conclusion.",
+      "start": "00:00:26.440",
+      "end": "00:00:28.000",
+      "start_seconds": 26.44,
+      "end_seconds": 28.0,
+      "evidence_entries": [13]
+    }
+  ],
+  "edges": [
+    {
+      "source": "concept:organoid",
+      "target": "segment:2",
+      "type": "mentioned_at",
+      "locator": "00:00:04.000-00:00:05.000"
+    },
+    {
+      "source": "concept:tumor-microenvironment",
+      "target": "segment:1",
+      "type": "supported_by",
+      "locator": "00:00:02.000-00:00:04.000"
+    },
+    {
+      "source": "concept:tumor-microenvironment",
+      "target": "segment:3",
+      "type": "supported_by",
+      "locator": "00:00:05.000-00:00:06.720"
+    },
+    {
+      "source": "concept:cancer-cell",
+      "target": "segment:6",
+      "type": "mentioned_at",
+      "locator": "00:00:11.620-00:00:14.960"
+    },
+    {
+      "source": "concept:hypothesis",
+      "target": "segment:9",
+      "type": "mentioned_at",
+      "locator": "00:00:19.920-00:00:22.140"
+    },
+    {
+      "source": "concept:evidence",
+      "target": "segment:13",
+      "type": "mentioned_at",
+      "locator": "00:00:26.440-00:00:28.000"
+    }
+  ],
+  "notices": [
+    "This is a reviewed demonstration graph, not an automated Local Knowledge Terminal import.",
+    "The fictional dialogue is not a scientific finding or customer result."
+  ]
+}
