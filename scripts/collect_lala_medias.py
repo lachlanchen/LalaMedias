@@ -1403,6 +1403,7 @@ def render_index(items: list[MediaItem]) -> str:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LalaMedias</title>
+  <link rel="canonical" href="https://lachlan.lazying.art/LalaMedias/">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
